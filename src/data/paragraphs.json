@@ -1,0 +1,1852 @@
+{
+  "A1": [
+    {
+      "id": "p_a1_001",
+      "title": "The Sun",
+      "text": "The sun is a star. It is very hot. The sun gives light and heat to the Earth. All life needs the sun.",
+      "wordCount": "20"
+    },
+    {
+      "id": "p_a1_002",
+      "title": "Water",
+      "text": "Water is important for life. People drink water every day. Plants and animals also need water to live.",
+      "wordCount": "19"
+    },
+    {
+      "id": "p_a1_003",
+      "title": "The Earth",
+      "text": "The Earth is our home. It moves around the sun. People, animals, and plants live on Earth.",
+      "wordCount": "18"
+    },
+    {
+      "id": "p_a1_004",
+      "title": "Animals",
+      "text": "Animals live on land and in water. Some animals are pets. Others live in forests or the sea.",
+      "wordCount": "18"
+    },
+    {
+      "id": "p_a1_005",
+      "title": "Food",
+      "text": "Food gives us energy. People eat fruits, vegetables, and bread. Healthy food helps the body grow.",
+      "wordCount": "18"
+    },
+    {
+      "id": "p_a1_006",
+      "title": "The Moon",
+      "text": "The moon moves around the Earth. It shines at night. People can see the moon in the sky.",
+      "wordCount": "18"
+    },
+    {
+      "id": "p_a1_007",
+      "title": "Trees",
+      "text": "Trees are plants. They give us air and shade. Many animals live in trees.",
+      "wordCount": "15"
+    },
+    {
+      "id": "p_a1_008",
+      "title": "Rain",
+      "text": "Rain comes from clouds. It helps plants grow. Farmers need rain for food.",
+      "wordCount": "14"
+    },
+    {
+      "id": "p_a1_009",
+      "title": "The Body",
+      "text": "The human body has many parts. We have a head, arms, and legs. The body helps us move.",
+      "wordCount": "19"
+    },
+    {
+      "id": "p_a1_010",
+      "title": "Air",
+      "text": "Air is all around us. People need air to breathe. Clean air is good for health.",
+      "wordCount": "16"
+    },
+    {
+      "id": "p_a1_011",
+      "title": "Birds",
+      "text": "Birds have wings and feathers. Many birds can fly. They build nests in trees.",
+      "wordCount": "16"
+    },
+    {
+      "id": "p_a1_012",
+      "title": "The Ocean",
+      "text": "The ocean is very big. Many fish and animals live in the ocean. It covers much of Earth.",
+      "wordCount": "18"
+    },
+    {
+      "id": "p_a1_013",
+      "title": "Schools",
+      "text": "Children go to school to learn. Teachers help students read and write. Schools are important places.",
+      "wordCount": "18"
+    },
+    {
+      "id": "p_a1_014",
+      "title": "Time",
+      "text": "Time helps us plan our day. There are hours, days, and years. Clocks show the time.",
+      "wordCount": "17"
+    },
+    {
+      "id": "p_a1_015",
+      "title": "The Sky",
+      "text": "The sky is above us. It can be blue, gray, or dark. We see clouds in the sky.",
+      "wordCount": "18"
+    },
+    {
+      "id": "p_a1_016",
+      "title": "Families",
+      "text": "A family has parents and children. Families help each other. Love is important in families.",
+      "wordCount": "16"
+    },
+    {
+      "id": "p_a1_017",
+      "title": "Fish",
+      "text": "Fish live in water. They have fins and tails. People eat fish as food.",
+      "wordCount": "14"
+    },
+    {
+      "id": "p_a1_018",
+      "title": "The City",
+      "text": "A city has many people and buildings. People work and live in cities.",
+      "wordCount": "14"
+    },
+    {
+      "id": "p_a1_019",
+      "title": "The Farm",
+      "text": "Farms grow food. Farmers plant crops and care for animals. Farms help feed people.",
+      "wordCount": "16"
+    },
+    {
+      "id": "p_a1_020",
+      "title": "Clothes",
+      "text": "Clothes keep us warm and safe. People wear different clothes in summer and winter.",
+      "wordCount": "16"
+    },
+    {
+      "id": "p_a1_021",
+      "title": "The River",
+      "text": "A river is moving water. Rivers help plants grow. People use river water.",
+      "wordCount": "15"
+    },
+    {
+      "id": "p_a1_022",
+      "title": "The Day",
+      "text": "The day has light from the sun. People work and study during the day.",
+      "wordCount": "15"
+    },
+    {
+      "id": "p_a1_023",
+      "title": "The Night",
+      "text": "The night is dark. People sleep at night. We can see stars and the moon.",
+      "wordCount": "16"
+    },
+    {
+      "id": "p_a1_024",
+      "title": "Health",
+      "text": "Health is important. Eating well and sleeping help the body stay strong.",
+      "wordCount": "13"
+    },
+    {
+      "id": "p_a1_025",
+      "title": "Shoes",
+      "text": "Shoes protect our feet. People wear shoes when they walk or run.",
+      "wordCount": "12"
+    },
+    {
+      "id": "p_a1_026",
+      "title": "The Park",
+      "text": "A park is a green place. People walk, play, and relax in parks.",
+      "wordCount": "14"
+    },
+    {
+      "id": "p_a1_027",
+      "title": "Books",
+      "text": "Books have words and pictures. People read books to learn new things.",
+      "wordCount": "14"
+    },
+    {
+      "id": "p_a1_028",
+      "title": "The Road",
+      "text": "Roads help people travel. Cars and buses use roads every day.",
+      "wordCount": "13"
+    },
+    {
+      "id": "p_a1_029",
+      "title": "The House",
+      "text": "A house is a place to live. Families eat, sleep, and rest in houses.",
+      "wordCount": "15"
+    },
+    {
+      "id": "p_a1_030",
+      "title": "Weather",
+      "text": "Weather can be hot or cold. It can rain or snow. Weather changes often.",
+      "wordCount": "15"
+    },
+    {
+      "id": "p_a1_031",
+      "title": "Milk",
+      "text": "Milk comes from animals. People drink milk for health and strength.",
+      "wordCount": "12"
+    },
+    {
+      "id": "p_a1_032",
+      "title": "The Mountain",
+      "text": "A mountain is very high. Some mountains have snow on the top.",
+      "wordCount": "13"
+    },
+    {
+      "id": "p_a1_033",
+      "title": "Teachers",
+      "text": "Teachers help students learn. They work in schools and classrooms.",
+      "wordCount": "12"
+    },
+    {
+      "id": "p_a1_034",
+      "title": "Students",
+      "text": "Students go to school to study. They learn reading, writing, and numbers.",
+      "wordCount": "14"
+    },
+    {
+      "id": "p_a1_035",
+      "title": "The Clock",
+      "text": "A clock shows time. People use clocks at home, school, and work.",
+      "wordCount": "13"
+    },
+    {
+      "id": "p_a1_036",
+      "title": "Bread",
+      "text": "Bread is a common food. People eat bread at breakfast or lunch.",
+      "wordCount": "12"
+    },
+    {
+      "id": "p_a1_037",
+      "title": "The Bus",
+      "text": "A bus carries many people. People use buses to go to work or school.",
+      "wordCount": "14"
+    },
+    {
+      "id": "p_a1_038",
+      "title": "The Doctor",
+      "text": "Doctors help sick people. They work in hospitals and clinics.",
+      "wordCount": "11"
+    },
+    {
+      "id": "p_a1_039",
+      "title": "The Market",
+      "text": "People buy food at the market. Markets sell fruits and vegetables.",
+      "wordCount": "12"
+    },
+    {
+      "id": "p_a1_040",
+      "title": "The Computer",
+      "text": "A computer is a machine. People use computers to work and learn.",
+      "wordCount": "12"
+    },
+    {
+      "id": "p_a1_041",
+      "title": "The Phone",
+      "text": "A phone helps people talk. People use phones every day.",
+      "wordCount": "10"
+    },
+    {
+      "id": "p_a1_042",
+      "title": "The Sea",
+      "text": "The sea has salty water. Ships and boats travel on the sea.",
+      "wordCount": "12"
+    },
+    {
+      "id": "p_a1_043",
+      "title": "The Chair",
+      "text": "A chair is for sitting. Chairs are in homes and schools.",
+      "wordCount": "11"
+    },
+    {
+      "id": "p_a1_044",
+      "title": "The Table",
+      "text": "A table holds food and books. People eat meals at tables.",
+      "wordCount": "12"
+    },
+    {
+      "id": "p_a1_045",
+      "title": "The Street",
+      "text": "Streets are in cities and towns. People walk and drive on streets.",
+      "wordCount": "13"
+    },
+    {
+      "id": "p_a1_046",
+      "title": "The Window",
+      "text": "A window lets in light. People look outside through windows.",
+      "wordCount": "11"
+    },
+    {
+      "id": "p_a1_047",
+      "title": "The Door",
+      "text": "A door opens and closes. People use doors to enter rooms.",
+      "wordCount": "11"
+    },
+    {
+      "id": "p_a1_048",
+      "title": "The Pen",
+      "text": "A pen is used for writing. Students write words with pens.",
+      "wordCount": "11"
+    },
+    {
+      "id": "p_a1_049",
+      "title": "The Bag",
+      "text": "A bag carries books and food. Students use bags every day.",
+      "wordCount": "12"
+    },
+    {
+      "id": "p_a1_050",
+      "title": "Learning",
+      "text": "Learning helps people grow. Children and adults learn new things every day.",
+      "wordCount": "13"
+    }
+  ],
+  "A2": [
+    {
+      "id": "p_a2_001",
+      "title": "The Solar System",
+      "text": "The solar system has the sun and eight planets. The Earth is one of these planets. Scientists study space to learn more about it.",
+      "wordCount": "23"
+    },
+    {
+      "id": "p_a2_002",
+      "title": "Water on Earth",
+      "text": "Most of the Earth is covered with water. Oceans, rivers, and lakes hold water. Humans and animals cannot live without water.",
+      "wordCount": "22"
+    },
+    {
+      "id": "p_a2_003",
+      "title": "Daily Exercise",
+      "text": "Exercise is good for the body and the mind. Doctors say regular exercise helps people stay healthy and strong.",
+      "wordCount": "20"
+    },
+    {
+      "id": "p_a2_004",
+      "title": "Weather Changes",
+      "text": "Weather changes during the year. Some seasons are hot, while others are cold. Weather affects farming and travel.",
+      "wordCount": "22"
+    },
+    {
+      "id": "p_a2_005",
+      "title": "Healthy Food",
+      "text": "Healthy food includes fruits, vegetables, and grains. These foods give energy and help the body work well.",
+      "wordCount": "20"
+    },
+    {
+      "id": "p_a2_006",
+      "title": "The Human Heart",
+      "text": "The heart is an important organ. It pumps blood through the body and helps people stay alive.",
+      "wordCount": "17"
+    },
+    {
+      "id": "p_a2_007",
+      "title": "Animals and Habitats",
+      "text": "Animals live in different habitats. Some live in forests, while others live in water or deserts.",
+      "wordCount": "19"
+    },
+    {
+      "id": "p_a2_008",
+      "title": "Public Transport",
+      "text": "Public transport helps people travel easily. Buses and trains reduce traffic and pollution in cities.",
+      "wordCount": "18"
+    },
+    {
+      "id": "p_a2_009",
+      "title": "The Internet",
+      "text": "The internet connects people around the world. People use it for learning, work, and communication.",
+      "wordCount": "17"
+    },
+    {
+      "id": "p_a2_010",
+      "title": "Learning Languages",
+      "text": "Learning a new language takes time and practice. It helps people communicate with others from different countries.",
+      "wordCount": "20"
+    },
+
+    {
+      "id": "p_a2_011",
+      "title": "The Environment",
+      "text": "The environment includes air, water, and land. People must protect nature to keep the planet healthy.",
+      "wordCount": "18"
+    },
+    {
+      "id": "p_a2_012",
+      "title": "The Brain",
+      "text": "The brain controls the body. It helps people think, remember, and make decisions every day.",
+      "wordCount": "17"
+    },
+    {
+      "id": "p_a2_013",
+      "title": "Schools Today",
+      "text": "Schools today use books and technology. Students learn many subjects and prepare for future jobs.",
+      "wordCount": "17"
+    },
+    {
+      "id": "p_a2_014",
+      "title": "Jobs and Work",
+      "text": "People work to earn money. Different jobs help society function, such as teachers, doctors, and builders.",
+      "wordCount": "20"
+    },
+    {
+      "id": "p_a2_015",
+      "title": "Recycling",
+      "text": "Recycling reduces waste and saves resources. Many cities encourage people to recycle paper and plastic.",
+      "wordCount": "18"
+    },
+
+    {
+      "id": "p_a2_016",
+      "title": "The Ocean Life",
+      "text": "The ocean is home to many animals. Fish, whales, and plants live in different parts of the sea.",
+      "wordCount": "19"
+    },
+    {
+      "id": "p_a2_017",
+      "title": "Technology at Home",
+      "text": "Technology helps people at home. Machines save time and make daily tasks easier.",
+      "wordCount": "15"
+    },
+    {
+      "id": "p_a2_018",
+      "title": "Clean Energy",
+      "text": "Clean energy comes from the sun and wind. It produces less pollution than fossil fuels.",
+      "wordCount": "16"
+    },
+    {
+      "id": "p_a2_019",
+      "title": "Travel",
+      "text": "Travel helps people learn about new cultures. Many people travel for work, study, or holidays.",
+      "wordCount": "16"
+    },
+    {
+      "id": "p_a2_020",
+      "title": "Reading Books",
+      "text": "Reading books improves knowledge and language skills. Many people read books for learning and enjoyment.",
+      "wordCount": "17"
+    },
+
+    {
+      "id": "p_a2_021",
+      "title": "The Weather Forecast",
+      "text": "Weather forecasts help people plan their day. Scientists use data to predict future weather conditions.",
+      "wordCount": "18"
+    },
+    {
+      "id": "p_a2_022",
+      "title": "Sports",
+      "text": "Sports keep people active and healthy. Team sports also teach cooperation and discipline.",
+      "wordCount": "14"
+    },
+    {
+      "id": "p_a2_023",
+      "title": "Cities and Villages",
+      "text": "Cities are busy and crowded, while villages are usually quiet. Both offer different lifestyles.",
+      "wordCount": "15"
+    },
+    {
+      "id": "p_a2_024",
+      "title": "The Library",
+      "text": "Libraries provide books and information. Students and researchers use libraries to study and learn.",
+      "wordCount": "15"
+    },
+    {
+      "id": "p_a2_025",
+      "title": "Health Care",
+      "text": "Health care helps people stay well. Hospitals and clinics provide medical treatment and advice.",
+      "wordCount": "15"
+    },
+
+    {
+      "id": "p_a2_026",
+      "title": "The Forest",
+      "text": "Forests produce oxygen and support wildlife. They play an important role in climate balance.",
+      "wordCount": "14"
+    },
+    {
+      "id": "p_a2_027",
+      "title": "Music",
+      "text": "Music is part of many cultures. People listen to music for relaxation and happiness.",
+      "wordCount": "14"
+    },
+    {
+      "id": "p_a2_028",
+      "title": "The Market Economy",
+      "text": "Markets allow people to buy and sell goods. Prices often change based on supply and demand.",
+      "wordCount": "17"
+    },
+    {
+      "id": "p_a2_029",
+      "title": "The Clock and Time",
+      "text": "Time management is important in daily life. Clocks help people organize work and activities.",
+      "wordCount": "15"
+    },
+    {
+      "id": "p_a2_030",
+      "title": "The Road System",
+      "text": "Road systems connect cities and towns. Good roads improve trade and transportation.",
+      "wordCount": "13"
+    },
+
+    {
+      "id": "p_a2_031",
+      "title": "Science",
+      "text": "Science helps people understand the world. Experiments and research lead to new discoveries.",
+      "wordCount": "14"
+    },
+    {
+      "id": "p_a2_032",
+      "title": "Air Pollution",
+      "text": "Air pollution harms health and the environment. Factories and cars are major causes of pollution.",
+      "wordCount": "16"
+    },
+    {
+      "id": "p_a2_033",
+      "title": "Education",
+      "text": "Education gives people knowledge and skills. It plays a key role in personal and social development.",
+      "wordCount": "16"
+    },
+    {
+      "id": "p_a2_034",
+      "title": "Farming",
+      "text": "Farming provides food for the population. Farmers grow crops and raise animals for products.",
+      "wordCount": "15"
+    },
+    {
+      "id": "p_a2_035",
+      "title": "Communication",
+      "text": "Communication allows people to share ideas. Speaking and writing are common forms of communication.",
+      "wordCount": "15"
+    },
+
+    {
+      "id": "p_a2_036",
+      "title": "Climate",
+      "text": "Climate describes long-term weather patterns. Climate affects plants, animals, and human life.",
+      "wordCount": "14"
+    },
+    {
+      "id": "p_a2_037",
+      "title": "Transport Safety",
+      "text": "Transport safety is important for everyone. Rules and signs help prevent accidents.",
+      "wordCount": "13"
+    },
+    {
+      "id": "p_a2_038",
+      "title": "Digital Learning",
+      "text": "Digital learning uses computers and the internet. It allows students to study from different places.",
+      "wordCount": "16"
+    },
+    {
+      "id": "p_a2_039",
+      "title": "Energy Use",
+      "text": "People use energy for heating and electricity. Saving energy helps protect the environment.",
+      "wordCount": "15"
+    },
+    {
+      "id": "p_a2_040",
+      "title": "The Newspaper",
+      "text": "Newspapers report news and events. They help people stay informed about the world.",
+      "wordCount": "13"
+    },
+
+    {
+      "id": "p_a2_041",
+      "title": "Public Parks",
+      "text": "Public parks provide green spaces in cities. People relax, exercise, and meet others there.",
+      "wordCount": "15"
+    },
+    {
+      "id": "p_a2_042",
+      "title": "Shopping",
+      "text": "Shopping is part of daily life. People buy food, clothes, and household items.",
+      "wordCount": "12"
+    },
+    {
+      "id": "p_a2_043",
+      "title": "The Hospital",
+      "text": "Hospitals treat sick and injured people. Doctors and nurses work together to save lives.",
+      "wordCount": "14"
+    },
+    {
+      "id": "p_a2_044",
+      "title": "Tourism",
+      "text": "Tourism supports many economies. Visitors bring money and learn about local culture.",
+      "wordCount": "13"
+    },
+    {
+      "id": "p_a2_045",
+      "title": "The Classroom",
+      "text": "Classrooms are places for learning. Students listen, ask questions, and share ideas.",
+      "wordCount": "13"
+    },
+
+    {
+      "id": "p_a2_046",
+      "title": "Healthy Sleep",
+      "text": "Healthy sleep helps the body recover. Experts say adults need enough sleep every night.",
+      "wordCount": "14"
+    },
+    {
+      "id": "p_a2_047",
+      "title": "The Radio",
+      "text": "The radio shares news and music. People listen to the radio at home and in cars.",
+      "wordCount": "14"
+    },
+    {
+      "id": "p_a2_048",
+      "title": "The Office",
+      "text": "Offices are places where people work. Many jobs involve computers and teamwork.",
+      "wordCount": "13"
+    },
+    {
+      "id": "p_a2_049",
+      "title": "The Restaurant",
+      "text": "Restaurants prepare food for customers. People eat there for convenience and social time.",
+      "wordCount": "13"
+    },
+    {
+      "id": "p_a2_050",
+      "title": "Learning Skills",
+      "text": "Learning skills improve with practice. Reading, writing, and listening are important skills.",
+      "wordCount": "14"
+    }
+  ],
+  "B1": [
+    {
+      "id": "p_b1_001",
+      "title": "The Importance of Clean Water",
+      "text": "Clean water is essential for human life and health. Scientists explain that unsafe water can spread diseases and cause serious health problems.",
+      "wordCount": "23"
+    },
+    {
+      "id": "p_b1_002",
+      "title": "Climate Change",
+      "text": "Climate change refers to long-term changes in temperature and weather patterns. Research shows that human activities increase greenhouse gases.",
+      "wordCount": "22"
+    },
+    {
+      "id": "p_b1_003",
+      "title": "Learning Through Reading",
+      "text": "Reading improves vocabulary and critical thinking skills. Studies show that regular reading helps learners understand complex ideas more easily.",
+      "wordCount": "21"
+    },
+    {
+      "id": "p_b1_004",
+      "title": "Urban Life",
+      "text": "Living in a city offers better access to jobs and education. However, cities also face challenges such as pollution and traffic.",
+      "wordCount": "21"
+    },
+    {
+      "id": "p_b1_005",
+      "title": "Healthy Eating Habits",
+      "text": "Healthy eating habits support physical and mental well-being. Nutrition experts recommend balanced meals with fruits, vegetables, and proteins.",
+      "wordCount": "21"
+    },
+
+    {
+      "id": "p_b1_006",
+      "title": "The Role of Education",
+      "text": "Education plays a key role in social and economic development. Educated people often have better job opportunities and living conditions.",
+      "wordCount": "21"
+    },
+    {
+      "id": "p_b1_007",
+      "title": "Technology in Daily Life",
+      "text": "Technology has changed how people communicate and work. Research shows that digital tools increase efficiency in many fields.",
+      "wordCount": "20"
+    },
+    {
+      "id": "p_b1_008",
+      "title": "Global Trade",
+      "text": "Global trade allows countries to exchange goods and services. Economists explain that trade can improve economic growth and cooperation.",
+      "wordCount": "21"
+    },
+    {
+      "id": "p_b1_009",
+      "title": "Renewable Energy",
+      "text": "Renewable energy comes from natural sources like wind and sunlight. These energy sources reduce pollution and protect the environment.",
+      "wordCount": "20"
+    },
+    {
+      "id": "p_b1_010",
+      "title": "Public Health",
+      "text": "Public health focuses on preventing diseases and promoting healthy lifestyles. Vaccination programs are an important part of public health.",
+      "wordCount": "21"
+    },
+
+    {
+      "id": "p_b1_011",
+      "title": "Cultural Diversity",
+      "text": "Cultural diversity enriches societies by bringing different traditions and ideas together. Sociologists say diversity encourages understanding and respect.",
+      "wordCount": "22"
+    },
+    {
+      "id": "p_b1_012",
+      "title": "Transportation Systems",
+      "text": "Efficient transportation systems support economic activity and daily life. Trains and buses reduce traffic congestion in large cities.",
+      "wordCount": "21"
+    },
+    {
+      "id": "p_b1_013",
+      "title": "Environmental Protection",
+      "text": "Environmental protection aims to preserve natural resources. Governments create laws to reduce pollution and protect wildlife.",
+      "wordCount": "20"
+    },
+    {
+      "id": "p_b1_014",
+      "title": "Work and Productivity",
+      "text": "Productivity measures how efficiently people work. Research shows that good working conditions improve productivity and job satisfaction.",
+      "wordCount": "20"
+    },
+    {
+      "id": "p_b1_015",
+      "title": "The Role of Media",
+      "text": "Media informs people about events and issues. Responsible journalism helps citizens make informed decisions in society.",
+      "wordCount": "19"
+    },
+
+    {
+      "id": "p_b1_016",
+      "title": "Scientific Research",
+      "text": "Scientific research helps explain natural and social phenomena. Researchers use experiments and data to test their ideas.",
+      "wordCount": "20"
+    },
+    {
+      "id": "p_b1_017",
+      "title": "Online Learning",
+      "text": "Online learning allows students to study remotely using digital platforms. Studies show it increases access to education worldwide.",
+      "wordCount": "20"
+    },
+    {
+      "id": "p_b1_018",
+      "title": "Economic Inequality",
+      "text": "Economic inequality describes differences in income and wealth. Experts study its effects on social stability and opportunity.",
+      "wordCount": "19"
+    },
+    {
+      "id": "p_b1_019",
+      "title": "Mental Health Awareness",
+      "text": "Mental health awareness encourages people to seek help when needed. Research shows early support improves recovery and well-being.",
+      "wordCount": "20"
+    },
+    {
+      "id": "p_b1_020",
+      "title": "Urban Planning",
+      "text": "Urban planning organizes land use and infrastructure in cities. Good planning improves living conditions and environmental quality.",
+      "wordCount": "19"
+    },
+
+    {
+      "id": "p_b1_021",
+      "title": "The Global Economy",
+      "text": "The global economy connects countries through trade and finance. Economic changes in one region can affect the whole world.",
+      "wordCount": "20"
+    },
+    {
+      "id": "p_b1_022",
+      "title": "Energy Consumption",
+      "text": "Energy consumption increases with population growth and technology use. Researchers promote efficiency to reduce environmental impact.",
+      "wordCount": "20"
+    },
+    {
+      "id": "p_b1_023",
+      "title": "The Education System",
+      "text": "Education systems differ across countries but share common goals. They aim to develop knowledge, skills, and critical thinking.",
+      "wordCount": "20"
+    },
+    {
+      "id": "p_b1_024",
+      "title": "Healthcare Services",
+      "text": "Healthcare services provide medical treatment and prevention. Access to quality healthcare improves life expectancy and quality of life.",
+      "wordCount": "20"
+    },
+    {
+      "id": "p_b1_025",
+      "title": "Environmental Awareness",
+      "text": "Environmental awareness encourages responsible behavior toward nature. Campaigns educate people about recycling and conservation.",
+      "wordCount": "18"
+    },
+
+    {
+      "id": "p_b1_026",
+      "title": "Digital Communication",
+      "text": "Digital communication allows instant contact across long distances. Email and messaging platforms support both personal and professional communication.",
+      "wordCount": "20"
+    },
+    {
+      "id": "p_b1_027",
+      "title": "Tourism Industry",
+      "text": "The tourism industry creates jobs and supports local economies. Sustainable tourism helps protect cultural and natural heritage.",
+      "wordCount": "19"
+    },
+    {
+      "id": "p_b1_028",
+      "title": "The Role of Governments",
+      "text": "Governments create laws and policies to manage societies. Political scientists study how governments influence social development.",
+      "wordCount": "20"
+    },
+    {
+      "id": "p_b1_029",
+      "title": "Food Security",
+      "text": "Food security means having reliable access to sufficient food. Agricultural research helps improve food production worldwide.",
+      "wordCount": "19"
+    },
+    {
+      "id": "p_b1_030",
+      "title": "Workplace Safety",
+      "text": "Workplace safety reduces accidents and injuries. Safety training and regulations protect workers in different industries.",
+      "wordCount": "18"
+    },
+
+    {
+      "id": "p_b1_031",
+      "title": "Environmental Science",
+      "text": "Environmental science studies interactions between humans and nature. Research helps solve problems like pollution and climate change.",
+      "wordCount": "20"
+    },
+    {
+      "id": "p_b1_032",
+      "title": "Population Growth",
+      "text": "Population growth affects resources and urban development. Demographers analyze population trends to support planning decisions.",
+      "wordCount": "19"
+    },
+    {
+      "id": "p_b1_033",
+      "title": "Social Media",
+      "text": "Social media platforms influence communication and information sharing. Researchers study their impact on behavior and society.",
+      "wordCount": "19"
+    },
+    {
+      "id": "p_b1_034",
+      "title": "Transportation Safety",
+      "text": "Transportation safety aims to reduce accidents and injuries. Rules, technology, and education improve safety on roads.",
+      "wordCount": "18"
+    },
+    {
+      "id": "p_b1_035",
+      "title": "Scientific Innovation",
+      "text": "Scientific innovation leads to new technologies and solutions. Innovation drives progress in medicine, energy, and communication.",
+      "wordCount": "18"
+    },
+
+    {
+      "id": "p_b1_036",
+      "title": "Civic Responsibility",
+      "text": "Civic responsibility involves active participation in society. Voting and community service strengthen democratic systems.",
+      "wordCount": "17"
+    },
+    {
+      "id": "p_b1_037",
+      "title": "Digital Security",
+      "text": "Digital security protects personal data and systems. Experts recommend strong passwords and awareness of online risks.",
+      "wordCount": "18"
+    },
+    {
+      "id": "p_b1_038",
+      "title": "The Natural Ecosystem",
+      "text": "Natural ecosystems support plant and animal life. Scientists study ecosystems to understand balance and sustainability.",
+      "wordCount": "17"
+    },
+    {
+      "id": "p_b1_039",
+      "title": "Learning Strategies",
+      "text": "Effective learning strategies include practice and reflection. Educational research shows that active learning improves understanding.",
+      "wordCount": "18"
+    },
+    {
+      "id": "p_b1_040",
+      "title": "Public Transportation",
+      "text": "Public transportation reduces environmental impact and traffic. Cities invest in buses and rail systems for sustainability.",
+      "wordCount": "18"
+    },
+
+    {
+      "id": "p_b1_041",
+      "title": "Global Communication",
+      "text": "Global communication connects people across cultures and borders. Technology enables faster exchange of ideas and information.",
+      "wordCount": "18"
+    },
+    {
+      "id": "p_b1_042",
+      "title": "Sustainable Development",
+      "text": "Sustainable development meets present needs without harming future generations. It balances economic growth and environmental protection.",
+      "wordCount": "18"
+    },
+    {
+      "id": "p_b1_043",
+      "title": "Work-Life Balance",
+      "text": "Work-life balance helps maintain physical and mental health. Studies show balanced schedules increase productivity and satisfaction.",
+      "wordCount": "18"
+    },
+    {
+      "id": "p_b1_044",
+      "title": "Cultural Heritage",
+      "text": "Cultural heritage includes traditions, language, and historical sites. Protecting heritage preserves identity and history.",
+      "wordCount": "17"
+    },
+    {
+      "id": "p_b1_045",
+      "title": "The Scientific Method",
+      "text": "The scientific method involves observation, hypothesis, and testing. It ensures research results are reliable and accurate.",
+      "wordCount": "17"
+    },
+
+    {
+      "id": "p_b1_046",
+      "title": "Digital Transformation",
+      "text": "Digital transformation changes how organizations operate. It improves efficiency through data, automation, and technology.",
+      "wordCount": "16"
+    },
+    {
+      "id": "p_b1_047",
+      "title": "Urban Green Spaces",
+      "text": "Urban green spaces improve air quality and mental health. Research shows parks support healthier city environments.",
+      "wordCount": "17"
+    },
+    {
+      "id": "p_b1_048",
+      "title": "Economic Development",
+      "text": "Economic development focuses on improving living standards. Investment in education and infrastructure supports development.",
+      "wordCount": "16"
+    },
+    {
+      "id": "p_b1_049",
+      "title": "Global Health",
+      "text": "Global health addresses health issues across countries. International cooperation helps control diseases and improve care.",
+      "wordCount": "16"
+    },
+    {
+      "id": "p_b1_050",
+      "title": "Future Skills",
+      "text": "Future skills include critical thinking and digital literacy. Experts say these skills are essential in modern economies.",
+      "wordCount": "16"
+    }
+  ],
+   "B2": [
+    {
+      "id": "p_b2_001",
+      "title": "Climate Change and Society",
+      "text": "Climate change is a major global issue that affects weather patterns, food production, and human health. Scientific research shows that rising temperatures are mainly caused by human activities such as burning fossil fuels. Governments and communities must work together to reduce emissions and adapt to environmental changes.",
+      "wordCount": "52"
+    },
+    {
+      "id": "p_b2_002",
+      "title": "The Role of Education in Development",
+      "text": "Education plays a central role in economic and social development. Studies show that educated populations tend to have higher incomes, better health, and stronger democratic participation. Access to quality education helps individuals develop critical thinking skills and contributes to long-term national progress.",
+      "wordCount": "52"
+    },
+    {
+      "id": "p_b2_003",
+      "title": "Digital Technology and Communication",
+      "text": "Digital technology has transformed communication across the world. People now exchange information instantly through emails, video calls, and social media platforms. Research indicates that digital communication increases efficiency in business and education, although it also raises concerns about privacy and data security.",
+      "wordCount": "52"
+    },
+    {
+      "id": "p_b2_004",
+      "title": "Public Health Systems",
+      "text": "Public health systems aim to protect communities by preventing disease and promoting healthy lifestyles. Vaccination programs, clean water access, and health education are key components. According to medical research, strong public health systems reduce healthcare costs and improve life expectancy.",
+      "wordCount": "52"
+    },
+    {
+      "id": "p_b2_005",
+      "title": "Renewable Energy Sources",
+      "text": "Renewable energy sources such as solar, wind, and hydropower provide cleaner alternatives to fossil fuels. Scientific studies show that renewable energy reduces air pollution and greenhouse gas emissions. Many countries are investing in renewable technologies to achieve sustainable energy goals.",
+      "wordCount": "51"
+    },
+
+    {
+      "id": "p_b2_006",
+      "title": "Urbanization Trends",
+      "text": "Urbanization refers to the increasing movement of people from rural areas to cities. Research shows that cities offer more employment and education opportunities. However, rapid urban growth can also lead to housing shortages, traffic congestion, and environmental pressure if not managed carefully.",
+      "wordCount": "53"
+    },
+    {
+      "id": "p_b2_007",
+      "title": "Economic Globalization",
+      "text": "Economic globalization connects countries through trade, investment, and technology exchange. Economists explain that globalization can increase economic growth and consumer choice. At the same time, it may widen income inequality and create challenges for local industries in developing regions.",
+      "wordCount": "53"
+    },
+    {
+      "id": "p_b2_008",
+      "title": "The Importance of Scientific Research",
+      "text": "Scientific research helps societies understand complex problems and develop effective solutions. Through controlled experiments and data analysis, researchers test theories and improve existing knowledge. Advances in science have led to major improvements in medicine, transportation, and environmental protection.",
+      "wordCount": "53"
+    },
+    {
+      "id": "p_b2_009",
+      "title": "Mental Health in Modern Life",
+      "text": "Mental health is an essential part of overall well-being. Research shows that stress, social pressure, and economic uncertainty can affect mental health. Public awareness campaigns and access to professional support help reduce stigma and encourage people to seek timely help.",
+      "wordCount": "52"
+    },
+    {
+      "id": "p_b2_010",
+      "title": "The Impact of Social Media",
+      "text": "Social media platforms influence how people communicate and share information. Studies indicate that social media can strengthen social connections and spread awareness. However, excessive use may affect mental health and increase the spread of misinformation if not used responsibly.",
+      "wordCount": "52"
+    },
+
+    {
+      "id": "p_b2_011",
+      "title": "Environmental Conservation",
+      "text": "Environmental conservation focuses on protecting natural resources and ecosystems. Scientists emphasize that forests, oceans, and biodiversity are essential for climate balance. Conservation efforts such as wildlife protection and sustainable land use help maintain ecological stability for future generations.",
+      "wordCount": "52"
+    },
+    {
+      "id": "p_b2_012",
+      "title": "The Changing Workplace",
+      "text": "The modern workplace has changed due to technology and globalization. Remote work, digital tools, and flexible schedules are becoming common. Research suggests that these changes can improve productivity and work-life balance, although they also require new management skills.",
+      "wordCount": "52"
+    },
+    {
+      "id": "p_b2_013",
+      "title": "Transportation and Sustainability",
+      "text": "Transportation systems play a major role in economic activity and environmental impact. Studies show that public transport and electric vehicles reduce pollution and energy use. Governments invest in sustainable transportation to improve air quality and reduce traffic congestion.",
+      "wordCount": "52"
+    },
+    {
+      "id": "p_b2_014",
+      "title": "Food Security Challenges",
+      "text": "Food security means ensuring that all people have access to sufficient and nutritious food. Research highlights that climate change, conflict, and population growth threaten food supply. Sustainable farming methods and international cooperation help address these global challenges.",
+      "wordCount": "52"
+    },
+    {
+      "id": "p_b2_015",
+      "title": "The Value of Lifelong Learning",
+      "text": "Lifelong learning refers to continuous education throughout life. Experts argue that rapid technological change requires people to update their skills regularly. Lifelong learning supports career development, adaptability, and personal growth in an increasingly competitive global economy.",
+      "wordCount": "52"
+    },
+
+    {
+      "id": "p_b2_016",
+      "title": "Global Health Cooperation",
+      "text": "Global health cooperation involves countries working together to address health threats. Research shows that shared data and coordinated responses improve disease control. International organizations play a key role in managing pandemics and strengthening healthcare systems worldwide.",
+      "wordCount": "52"
+    },
+    {
+      "id": "p_b2_017",
+      "title": "The Role of Media in Society",
+      "text": "Media plays an important role in shaping public opinion and spreading information. Studies suggest that independent and responsible journalism supports democratic societies. However, media literacy is necessary to help people identify bias and misinformation in modern news sources.",
+      "wordCount": "53"
+    },
+    {
+      "id": "p_b2_018",
+      "title": "Energy Consumption Patterns",
+      "text": "Energy consumption continues to increase due to population growth and industrial development. Research indicates that improving energy efficiency can significantly reduce environmental damage. Governments encourage energy-saving technologies and policies to promote sustainable consumption patterns.",
+      "wordCount": "52"
+    },
+    {
+      "id": "p_b2_019",
+      "title": "Cultural Exchange",
+      "text": "Cultural exchange allows people from different backgrounds to share traditions, values, and ideas. Studies show that cultural interaction promotes tolerance and mutual understanding. Travel, education programs, and digital communication have increased cultural exchange worldwide.",
+      "wordCount": "52"
+    },
+    {
+      "id": "p_b2_020",
+      "title": "The Science of Climate Data",
+      "text": "Climate scientists collect data from satellites, weather stations, and ocean sensors. This data helps researchers analyze long-term climate trends and predict future changes. Accurate climate data is essential for developing effective environmental policies and adaptation strategies.",
+      "wordCount": "53"
+    },
+    {
+      "id": "p_b2_021",
+      "title": "Water Resource Management",
+      "text": "Water resource management focuses on the sustainable use of freshwater supplies. Research shows that population growth and climate change increase pressure on water systems. Efficient irrigation, water recycling, and international cooperation are essential to prevent future water shortages.",
+      "wordCount": "52"
+    },
+    {
+      "id": "p_b2_022",
+      "title": "Artificial Intelligence in Daily Life",
+      "text": "Artificial intelligence is increasingly used in everyday applications such as navigation, healthcare, and customer service. Studies indicate that AI improves efficiency and decision-making. However, experts also stress the importance of ethical guidelines and data protection policies.",
+      "wordCount": "52"
+    },
+    {
+      "id": "p_b2_023",
+      "title": "Population Aging",
+      "text": "Many countries are experiencing population aging due to longer life expectancy and lower birth rates. Research suggests that aging populations affect healthcare systems and labor markets. Governments respond by adjusting retirement policies and investing in elder care services.",
+      "wordCount": "52"
+    },
+    {
+      "id": "p_b2_024",
+      "title": "Global Trade Networks",
+      "text": "Global trade networks connect producers and consumers across continents. Economic research shows that trade increases efficiency and lowers prices. At the same time, supply chain disruptions can have serious economic consequences for interconnected economies.",
+      "wordCount": "52"
+    },
+    {
+      "id": "p_b2_025",
+      "title": "Biodiversity Loss",
+      "text": "Biodiversity loss refers to the decline of plant and animal species worldwide. Scientists report that habitat destruction and climate change are major causes. Protecting ecosystems is critical because biodiversity supports food systems and environmental resilience.",
+      "wordCount": "51"
+    },
+
+    {
+      "id": "p_b2_026",
+      "title": "Digital Education Platforms",
+      "text": "Digital education platforms provide access to learning through online courses and virtual classrooms. Research shows that these platforms increase educational access, especially in remote areas. Effective digital learning requires strong internet infrastructure and trained educators.",
+      "wordCount": "52"
+    },
+    {
+      "id": "p_b2_027",
+      "title": "Economic Inflation",
+      "text": "Inflation describes the general rise in prices over time. Economists explain that inflation can result from increased demand or higher production costs. Moderate inflation supports economic growth, but high inflation reduces purchasing power and economic stability.",
+      "wordCount": "52"
+    },
+    {
+      "id": "p_b2_028",
+      "title": "Disaster Risk Reduction",
+      "text": "Disaster risk reduction aims to minimize damage from natural hazards such as earthquakes and floods. Research highlights the importance of early warning systems and emergency planning. Prepared communities recover faster and experience fewer long-term economic losses.",
+      "wordCount": "52"
+    },
+    {
+      "id": "p_b2_029",
+      "title": "Workplace Diversity",
+      "text": "Workplace diversity includes differences in culture, gender, and experience among employees. Studies show that diverse teams often perform better and encourage innovation. Inclusive policies help organizations benefit from a wide range of perspectives.",
+      "wordCount": "52"
+    },
+    {
+      "id": "p_b2_030",
+      "title": "Renewable Energy Storage",
+      "text": "Energy storage systems support renewable energy by saving electricity for later use. Research indicates that batteries improve energy reliability and reduce waste. Advances in storage technology are essential for expanding renewable energy adoption worldwide.",
+      "wordCount": "51"
+    },
+
+    {
+      "id": "p_b2_031",
+      "title": "Urban Air Quality",
+      "text": "Urban air quality affects public health and environmental sustainability. Scientific studies link air pollution to respiratory diseases and reduced life expectancy. Policies promoting clean transport and industrial regulation help improve air quality in cities.",
+      "wordCount": "52"
+    },
+    {
+      "id": "p_b2_032",
+      "title": "Tourism and Local Economies",
+      "text": "Tourism contributes significantly to local and national economies. Research shows that tourism creates jobs and supports small businesses. Sustainable tourism practices help protect cultural heritage and reduce environmental damage in popular destinations.",
+      "wordCount": "52"
+    },
+    {
+      "id": "p_b2_033",
+      "title": "Cybersecurity Challenges",
+      "text": "Cybersecurity focuses on protecting digital systems from unauthorized access. Studies indicate that cyber threats are increasing with digitalization. Strong security measures and public awareness are necessary to protect personal and institutional data.",
+      "wordCount": "51"
+    },
+    {
+      "id": "p_b2_034",
+      "title": "Health and Nutrition",
+      "text": "Balanced nutrition is essential for maintaining good health. Research confirms that diets rich in fruits, vegetables, and whole grains reduce disease risk. Public health programs promote healthy eating to prevent long-term medical conditions.",
+      "wordCount": "51"
+    },
+    {
+      "id": "p_b2_035",
+      "title": "Climate Adaptation Strategies",
+      "text": "Climate adaptation strategies help societies adjust to environmental changes. Research shows that flood defenses, drought planning, and resilient infrastructure reduce climate risks. Adaptation measures are especially important for vulnerable regions.",
+      "wordCount": "51"
+    },
+
+    {
+      "id": "p_b2_036",
+      "title": "Labor Market Changes",
+      "text": "Labor markets change due to automation and economic shifts. Studies suggest that some jobs disappear while new ones emerge. Skill development and retraining programs help workers adapt to changing employment demands.",
+      "wordCount": "51"
+    },
+    {
+      "id": "p_b2_037",
+      "title": "Scientific Innovation",
+      "text": "Scientific innovation drives technological and social progress. Research institutions play a key role in developing new solutions. Investment in innovation supports economic competitiveness and improves quality of life.",
+      "wordCount": "51"
+    },
+    {
+      "id": "p_b2_038",
+      "title": "Public Transportation Systems",
+      "text": "Public transportation systems reduce traffic congestion and environmental impact. Studies show that efficient transport networks support economic productivity. Investment in public transport improves accessibility and urban sustainability.",
+      "wordCount": "50"
+    },
+    {
+      "id": "p_b2_039",
+      "title": "Global Food Trade",
+      "text": "Global food trade allows countries to exchange agricultural products. Research indicates that trade improves food availability and price stability. However, supply disruptions can increase vulnerability in import-dependent regions.",
+      "wordCount": "51"
+    },
+    {
+      "id": "p_b2_040",
+      "title": "Digital Privacy",
+      "text": "Digital privacy concerns the protection of personal information online. Studies show that data collection has increased with digital services. Strong regulations and user awareness help protect privacy in digital environments.",
+      "wordCount": "50"
+    },
+
+    {
+      "id": "p_b2_041",
+      "title": "Sustainable Agriculture",
+      "text": "Sustainable agriculture aims to produce food while protecting the environment. Research shows that soil conservation and efficient water use improve long-term productivity. Sustainable farming supports food security and environmental health.",
+      "wordCount": "50"
+    },
+    {
+      "id": "p_b2_042",
+      "title": "Economic Inequality",
+      "text": "Economic inequality refers to differences in income and wealth. Studies link high inequality to social and economic instability. Policies that support education and fair employment reduce inequality over time.",
+      "wordCount": "50"
+    },
+    {
+      "id": "p_b2_043",
+      "title": "Urban Green Spaces",
+      "text": "Urban green spaces provide environmental and health benefits. Research shows that parks improve air quality and mental well-being. City planners increasingly include green spaces in sustainable urban development.",
+      "wordCount": "50"
+    },
+    {
+      "id": "p_b2_044",
+      "title": "Technological Ethics",
+      "text": "Technological ethics examines the responsible use of technology. Studies highlight concerns about automation, privacy, and fairness. Ethical frameworks guide policymakers and developers in managing technological change.",
+      "wordCount": "50"
+    },
+    {
+      "id": "p_b2_045",
+      "title": "Global Migration",
+      "text": "Global migration involves the movement of people across borders. Research shows that migration affects labor markets and cultural exchange. Effective migration policies balance economic needs and human rights.",
+      "wordCount": "50"
+    },
+
+    {
+      "id": "p_b2_046",
+      "title": "Energy Policy Planning",
+      "text": "Energy policy planning guides national decisions about energy production and use. Studies show that long-term planning improves energy security. Balanced policies support economic growth and environmental protection.",
+      "wordCount": "50"
+    },
+    {
+      "id": "p_b2_047",
+      "title": "Public Health Education",
+      "text": "Public health education informs communities about disease prevention. Research confirms that education reduces health risks and healthcare costs. Awareness campaigns promote healthy behavior and early medical intervention.",
+      "wordCount": "50"
+    },
+    {
+      "id": "p_b2_048",
+      "title": "Climate Policy Agreements",
+      "text": "Climate policy agreements involve cooperation between countries to reduce emissions. Studies show that international agreements support coordinated climate action. Effective enforcement is necessary to achieve environmental goals.",
+      "wordCount": "50"
+    },
+    {
+      "id": "p_b2_049",
+      "title": "Innovation in Healthcare",
+      "text": "Healthcare innovation improves diagnosis and treatment methods. Research shows that new technologies increase accuracy and patient outcomes. Investment in healthcare innovation strengthens public health systems.",
+      "wordCount": "49"
+    },
+    {
+      "id": "p_b2_050",
+      "title": "Global Economic Stability",
+      "text": "Global economic stability depends on cooperation between financial institutions and governments. Studies indicate that stable economies reduce poverty and unemployment. International coordination helps prevent large-scale financial crises.",
+      "wordCount": "50"
+    }],
+    "C1": [
+    {
+      "id": "p_c1_001",
+      "title": "Climate Change Mitigation",
+      "text": "Climate change mitigation refers to actions taken to reduce the causes of global warming. Scientific research shows that lowering greenhouse gas emissions can slow temperature rise. Governments focus on renewable energy, energy efficiency, and carbon regulation. These measures aim to limit long-term environmental damage and reduce economic risks linked to extreme weather events.",
+      "wordCount": "80"
+    },
+    {
+      "id": "p_c1_002",
+      "title": "Economic Policy and Growth",
+      "text": "Economic policy shapes how governments manage taxation, spending, and investment. Studies indicate that stable economic policies support sustainable growth and reduce unemployment. Central banks also influence growth by controlling inflation and interest rates. Effective coordination between fiscal and monetary policy improves resilience during economic downturns.",
+      "wordCount": "80"
+    },
+    {
+      "id": "p_c1_003",
+      "title": "Technological Innovation",
+      "text": "Technological innovation drives productivity and social development. Research demonstrates that innovation improves efficiency in healthcare, transportation, and manufacturing. Governments support innovation through education, research funding, and intellectual property protection. Long-term economic competitiveness increasingly depends on a country’s capacity to develop and apply new technologies.",
+      "wordCount": "80"
+    },
+    {
+      "id": "p_c1_004",
+      "title": "Public Health Preparedness",
+      "text": "Public health preparedness focuses on preventing and responding to health emergencies. Evidence shows that early detection systems and coordinated responses reduce mortality rates. Investment in healthcare infrastructure and trained professionals strengthens national readiness. Preparedness planning is essential for managing pandemics and natural disasters effectively.",
+      "wordCount": "80"
+    },
+    {
+      "id": "p_c1_005",
+      "title": "Global Energy Transition",
+      "text": "The global energy transition involves shifting from fossil fuels to renewable sources. Research confirms that clean energy reduces emissions and improves air quality. Governments and industries invest in solar, wind, and storage technologies. A successful transition requires long-term planning, infrastructure development, and international cooperation.",
+      "wordCount": "80"
+    },
+
+    {
+      "id": "p_c1_006",
+      "title": "Urban Development Planning",
+      "text": "Urban development planning aims to create efficient and livable cities. Studies show that mixed land use and public transport reduce congestion and pollution. Sustainable planning also includes green spaces and resilient infrastructure. Well-designed cities support economic activity while improving residents’ quality of life.",
+      "wordCount": "80"
+    },
+    {
+      "id": "p_c1_007",
+      "title": "Education and Social Mobility",
+      "text": "Education plays a central role in social mobility. Research indicates that access to quality education increases employment opportunities and income levels. Education systems that reduce inequality contribute to social stability. Lifelong learning further supports adaptability in changing labor markets.",
+      "wordCount": "80"
+    },
+    {
+      "id": "p_c1_008",
+      "title": "Digital Transformation",
+      "text": "Digital transformation refers to the integration of digital technologies into organizations. Studies show that digital tools improve efficiency and decision-making. However, successful transformation requires skilled workers and cybersecurity measures. Organizations that adapt effectively gain competitive advantages in global markets.",
+      "wordCount": "80"
+    },
+    {
+      "id": "p_c1_009",
+      "title": "Environmental Policy",
+      "text": "Environmental policy regulates human activities that affect ecosystems. Scientific evidence supports policies that limit pollution and protect biodiversity. Effective enforcement ensures long-term environmental sustainability. Policymakers balance environmental protection with economic development goals through regulation and innovation.",
+      "wordCount": "80"
+    },
+    {
+      "id": "p_c1_010",
+      "title": "Global Trade Regulation",
+      "text": "Global trade regulation governs international exchange of goods and services. Research shows that clear trade rules promote stability and reduce conflict. Trade agreements aim to balance national interests with global cooperation. Fair regulation supports economic growth while protecting labor and environmental standards.",
+      "wordCount": "80"
+    },
+
+    {
+      "id": "p_c1_011",
+      "title": "Labor Market Adaptation",
+      "text": "Labor markets continuously adapt to technological and economic change. Studies indicate that automation alters job demand across sectors. Education and retraining programs help workers adjust to new skill requirements. Adaptive labor policies reduce unemployment and support economic resilience.",
+      "wordCount": "80"
+    },
+    {
+      "id": "p_c1_012",
+      "title": "Sustainable Resource Use",
+      "text": "Sustainable resource use ensures that natural resources remain available for future generations. Research shows that overuse leads to environmental degradation. Efficient management and conservation strategies balance economic needs with ecological limits. Sustainability policies promote long-term environmental and economic stability.",
+      "wordCount": "80"
+    },
+    {
+      "id": "p_c1_013",
+      "title": "Healthcare System Efficiency",
+      "text": "Healthcare system efficiency affects patient outcomes and public spending. Studies show that preventive care reduces long-term costs. Digital records and data analysis improve service delivery. Efficient systems enhance accessibility while maintaining quality and financial sustainability.",
+      "wordCount": "80"
+    },
+    {
+      "id": "p_c1_014",
+      "title": "Scientific Literacy",
+      "text": "Scientific literacy enables individuals to understand research-based information. Evidence suggests that scientific literacy improves public decision-making. Education systems play a key role in developing analytical skills. Informed societies respond more effectively to technological and environmental challenges.",
+      "wordCount": "80"
+    },
+    {
+      "id": "p_c1_015",
+      "title": "Cultural Globalization",
+      "text": "Cultural globalization involves the exchange of ideas and values across societies. Research indicates that cultural interaction increases mutual understanding. Media and travel accelerate cultural exchange. Balanced globalization respects local traditions while encouraging international cooperation.",
+      "wordCount": "80"
+    },
+
+    {
+      "id": "p_c1_016",
+      "title": "Data-Driven Decision Making",
+      "text": "Data-driven decision making uses evidence to guide policy and business choices. Studies show that data analysis improves accuracy and efficiency. Reliable data collection and interpretation are essential. Evidence-based decisions reduce risk and support long-term planning.",
+      "wordCount": "80"
+    },
+    {
+      "id": "p_c1_017",
+      "title": "Global Health Equity",
+      "text": "Global health equity focuses on reducing disparities in healthcare access. Research shows that inequality affects life expectancy and disease outcomes. International cooperation improves resource distribution. Equity-focused policies strengthen global public health systems.",
+      "wordCount": "80"
+    },
+    {
+      "id": "p_c1_018",
+      "title": "Environmental Economics",
+      "text": "Environmental economics studies the relationship between economic activity and the environment. Research supports policies that price environmental damage. Market-based solutions encourage sustainable behavior. Economic incentives help align growth with environmental protection.",
+      "wordCount": "80"
+    },
+    {
+      "id": "p_c1_019",
+      "title": "Innovation Policy",
+      "text": "Innovation policy supports research and technological development. Evidence shows that public investment encourages private innovation. Collaboration between universities and industry accelerates progress. Strong innovation systems enhance national competitiveness.",
+      "wordCount": "80"
+    },
+    {
+      "id": "p_c1_020",
+      "title": "Resilient Infrastructure",
+      "text": "Resilient infrastructure withstands environmental and economic shocks. Research indicates that resilient design reduces long-term costs. Infrastructure investment supports growth and public safety. Planning for resilience improves national preparedness.",
+      "wordCount": "80"
+    },
+    {
+      "id": "p_c1_021",
+      "title": "Artificial Intelligence Governance",
+      "text": "Artificial intelligence governance focuses on managing the ethical and social impacts of AI systems. Research highlights risks related to bias, privacy, and accountability. Governments and institutions develop regulatory frameworks to ensure transparency and fairness. Effective governance promotes innovation while protecting human rights and public trust in automated systems.",
+      "wordCount": "80"
+    },
+    {
+      "id": "p_c1_022",
+      "title": "Water Resource Management",
+      "text": "Water resource management ensures the sustainable use of freshwater supplies. Studies show that climate change increases water scarcity in many regions. Efficient irrigation, conservation policies, and technological solutions improve water security. Long-term planning helps balance agricultural, industrial, and domestic water demands.",
+      "wordCount": "80"
+    },
+    {
+      "id": "p_c1_023",
+      "title": "Global Demographic Change",
+      "text": "Global demographic change affects economic and social systems worldwide. Research indicates that aging populations increase pressure on healthcare and pension systems. In contrast, youthful populations require investment in education and employment. Policymakers adapt strategies to maintain economic stability and social welfare.",
+      "wordCount": "80"
+    },
+    {
+      "id": "p_c1_024",
+      "title": "Renewable Energy Storage",
+      "text": "Renewable energy storage supports the reliability of clean power systems. Studies show that batteries and other storage technologies reduce energy fluctuations. Improved storage capacity enables higher renewable integration. Investment in storage infrastructure strengthens energy security and grid stability.",
+      "wordCount": "80"
+    },
+    {
+      "id": "p_c1_025",
+      "title": "Media Literacy",
+      "text": "Media literacy helps individuals evaluate information critically. Research shows that strong media literacy reduces the spread of misinformation. Education systems emphasize analytical skills and source evaluation. Informed citizens contribute to healthier public discourse and democratic participation.",
+      "wordCount": "80"
+    },
+
+    {
+      "id": "p_c1_026",
+      "title": "International Security Cooperation",
+      "text": "International security cooperation addresses global threats such as terrorism and cybercrime. Studies indicate that information sharing improves response effectiveness. Multilateral agreements strengthen trust between nations. Cooperative security frameworks reduce conflict and promote global stability.",
+      "wordCount": "80"
+    },
+    {
+      "id": "p_c1_027",
+      "title": "Sustainable Agriculture",
+      "text": "Sustainable agriculture balances food production with environmental protection. Research shows that soil conservation and crop diversity improve long-term yields. Sustainable practices reduce chemical use and protect ecosystems. These methods support food security under changing climate conditions.",
+      "wordCount": "80"
+    },
+    {
+      "id": "p_c1_028",
+      "title": "Digital Privacy Protection",
+      "text": "Digital privacy protection safeguards personal data in online environments. Studies highlight risks associated with data misuse and surveillance. Regulations aim to increase transparency and user control. Strong privacy frameworks build public confidence in digital services.",
+      "wordCount": "80"
+    },
+    {
+      "id": "p_c1_029",
+      "title": "Behavioral Economics",
+      "text": "Behavioral economics examines how psychological factors influence economic decisions. Research challenges traditional assumptions of rational behavior. Policymakers use behavioral insights to design effective interventions. These approaches improve policy outcomes in health, finance, and education.",
+      "wordCount": "80"
+    },
+    {
+      "id": "p_c1_030",
+      "title": "Climate Adaptation Strategies",
+      "text": "Climate adaptation strategies reduce vulnerability to climate impacts. Research shows that resilient infrastructure and early warning systems save lives. Adaptation planning complements mitigation efforts. Proactive strategies support communities facing extreme weather events.",
+      "wordCount": "80"
+    },
+
+    {
+      "id": "p_c1_031",
+      "title": "Corporate Social Responsibility",
+      "text": "Corporate social responsibility refers to ethical business practices. Studies show that responsible companies improve stakeholder trust. Environmental and social initiatives enhance long-term performance. CSR integrates economic success with societal well-being.",
+      "wordCount": "80"
+    },
+    {
+      "id": "p_c1_032",
+      "title": "Public Transportation Systems",
+      "text": "Public transportation systems reduce traffic congestion and emissions. Research indicates that efficient transit improves urban mobility. Investment in public transport supports sustainable city development. Accessible systems enhance social inclusion and economic productivity.",
+      "wordCount": "80"
+    },
+    {
+      "id": "p_c1_033",
+      "title": "Neuroscience Research",
+      "text": "Neuroscience research explores brain structure and function. Studies improve understanding of cognition and mental health. Advances in imaging technology support scientific discovery. Research findings inform medical treatment and educational practice.",
+      "wordCount": "80"
+    },
+    {
+      "id": "p_c1_034",
+      "title": "Global Supply Chains",
+      "text": "Global supply chains connect producers and consumers worldwide. Research shows that disruptions affect economic stability. Diversification and resilience planning reduce risk. Efficient supply chains support international trade and economic growth.",
+      "wordCount": "80"
+    },
+    {
+      "id": "p_c1_035",
+      "title": "Renewable Materials",
+      "text": "Renewable materials reduce dependence on finite resources. Studies show that bio-based materials lower environmental impact. Innovation supports sustainable manufacturing. Renewable alternatives contribute to circular economy models.",
+      "wordCount": "80"
+    },
+
+    {
+      "id": "p_c1_036",
+      "title": "Mental Health Awareness",
+      "text": "Mental health awareness improves early intervention and support. Research indicates that education reduces stigma. Accessible services enhance well-being and productivity. Public awareness campaigns promote healthier communities.",
+      "wordCount": "80"
+    },
+    {
+      "id": "p_c1_037",
+      "title": "Cybersecurity Strategy",
+      "text": "Cybersecurity strategy protects digital infrastructure from threats. Studies highlight increasing risks to public and private systems. Strong security policies include prevention, detection, and response. Cyber resilience supports economic and national security.",
+      "wordCount": "80"
+    },
+    {
+      "id": "p_c1_038",
+      "title": "Urban Climate Resilience",
+      "text": "Urban climate resilience addresses environmental risks in cities. Research shows that green infrastructure reduces heat stress. Resilient planning improves disaster response. Cities adopting resilience strategies adapt more effectively to climate change.",
+      "wordCount": "80"
+    },
+    {
+      "id": "p_c1_039",
+      "title": "Science Communication",
+      "text": "Science communication translates research findings for the public. Studies indicate that clear communication increases trust in science. Effective messaging supports informed decision-making. Scientists and educators play a critical role in public understanding.",
+      "wordCount": "80"
+    },
+    {
+      "id": "p_c1_040",
+      "title": "Migration Policy",
+      "text": "Migration policy regulates population movement across borders. Research shows that migration influences labor markets and demographics. Balanced policies protect human rights and economic stability. International cooperation improves migration management.",
+      "wordCount": "80"
+    },
+
+    {
+      "id": "p_c1_041",
+      "title": "Environmental Monitoring",
+      "text": "Environmental monitoring tracks changes in ecosystems. Research uses data to detect pollution and biodiversity loss. Monitoring supports evidence-based policy decisions. Long-term observation improves environmental protection strategies.",
+      "wordCount": "80"
+    },
+    {
+      "id": "p_c1_042",
+      "title": "Knowledge Economy",
+      "text": "The knowledge economy relies on information and innovation. Studies show that education and research drive growth. Skilled workers contribute to productivity. Knowledge-based economies adapt quickly to technological change.",
+      "wordCount": "80"
+    },
+    {
+      "id": "p_c1_043",
+      "title": "Ethical Research Practices",
+      "text": "Ethical research practices ensure integrity and transparency. Research ethics protect participants and data accuracy. Institutions enforce ethical guidelines. Responsible research maintains public trust in scientific findings.",
+      "wordCount": "80"
+    },
+    {
+      "id": "p_c1_044",
+      "title": "Disaster Risk Reduction",
+      "text": "Disaster risk reduction minimizes damage from natural hazards. Studies show that preparedness reduces economic loss. Early warning systems and planning save lives. Risk reduction strengthens community resilience.",
+      "wordCount": "80"
+    },
+    {
+      "id": "p_c1_045",
+      "title": "Digital Education Platforms",
+      "text": "Digital education platforms expand learning access. Research indicates improved flexibility and personalization. Technology supports lifelong learning. Effective platforms combine pedagogy with digital innovation.",
+      "wordCount": "80"
+    },
+
+    {
+      "id": "p_c1_046",
+      "title": "Sustainable Finance",
+      "text": "Sustainable finance integrates environmental and social criteria into investment decisions. Research shows that sustainable investments reduce long-term risk. Financial markets support sustainability goals. Capital allocation influences global development outcomes.",
+      "wordCount": "80"
+    },
+    {
+      "id": "p_c1_047",
+      "title": "Urban Air Quality",
+      "text": "Urban air quality affects public health outcomes. Studies link pollution to respiratory diseases. Emission controls and green transport improve air quality. Cleaner air enhances urban livability.",
+      "wordCount": "80"
+    },
+    {
+      "id": "p_c1_048",
+      "title": "Interdisciplinary Research",
+      "text": "Interdisciplinary research integrates knowledge from multiple fields. Studies show that complex problems require diverse perspectives. Collaboration improves innovation. Interdisciplinary approaches advance scientific and social progress.",
+      "wordCount": "80"
+    },
+    {
+      "id": "p_c1_049",
+      "title": "Digital Inequality",
+      "text": "Digital inequality refers to unequal access to technology. Research shows that limited access affects education and employment. Policy interventions promote digital inclusion. Reducing inequality supports social and economic development.",
+      "wordCount": "80"
+    },
+    {
+      "id": "p_c1_050",
+      "title": "Evidence-Based Policymaking",
+      "text": "Evidence-based policymaking relies on research to guide decisions. Studies demonstrate improved policy effectiveness. Data analysis reduces uncertainty. Evidence-driven approaches strengthen governance and public trust.",
+      "wordCount": "80"
+    }
+  ],
+  "C2": [
+    {
+      "id": "p_c2_001",
+      "title": "Global Climate System Dynamics",
+      "text": "The global climate system is a complex interaction of the atmosphere, oceans, land surfaces, and biological processes. Scientific research demonstrates that human activities, particularly the combustion of fossil fuels, have altered natural climate patterns. Greenhouse gas accumulation intensifies heat retention, leading to rising global temperatures and increased climate variability. Long-term observational data and climate models provide strong evidence for accelerating sea-level rise, shifting weather patterns, and ecosystem disruption. Addressing these challenges requires coordinated international mitigation and adaptation strategies supported by scientific research.",
+      "wordCount": "123"
+    },
+    {
+      "id": "p_c2_002",
+      "title": "Artificial Intelligence and Society",
+      "text": "Artificial intelligence increasingly shapes economic, social, and political systems worldwide. Research indicates that AI enhances efficiency across healthcare, transportation, and scientific discovery. However, its rapid adoption raises ethical concerns related to bias, transparency, and accountability. Without appropriate governance frameworks, AI systems may reinforce existing inequalities. Scholars emphasize the importance of interdisciplinary collaboration to ensure responsible AI development. Effective regulation must balance innovation with ethical safeguards to protect societal values and human autonomy.",
+      "wordCount": "118"
+    },
+    {
+      "id": "p_c2_003",
+      "title": "Global Economic Interdependence",
+      "text": "Global economic interdependence connects national economies through trade, finance, and production networks. Empirical studies show that supply chain disruptions can rapidly affect global markets. While interdependence promotes efficiency and growth, it also increases vulnerability to systemic shocks. Economic resilience strategies include diversification, regional cooperation, and strategic reserves. Policymakers increasingly recognize that sustainable growth depends on managing interdependence rather than attempting complete economic isolation.",
+      "wordCount": "112"
+    },
+    {
+      "id": "p_c2_004",
+      "title": "Scientific Methodology in Modern Research",
+      "text": "Scientific methodology provides a systematic framework for generating reliable knowledge. Modern research emphasizes transparency, reproducibility, and data integrity. Peer review and statistical validation strengthen research credibility. Advances in digital tools allow large-scale data analysis, accelerating discovery across disciplines. However, researchers must address ethical considerations, including data privacy and responsible reporting. Rigorous methodology remains essential for maintaining public trust in scientific outcomes.",
+      "wordCount": "110"
+    },
+    {
+      "id": "p_c2_005",
+      "title": "Sustainable Urban Development",
+      "text": "Sustainable urban development integrates environmental protection, economic growth, and social equity. Research shows that compact city design reduces energy consumption and transportation emissions. Green infrastructure improves air quality and climate resilience. Urban sustainability strategies require long-term planning and community participation. Cities that prioritize sustainability enhance quality of life while reducing environmental impact.",
+      "wordCount": "108"
+    },
+
+    {
+      "id": "p_c2_006",
+      "title": "Public Health Policy and Prevention",
+      "text": "Public health policy emphasizes prevention as a cost-effective approach to improving population health. Epidemiological research demonstrates that early interventions reduce disease burden and healthcare costs. Vaccination programs, health education, and environmental regulation play critical roles. Evidence-based policy design relies on data analysis and continuous evaluation. Effective prevention strategies strengthen health systems and societal resilience.",
+      "wordCount": "109"
+    },
+    {
+      "id": "p_c2_007",
+      "title": "Digital Transformation of Education",
+      "text": "Digital transformation has reshaped educational systems worldwide. Research indicates that technology enhances access to learning resources and personalized instruction. Online platforms support lifelong learning and skill development. However, digital divides persist, limiting equitable access. Policymakers and institutions must address infrastructure gaps to ensure inclusive digital education outcomes.",
+      "wordCount": "107"
+    },
+    {
+      "id": "p_c2_008",
+      "title": "Energy Transition and Sustainability",
+      "text": "The global energy transition aims to replace fossil fuels with renewable sources. Studies confirm that renewable energy reduces greenhouse gas emissions and enhances energy security. Technological innovation lowers costs and improves efficiency. Successful transitions require supportive policy frameworks and investment. Sustainable energy systems are essential for long-term environmental and economic stability.",
+      "wordCount": "106"
+    },
+    {
+      "id": "p_c2_009",
+      "title": "Ethics in Scientific Innovation",
+      "text": "Ethics in scientific innovation ensures responsible knowledge application. Research ethics address potential harm, informed consent, and social impact. Rapid technological advancement increases ethical complexity. Institutions develop ethical guidelines to balance progress with responsibility. Ethical innovation fosters public trust and sustainable scientific development.",
+      "wordCount": "105"
+    },
+    {
+      "id": "p_c2_010",
+      "title": "Global Governance Structures",
+      "text": "Global governance structures coordinate international responses to shared challenges. Research shows that multilateral institutions facilitate cooperation on climate change, health, and security. Effective governance depends on transparency and equitable representation. Strengthening global institutions enhances collective problem-solving capacity in an interconnected world.",
+      "wordCount": "103"
+    },
+{
+      "id": "p_c2_011",
+      "title": "Climate Change Adaptation Policies",
+      "text": "Climate change adaptation policies aim to reduce vulnerability to environmental risks caused by global warming. Research shows that adaptation is essential alongside mitigation, as some climate impacts are unavoidable. Effective policies include resilient infrastructure, improved water management, and climate‑informed urban planning. Developing countries often face greater adaptation challenges due to limited resources. International cooperation, financial support, and scientific knowledge transfer are therefore critical. Well‑designed adaptation strategies reduce economic losses, protect ecosystems, and enhance long‑term societal resilience.",
+      "wordCount": "116"
+    },
+    {
+      "id": "p_c2_012",
+      "title": "Technological Innovation and Productivity",
+      "text": "Technological innovation is a key driver of productivity growth in modern economies. Empirical studies demonstrate that automation, digitalization, and artificial intelligence increase efficiency across industries. However, innovation can also disrupt labor markets by altering skill demands. Economists emphasize the role of education and reskilling programs in managing these transitions. When supported by inclusive policies, technological progress contributes to sustainable economic development and improved living standards.",
+      "wordCount": "109"
+    },
+    {
+      "id": "p_c2_013",
+      "title": "Global Public Health Systems",
+      "text": "Global public health systems coordinate efforts to prevent and control disease at international levels. Research highlights the importance of surveillance, early detection, and rapid response mechanisms. Pandemics reveal structural weaknesses in health infrastructure and governance. Strengthening health systems requires long‑term investment, data sharing, and international collaboration. Effective public health systems protect populations and support global stability.",
+      "wordCount": "108"
+    },
+    {
+      "id": "p_c2_014",
+      "title": "Social Inequality and Economic Growth",
+      "text": "Social inequality influences economic growth through its effects on education, health, and opportunity. Studies indicate that extreme inequality can limit productivity and social mobility. Inclusive policies that improve access to education and healthcare promote broader participation in economic activity. Reducing inequality supports long‑term growth and social cohesion. Evidence suggests that equitable societies are more resilient to economic shocks.",
+      "wordCount": "108"
+    },
+    {
+      "id": "p_c2_015",
+      "title": "Scientific Communication in Policy Making",
+      "text": "Scientific communication plays a critical role in effective policy making. Research findings must be translated into clear, accessible language for decision makers. Poor communication can lead to misunderstanding or misuse of scientific evidence. Interdisciplinary collaboration improves policy relevance. When science informs policy accurately, governments make more effective and sustainable decisions.",
+      "wordCount": "104"
+    },
+
+    {
+      "id": "p_c2_016",
+      "title": "Biodiversity Conservation Strategies",
+      "text": "Biodiversity conservation strategies aim to protect ecosystems and species diversity. Research shows that habitat loss and climate change are major threats. Conservation approaches include protected areas, sustainable land use, and community involvement. Biodiversity preservation supports ecosystem services essential for human survival. Long‑term conservation success depends on scientific monitoring and international cooperation.",
+      "wordCount": "109"
+    },
+    {
+      "id": "p_c2_017",
+      "title": "Data‑Driven Decision Making",
+      "text": "Data‑driven decision making relies on systematic data analysis to guide actions. Studies demonstrate that evidence‑based decisions improve efficiency and reduce risk. Advances in data science enable organizations to process complex information. Ethical considerations, including privacy and bias, remain important. Responsible data use enhances institutional performance and public trust.",
+      "wordCount": "108"
+    },
+    {
+      "id": "p_c2_018",
+      "title": "International Trade Regulation",
+      "text": "International trade regulation governs the exchange of goods and services across borders. Research indicates that clear rules reduce uncertainty and promote fair competition. Trade agreements influence economic growth and development outcomes. Effective regulation balances national interests with global cooperation. Transparent trade systems support economic stability.",
+      "wordCount": "106"
+    },
+    {
+      "id": "p_c2_019",
+      "title": "Urbanization and Environmental Impact",
+      "text": "Urbanization significantly affects environmental systems. Studies show that rapid urban growth increases resource consumption and pollution. Sustainable urban planning reduces ecological footprints through efficient design. Integrating environmental considerations into urban policy improves long‑term sustainability. Well‑managed urbanization enhances economic opportunity while protecting natural resources.",
+      "wordCount": "109"
+    },
+    {
+      "id": "p_c2_020",
+      "title": "Ethical Leadership in Organizations",
+      "text": "Ethical leadership emphasizes integrity, accountability, and transparency. Research demonstrates that ethical leaders improve organizational trust and performance. Ethical decision making reduces risk and supports sustainable growth. Leadership ethics influence organizational culture and stakeholder relationships. Strong ethical frameworks contribute to long‑term institutional success.",
+      "wordCount": "106"
+    },
+    {
+      "id": "p_c2_021",
+      "title": "Global Financial Stability",
+      "text": "Global financial stability refers to the resilience of financial systems to economic shocks. Research indicates that interconnected banking systems can transmit risk rapidly across borders. Regulatory frameworks, such as capital requirements and stress testing, aim to reduce systemic vulnerability. International coordination among financial institutions improves crisis prevention and response. Stable financial systems support sustainable economic growth and protect public confidence in global markets.",
+      "wordCount": "111"
+    },
+    {
+      "id": "p_c2_022",
+      "title": "Climate Science and Policy Integration",
+      "text": "Climate science and policy integration ensures that decision making reflects scientific evidence. Research provides data on emission trends, climate risks, and mitigation pathways. Policymakers rely on scientific assessments to design effective climate strategies. Gaps between science and policy can delay action. Strong integration improves policy effectiveness and long‑term environmental outcomes.",
+      "wordCount": "107"
+    },
+    {
+      "id": "p_c2_023",
+      "title": "Ethics of Data Collection",
+      "text": "The ethics of data collection addresses consent, privacy, and responsible use. Research shows that large‑scale data collection increases risks of misuse and discrimination. Ethical frameworks guide researchers and institutions in protecting individual rights. Transparent data practices strengthen accountability. Ethical data governance supports innovation while safeguarding societal trust.",
+      "wordCount": "108"
+    },
+    {
+      "id": "p_c2_024",
+      "title": "Higher Education Policy Reform",
+      "text": "Higher education policy reform responds to changing labor market and societal needs. Studies indicate that access, quality, and relevance are central challenges. Curriculum innovation and research investment improve institutional performance. Policy reforms that promote equity and academic excellence strengthen national development. Effective higher education systems contribute to knowledge‑based economies.",
+      "wordCount": "109"
+    },
+    {
+      "id": "p_c2_025",
+      "title": "Environmental Economics",
+      "text": "Environmental economics analyzes the relationship between economic activity and the natural environment. Research demonstrates that market failures contribute to pollution and resource depletion. Economic instruments, such as carbon pricing, encourage sustainable behavior. Integrating environmental costs into economic decision making supports long‑term sustainability.",
+      "wordCount": "104"
+    },
+
+    {
+      "id": "p_c2_026",
+      "title": "Global Health Equity",
+      "text": "Global health equity focuses on reducing disparities in health outcomes. Research shows that income, education, and geography influence access to healthcare. International initiatives aim to improve resource distribution and health infrastructure. Equity‑focused policies enhance population health and social justice. Addressing inequality strengthens global health security.",
+      "wordCount": "107"
+    },
+    {
+      "id": "p_c2_027",
+      "title": "Risk Management in Complex Systems",
+      "text": "Risk management in complex systems addresses uncertainty and interdependence. Studies indicate that modern systems, such as energy grids and financial networks, require adaptive strategies. Scenario analysis and modeling support informed decision making. Effective risk management reduces vulnerability and improves system resilience.",
+      "wordCount": "104"
+    },
+    {
+      "id": "p_c2_028",
+      "title": "Cultural Globalization",
+      "text": "Cultural globalization refers to the exchange of ideas, values, and practices across societies. Research highlights both cultural integration and preservation challenges. Media and technology accelerate cultural interaction. Balanced cultural policies protect diversity while supporting global communication. Cultural understanding contributes to social cohesion.",
+      "wordCount": "105"
+    },
+    {
+      "id": "p_c2_029",
+      "title": "Science‑Based Environmental Policy",
+      "text": "Science‑based environmental policy relies on empirical research to guide regulation. Studies provide evidence on pollution impacts and ecosystem thresholds. Policymakers use scientific data to set standards and monitor outcomes. Evidence‑driven policy enhances environmental protection and regulatory effectiveness.",
+      "wordCount": "103"
+    },
+    {
+      "id": "p_c2_030",
+      "title": "Governance of Emerging Technologies",
+      "text": "The governance of emerging technologies addresses innovation risks and opportunities. Research indicates that early regulation reduces unintended consequences. Transparent governance frameworks balance technological progress with ethical responsibility. Proactive governance supports sustainable and socially beneficial innovation.",
+      "wordCount": "103"
+    },
+    {
+      "id": "p_c2_031",
+      "title": "Global Energy Security",
+      "text": "Global energy security concerns the reliable and affordable supply of energy resources. Research shows that geopolitical tensions, market volatility, and climate policies influence energy stability. Diversification of energy sources and regional cooperation reduce dependency risks. Renewable energy development further strengthens long‑term security. Energy security is essential for economic resilience and political stability.",
+      "wordCount": "108"
+    },
+    {
+      "id": "p_c2_032",
+      "title": "Evidence‑Based Education Reform",
+      "text": "Evidence‑based education reform applies empirical research to improve learning outcomes. Studies indicate that data‑driven teaching strategies enhance student performance. Policymakers increasingly rely on assessment results to guide reform initiatives. Continuous evaluation ensures adaptability. Research‑informed education systems promote equity and long‑term skill development.",
+      "wordCount": "106"
+    },
+    {
+      "id": "p_c2_033",
+      "title": "Climate Risk Assessment",
+      "text": "Climate risk assessment evaluates the probability and impact of climate‑related hazards. Research integrates climate models, economic data, and vulnerability analysis. Accurate assessment supports informed policy and investment decisions. Proactive risk management reduces long‑term costs and social disruption. Climate risk analysis is central to sustainable planning.",
+      "wordCount": "106"
+    },
+    {
+      "id": "p_c2_034",
+      "title": "Innovation Policy Frameworks",
+      "text": "Innovation policy frameworks guide technological development and economic competitiveness. Research shows that public investment in research and development stimulates innovation. Collaboration between government, industry, and academia enhances outcomes. Effective frameworks balance regulation with flexibility. Innovation policy shapes long‑term national growth.",
+      "wordCount": "105"
+    },
+    {
+      "id": "p_c2_035",
+      "title": "Sustainable Resource Governance",
+      "text": "Sustainable resource governance manages natural resources responsibly. Studies indicate that weak governance accelerates environmental degradation. Transparent institutions and stakeholder participation improve outcomes. Sustainable governance balances economic use with conservation. Long‑term resource management supports intergenerational equity.",
+      "wordCount": "106"
+    },
+
+    {
+      "id": "p_c2_036",
+      "title": "Digital Ethics and Regulation",
+      "text": "Digital ethics and regulation address the societal impact of digital technologies. Research highlights concerns related to privacy, algorithmic bias, and surveillance. Regulatory frameworks aim to protect individual rights while enabling innovation. Ethical digital governance builds public trust and accountability. Balanced regulation supports sustainable digital transformation.",
+      "wordCount": "108"
+    },
+    {
+      "id": "p_c2_037",
+      "title": "Health Systems Resilience",
+      "text": "Health systems resilience refers to the ability to absorb and respond to crises. Research shows that strong primary care and governance improve resilience. Investment in workforce training and infrastructure enhances preparedness. Resilient health systems protect populations during emergencies and support recovery.",
+      "wordCount": "104"
+    },
+    {
+      "id": "p_c2_038",
+      "title": "Environmental Policy Evaluation",
+      "text": "Environmental policy evaluation assesses the effectiveness of regulatory interventions. Studies use indicators and impact analysis to measure outcomes. Continuous evaluation identifies strengths and weaknesses. Evidence‑based adjustments improve policy performance. Evaluation ensures accountability and environmental protection.",
+      "wordCount": "103"
+    },
+    {
+      "id": "p_c2_039",
+      "title": "Global Knowledge Networks",
+      "text": "Global knowledge networks facilitate international research collaboration. Studies show that shared data accelerates innovation. Digital platforms connect researchers across disciplines and borders. Knowledge exchange strengthens scientific capacity. Global networks support collective problem solving.",
+      "wordCount": "103"
+    },
+    {
+      "id": "p_c2_040",
+      "title": "Economic Policy Coordination",
+      "text": "Economic policy coordination aligns national strategies to stabilize global markets. Research indicates that coordinated action reduces financial volatility. International institutions facilitate dialogue and cooperation. Coordinated policies support sustainable global growth.",
+      "wordCount": "101"
+    },
+
+    {
+      "id": "p_c2_041",
+      "title": "Climate Mitigation Pathways",
+      "text": "Climate mitigation pathways outline strategies to reduce greenhouse gas emissions. Research evaluates technological, economic, and behavioral options. Effective pathways combine renewable energy, efficiency, and policy measures. Mitigation planning supports climate targets and environmental sustainability.",
+      "wordCount": "104"
+    },
+    {
+      "id": "p_c2_042",
+      "title": "Ethics of Artificial Intelligence",
+      "text": "The ethics of artificial intelligence addresses fairness, accountability, and transparency. Research highlights risks of biased algorithms and opaque decision systems. Ethical guidelines promote responsible AI deployment. Governance mechanisms protect human rights and social values. Ethical AI supports sustainable technological progress.",
+      "wordCount": "108"
+    },
+    {
+      "id": "p_c2_043",
+      "title": "Resilient Infrastructure Planning",
+      "text": "Resilient infrastructure planning prepares systems for environmental and economic shocks. Studies show that resilient design reduces long‑term repair costs. Integrating climate data improves infrastructure durability. Resilient planning supports public safety and economic continuity.",
+      "wordCount": "104"
+    },
+    {
+      "id": "p_c2_044",
+      "title": "Social Policy and Inclusion",
+      "text": "Social policy and inclusion aim to reduce inequality and exclusion. Research demonstrates that inclusive policies improve social cohesion. Access to education, healthcare, and employment supports participation. Inclusive societies are more stable and resilient.",
+      "wordCount": "102"
+    },
+    {
+      "id": "p_c2_045",
+      "title": "Science‑Policy Interfaces",
+      "text": "Science‑policy interfaces connect research findings with decision making. Studies show that effective interfaces improve policy relevance. Structured dialogue enhances mutual understanding. Strong interfaces support evidence‑based governance.",
+      "wordCount": "101"
+    },
+
+    {
+      "id": "p_c2_046",
+      "title": "Global Environmental Governance",
+      "text": "Global environmental governance coordinates international environmental action. Research indicates that treaties and institutions address transboundary challenges. Effective governance requires compliance mechanisms and cooperation. Global coordination strengthens environmental protection.",
+      "wordCount": "102"
+    },
+    {
+      "id": "p_c2_047",
+      "title": "Technology and Labor Markets",
+      "text": "Technology reshapes labor markets through automation and digitalization. Studies show that job structures evolve with technological change. Education and reskilling reduce displacement risks. Adaptive labor policies support inclusive economic transition.",
+      "wordCount": "105"
+    },
+    {
+      "id": "p_c2_048",
+      "title": "Strategic Foresight",
+      "text": "Strategic foresight analyzes long‑term trends and uncertainties. Research methods include scenario planning and horizon scanning. Foresight supports proactive decision making. Anticipatory governance improves resilience to future challenges.",
+      "wordCount": "103"
+    },
+    {
+      "id": "p_c2_049",
+      "title": "Institutional Trust and Governance",
+      "text": "Institutional trust influences governance effectiveness. Research shows that transparency and accountability strengthen trust. Trusted institutions improve policy compliance. Institutional credibility supports democratic stability.",
+      "wordCount": "102"
+    },
+    {
+      "id": "p_c2_050",
+      "title": "Sustainable Development Integration",
+      "text": "Sustainable development integration aligns economic, social, and environmental goals. Research highlights the need for cross‑sector coordination. Integrated approaches reduce policy conflicts. Sustainable development supports long‑term global well‑being.",
+      "wordCount": "104"
+    }
+  ]
+}
