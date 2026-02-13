@@ -1,21 +1,19 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import {
-  View,
-  Text,
-  StyleSheet,
-  TouchableOpacity,
+  Animated,
+  Dimensions,
+  KeyboardAvoidingView,
+  Modal,
+  Platform,
   ScrollView,
-  TextInput,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
   useColorScheme,
   Vibration,
-  Dimensions,
-  Animated,
-  KeyboardAvoidingView,
-  Platform,
-  Modal,
+  View
 } from 'react-native';
 import { VocabularyManager } from '../utils/vocabularyManager';
-import { AdsterraBanner } from '../components/AdsterraAd';
 
 const { width, height } = Dimensions.get('window');
 const GRID_SIZE = 9;
@@ -57,13 +55,13 @@ export default function CrosswordScreen({ route, navigation }) {
 
   const generateCrossword = async () => {
     const randomWords = VocabularyManager.getRandomWords(level, WORD_COUNT);
-    
+
     if (randomWords.length < 3) {
       return;
     }
 
     const sortedWords = randomWords.sort((a, b) => b.word.length - a.word.length);
-    const newGrid = Array(GRID_SIZE).fill(null).map(() => 
+    const newGrid = Array(GRID_SIZE).fill(null).map(() =>
       Array(GRID_SIZE).fill(null)
     );
 
@@ -74,7 +72,7 @@ export default function CrosswordScreen({ route, navigation }) {
     const firstWord = sortedWords[0].word.toUpperCase();
     const firstRow = Math.floor(GRID_SIZE / 2);
     const firstCol = Math.floor((GRID_SIZE - firstWord.length) / 2);
-    
+
     for (let i = 0; i < firstWord.length; i++) {
       newGrid[firstRow][firstCol + i] = {
         letter: firstWord[i],
@@ -103,10 +101,10 @@ export default function CrosswordScreen({ route, navigation }) {
 
         if (intersectionResult) {
           const { row, col, dir } = intersectionResult;
-          
+
           if (canPlaceWord(newGrid, word, row, col, dir)) {
             placeWordInGrid(newGrid, word, row, col, dir, clueNumber);
-            
+
             placements.push({
               word: sortedWords[i],
               start: { row, col },
@@ -122,7 +120,7 @@ export default function CrosswordScreen({ route, navigation }) {
       }
     }
 
-    const newUserGrid = Array(GRID_SIZE).fill(null).map(() => 
+    const newUserGrid = Array(GRID_SIZE).fill(null).map(() =>
       Array(GRID_SIZE).fill('')
     );
 
@@ -152,12 +150,12 @@ export default function CrosswordScreen({ route, navigation }) {
   const findIntersection = (word, existingPlacement, grid) => {
     const existingWord = existingPlacement.word.word.toUpperCase();
     const existingDir = existingPlacement.direction;
-    
+
     for (let i = 0; i < word.length; i++) {
       for (let j = 0; j < existingWord.length; j++) {
         if (word[i] === existingWord[j]) {
           const newDir = existingDir === 'across' ? 'down' : 'across';
-          
+
           let row, col;
           if (existingDir === 'across') {
             row = existingPlacement.start.row - i;
@@ -205,14 +203,14 @@ export default function CrosswordScreen({ route, navigation }) {
 
       if (direction === 'across') {
         // Check above and below
-        if ((r > 0 && grid[r - 1][c] && !grid[r][c]) || 
-            (r < GRID_SIZE - 1 && grid[r + 1][c] && !grid[r][c])) {
+        if ((r > 0 && grid[r - 1][c] && !grid[r][c]) ||
+          (r < GRID_SIZE - 1 && grid[r + 1][c] && !grid[r][c])) {
           return false;
         }
       } else {
         // Check left and right
-        if ((c > 0 && grid[r][c - 1] && !grid[r][c]) || 
-            (c < GRID_SIZE - 1 && grid[r][c + 1] && !grid[r][c])) {
+        if ((c > 0 && grid[r][c - 1] && !grid[r][c]) ||
+          (c < GRID_SIZE - 1 && grid[r][c + 1] && !grid[r][c])) {
           return false;
         }
       }
@@ -247,13 +245,13 @@ export default function CrosswordScreen({ route, navigation }) {
     if (selectedCell && selectedCell.row === row && selectedCell.col === col) {
       const newDir = direction === 'across' ? 'down' : 'across';
       setDirection(newDir);
-      
+
       // Find word in new direction
       const word = findWordAtCell(row, col, newDir);
       setSelectedWord(word);
     } else {
       setSelectedCell({ row, col });
-      
+
       // Find word at this cell in current direction
       let word = findWordAtCell(row, col, direction);
       if (!word) {
@@ -273,7 +271,7 @@ export default function CrosswordScreen({ route, navigation }) {
   const findWordAtCell = (row, col, dir) => {
     return words.find(w => {
       if (w.direction !== dir) return false;
-      
+
       return w.cells.some(cell => cell.row === row && cell.col === col);
     });
   };
@@ -298,7 +296,7 @@ export default function CrosswordScreen({ route, navigation }) {
       const errorKey = `${row}-${col}`;
       if (!errors.includes(errorKey)) {
         setErrors([...errors, errorKey]);
-        
+
         // Shake animation
         Animated.sequence([
           Animated.timing(shakeAnim, { toValue: 5, duration: 50, useNativeDriver: true }),
@@ -335,13 +333,13 @@ export default function CrosswordScreen({ route, navigation }) {
     if (!selectedCell) return;
 
     const { row, col } = selectedCell;
-    
+
     if (userGrid[row][col]) {
       // Clear current cell
       const newUserGrid = userGrid.map(r => [...r]);
       newUserGrid[row][col] = '';
       setUserGrid(newUserGrid);
-      
+
       // Remove from errors
       setErrors(errors.filter(e => e !== `${row}-${col}`));
     } else if (selectedWord) {
@@ -380,7 +378,7 @@ export default function CrosswordScreen({ route, navigation }) {
       if (isComplete) {
         newCompletedWords.push(word.clueNumber);
         Vibration.vibrate([0, 50, 50, 100]);
-        
+
         // Animate success
         Animated.sequence([
           Animated.timing(successAnim, {
@@ -436,10 +434,10 @@ export default function CrosswordScreen({ route, navigation }) {
       newUserGrid[row][col] = correctLetter;
       setUserGrid(newUserGrid);
       setHintsUsed(hintsUsed + 1);
-      
+
       // Remove from errors
       setErrors(errors.filter(e => e !== `${row}-${col}`));
-      
+
       Vibration.vibrate(50);
       checkWordCompletion(newUserGrid);
       moveToNextCell();
@@ -450,7 +448,7 @@ export default function CrosswordScreen({ route, navigation }) {
     if (!selectedWord) return;
 
     const newUserGrid = userGrid.map(r => [...r]);
-    
+
     selectedWord.cells.forEach(cell => {
       const correctLetter = grid[cell.row][cell.col]?.letter;
       newUserGrid[cell.row][cell.col] = correctLetter;
@@ -458,19 +456,19 @@ export default function CrosswordScreen({ route, navigation }) {
 
     setUserGrid(newUserGrid);
     setHintsUsed(hintsUsed + selectedWord.length);
-    
+
     // Clear errors for this word
     selectedWord.cells.forEach(cell => {
       setErrors(errors.filter(e => e !== `${cell.row}-${cell.col}`));
     });
-    
+
     Vibration.vibrate([0, 50, 100]);
     checkWordCompletion(newUserGrid);
   };
 
   const checkAnswers = () => {
     const newErrors = [];
-    
+
     for (let row = 0; row < GRID_SIZE; row++) {
       for (let col = 0; col < GRID_SIZE; col++) {
         if (grid[row][col] && userGrid[row][col]) {
@@ -480,7 +478,7 @@ export default function CrosswordScreen({ route, navigation }) {
         }
       }
     }
-    
+
     setErrors(newErrors);
     Vibration.vibrate(100);
   };
@@ -498,11 +496,11 @@ export default function CrosswordScreen({ route, navigation }) {
   const downClues = words.filter(w => w.direction === 'down');
 
   return (
-    <KeyboardAvoidingView 
-      style={styles.container} 
+    <KeyboardAvoidingView
+      style={styles.container}
       behavior={Platform.OS === 'ios' ? 'padding' : undefined}
     >
-      <ScrollView 
+      <ScrollView
         ref={scrollViewRef}
         contentContainerStyle={styles.content}
         keyboardShouldPersistTaps="handled"
@@ -531,7 +529,7 @@ export default function CrosswordScreen({ route, navigation }) {
           >
             <Text style={styles.actionButtonText}>📖 Clues</Text>
           </TouchableOpacity>
-          
+
           <TouchableOpacity
             style={styles.actionButton}
             onPress={revealLetter}
@@ -539,7 +537,7 @@ export default function CrosswordScreen({ route, navigation }) {
           >
             <Text style={styles.actionButtonText}>💡 Letter</Text>
           </TouchableOpacity>
-          
+
           <TouchableOpacity
             style={styles.actionButton}
             onPress={revealWord}
@@ -547,7 +545,7 @@ export default function CrosswordScreen({ route, navigation }) {
           >
             <Text style={styles.actionButtonText}>🔓 Word</Text>
           </TouchableOpacity>
-          
+
           <TouchableOpacity
             style={styles.actionButton}
             onPress={checkAnswers}
@@ -617,7 +615,7 @@ export default function CrosswordScreen({ route, navigation }) {
         {showKeyboard && (
           <View style={styles.keyboardContainer}>
             <View style={styles.keyboardRow}>
-              {['Q','W','E','R','T','Y','U','I','O','P'].map(letter => (
+              {['Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P'].map(letter => (
                 <TouchableOpacity
                   key={letter}
                   style={styles.keyButton}
@@ -628,7 +626,7 @@ export default function CrosswordScreen({ route, navigation }) {
               ))}
             </View>
             <View style={styles.keyboardRow}>
-              {['A','S','D','F','G','H','J','K','L'].map(letter => (
+              {['A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L'].map(letter => (
                 <TouchableOpacity
                   key={letter}
                   style={styles.keyButton}
@@ -645,7 +643,7 @@ export default function CrosswordScreen({ route, navigation }) {
               >
                 <Text style={styles.keyButtonText}>⌫</Text>
               </TouchableOpacity>
-              {['Z','X','C','V','B','N','M'].map(letter => (
+              {['Z', 'X', 'C', 'V', 'B', 'N', 'M'].map(letter => (
                 <TouchableOpacity
                   key={letter}
                   style={styles.keyButton}
@@ -672,7 +670,7 @@ export default function CrosswordScreen({ route, navigation }) {
             <Text style={styles.successText}>
               All {words.length} words solved!
             </Text>
-            
+
             <View style={styles.successStats}>
               <View style={styles.successStat}>
                 <Text style={styles.successStatLabel}>Time</Text>
@@ -709,8 +707,6 @@ export default function CrosswordScreen({ route, navigation }) {
           </View>
         )}
 
-        {/* Ad Banner */}
-        <AdsterraBanner adKey="YOUR_BANNER_KEY_HERE" />
       </ScrollView>
 
       {/* Clues Modal */}

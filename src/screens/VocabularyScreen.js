@@ -1,15 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import {
-  View,
-  Text,
-  StyleSheet,
   ScrollView,
+  StyleSheet,
+  Text,
   TextInput,
   TouchableOpacity,
   useColorScheme,
+  View,
 } from 'react-native';
 import { VocabularyManager } from '../utils/vocabularyManager';
-import { AdsterraBanner } from '../components/AdsterraAd';
 
 export default function VocabularyScreen({ route }) {
   const { level } = route.params;
@@ -31,7 +30,7 @@ export default function VocabularyScreen({ route }) {
     const words = VocabularyManager.getWordsByLevel(level);
     const discoveredIds = await VocabularyManager.getDiscovered(level);
     const discoveredWords = words.filter(w => discoveredIds.includes(w.id));
-    
+
     setAllWords(words);
     setDiscovered(discoveredWords);
     setLoading(false);
@@ -42,18 +41,18 @@ export default function VocabularyScreen({ route }) {
 
   // Filter words
   const filteredWords = discovered.filter(word => {
-    const matchesSearch = 
+    const matchesSearch =
       word.word.toLowerCase().includes(searchTerm.toLowerCase()) ||
       word.definition.toLowerCase().includes(searchTerm.toLowerCase());
-    
-    const matchesCategory = 
+
+    const matchesCategory =
       filterCategory === 'all' || word.category === filterCategory;
-    
+
     return matchesSearch && matchesCategory;
   });
 
-  const progress = allWords.length > 0 
-    ? Math.round((discovered.length / allWords.length) * 100) 
+  const progress = allWords.length > 0
+    ? Math.round((discovered.length / allWords.length) * 100)
     : 0;
 
   const styles = createStyles(isDark);
@@ -71,7 +70,7 @@ export default function VocabularyScreen({ route }) {
       {/* Header */}
       <View style={styles.header}>
         <Text style={styles.title}>My {level} Vocabulary</Text>
-        
+
         {/* Progress Bar */}
         <View style={styles.progressContainer}>
           <View style={styles.progressBar}>
@@ -109,8 +108,8 @@ export default function VocabularyScreen({ route }) {
           </View>
 
           {/* Category Filter */}
-          <ScrollView 
-            horizontal 
+          <ScrollView
+            horizontal
             showsHorizontalScrollIndicator={false}
             style={styles.filterContainer}
           >
@@ -181,8 +180,6 @@ export default function VocabularyScreen({ route }) {
         </>
       )}
 
-      {/* Ad Banner */}
-      <AdsterraBanner adKey="YOUR_BANNER_KEY_HERE" />
     </ScrollView>
   );
 }

@@ -1,16 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import {
-  View,
-  Text,
-  StyleSheet,
-  TouchableOpacity,
   ScrollView,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
   useColorScheme,
-  Alert,
   Vibration,
+  View
 } from 'react-native';
 import { VocabularyManager } from '../utils/vocabularyManager';
-import { AdsterraBanner } from '../components/AdsterraAd';
 
 const MAX_ATTEMPTS = 6;
 
@@ -70,9 +68,9 @@ export default function WordGuessScreen({ route, navigation }) {
       setGameStatus('won');
       setScore(score + 1);
       Vibration.vibrate([0, 100, 100, 100]);
-      
+
       await VocabularyManager.markDiscovered(currentWord.id, level);
-      
+
       const stats = await VocabularyManager.getGameStats('wordGuess');
       await VocabularyManager.updateGameStats('wordGuess', {
         correctAnswers: (stats.correctAnswers || 0) + 1,
@@ -82,7 +80,7 @@ export default function WordGuessScreen({ route, navigation }) {
     } else if (newGuesses.length >= MAX_ATTEMPTS) {
       setGameStatus('lost');
       Vibration.vibrate(500);
-      
+
       const stats = await VocabularyManager.getGameStats('wordGuess');
       await VocabularyManager.updateGameStats('wordGuess', {
         totalGuesses: (stats.totalGuesses || 0) + newGuesses.length,
@@ -93,7 +91,7 @@ export default function WordGuessScreen({ route, navigation }) {
 
   const getLetterStatus = (letter, index, guess) => {
     if (!currentWord) return 'empty';
-    
+
     const targetWord = currentWord.word;
     if (targetWord[index] === letter) return 'correct';
     if (targetWord.includes(letter)) return 'present';
@@ -102,7 +100,7 @@ export default function WordGuessScreen({ route, navigation }) {
 
   const renderRow = (guess, rowIndex) => {
     if (!currentWord) return null;
-    
+
     const isCurrentRow = rowIndex === guesses.length && gameStatus === 'playing';
     const letters = guess ? guess.split('') : [];
     const wordLength = currentWord.word.length;
@@ -112,7 +110,7 @@ export default function WordGuessScreen({ route, navigation }) {
         {Array.from({ length: wordLength }).map((_, i) => {
           const letter = letters[i] || (isCurrentRow ? currentGuess[i] : '');
           const status = guess ? getLetterStatus(letters[i], i, guess) : 'empty';
-          
+
           return (
             <View
               key={i}
@@ -146,7 +144,7 @@ export default function WordGuessScreen({ route, navigation }) {
 
     const getKeyStatus = (key) => {
       if (key === 'ENTER' || key === 'DEL') return 'special';
-      
+
       for (const guess of guesses) {
         const letters = guess.split('');
         for (let i = 0; i < letters.length; i++) {
@@ -225,7 +223,7 @@ export default function WordGuessScreen({ route, navigation }) {
       <View style={styles.hintCard}>
         <Text style={styles.hintLabel}>Definition:</Text>
         <Text style={styles.hintText}>{currentWord.definition}</Text>
-        
+
         <TouchableOpacity
           onPress={() => setShowHint(!showHint)}
           style={styles.hintButton}
@@ -234,7 +232,7 @@ export default function WordGuessScreen({ route, navigation }) {
             {showHint ? '🔼 Hide Hint' : '🔽 Show Hint'}
           </Text>
         </TouchableOpacity>
-        
+
         {showHint && (
           <Text style={styles.hintText}>{currentWord.hint}</Text>
         )}
@@ -242,7 +240,7 @@ export default function WordGuessScreen({ route, navigation }) {
 
       {/* Game Board */}
       <View style={styles.board}>
-        {Array.from({ length: MAX_ATTEMPTS }).map((_, i) => 
+        {Array.from({ length: MAX_ATTEMPTS }).map((_, i) =>
           renderRow(guesses[i], i)
         )}
       </View>
@@ -284,8 +282,6 @@ export default function WordGuessScreen({ route, navigation }) {
       {/* Keyboard */}
       {gameStatus === 'playing' && renderKeyboard()}
 
-      {/* Ad Banner */}
-      <AdsterraBanner adKey="YOUR_BANNER_KEY_HERE" />
     </ScrollView>
   );
 }

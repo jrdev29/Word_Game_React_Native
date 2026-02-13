@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import {
-  View,
+  Dimensions,
+  ScrollView,
+  StyleSheet,
   Text,
   TouchableOpacity,
-  StyleSheet,
-  ScrollView,
-  Dimensions,
   useColorScheme,
+  View,
 } from 'react-native';
 import { VocabularyManager } from '../utils/vocabularyManager';
 
@@ -15,7 +15,7 @@ const { width } = Dimensions.get('window');
 export default function HomeScreen({ navigation }) {
   const colorScheme = useColorScheme();
   const isDark = colorScheme === 'dark';
-  
+
   const [progress, setProgress] = useState(null);
   const [selectedLevel, setSelectedLevel] = useState('A1');
 
@@ -32,8 +32,8 @@ export default function HomeScreen({ navigation }) {
     { id: 'wordGuess', name: 'Word Guess', icon: '🎯', color: '#10b981', active: true },
     { id: 'wordSearch', name: 'Word Search', icon: '🔍', color: '#8b5cf6', active: true },
     { id: 'anagram', name: 'Anagram', icon: '✨', color: '#ec4899', active: true },
-    { id: 'wordPuzzle', name: 'Crossword', icon: '📝', color: '#f59e0b', active: false },
-    { id: 'spellingBee', name: 'Spelling Bee', icon: '🐝', color: '#eab308', active: false },
+    { id: 'wordPuzzle', name: 'Crossword', icon: '📝', color: '#f59e0b', active: true },
+    { id: 'spellingBee', name: 'Spelling Bee', icon: '🐝', color: '#eab308', active: true },
   ];
 
   const levels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
@@ -82,11 +82,11 @@ export default function HomeScreen({ navigation }) {
                     {discovered}/{total}
                   </Text>
                   <View style={styles.progressBar}>
-                    <View 
+                    <View
                       style={[
                         styles.progressFill,
                         { width: `${total > 0 ? (discovered / total) * 100 : 0}%` }
-                      ]} 
+                      ]}
                     />
                   </View>
                 </TouchableOpacity>
@@ -177,7 +177,7 @@ const createStyles = (isDark) => StyleSheet.create({
     color: isDark ? '#f3f4f6' : '#1f2937',
     marginBottom: 12,
   },
-  
+
   // Level Selector
   levelContainer: {
     marginBottom: 20,

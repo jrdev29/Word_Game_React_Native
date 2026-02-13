@@ -1,17 +1,16 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import {
-  View,
-  Text,
-  StyleSheet,
-  TouchableOpacity,
-  ScrollView,
-  useColorScheme,
-  Vibration,
   Animated,
   Dimensions,
+  ScrollView,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  useColorScheme,
+  Vibration,
+  View,
 } from 'react-native';
 import { VocabularyManager } from '../utils/vocabularyManager';
-import { AdsterraBanner } from '../components/AdsterraAd';
 
 const { width } = Dimensions.get('window');
 
@@ -50,7 +49,7 @@ export default function AnagramScreen({ route, navigation }) {
 
   const loadNewWord = async () => {
     const word = VocabularyManager.getRandomWord(level);
-    
+
     if (word && word.word.length >= 3) {
       setCurrentWord(word);
       setScrambledLetters(scrambleWord(word.word));
@@ -91,7 +90,7 @@ export default function AnagramScreen({ route, navigation }) {
     if (isCorrect) return;
 
     Vibration.vibrate(30);
-    
+
     // Remove from scrambled, add to selected
     setScrambledLetters(scrambledLetters.filter(l => l.id !== letter.id));
     setSelectedLetters([...selectedLetters, letter]);
@@ -106,7 +105,7 @@ export default function AnagramScreen({ route, navigation }) {
     if (isCorrect) return;
 
     Vibration.vibrate(30);
-    
+
     // Remove from selected, add back to scrambled
     const newSelected = selectedLetters.filter((_, i) => i !== index);
     setSelectedLetters(newSelected);
@@ -122,7 +121,7 @@ export default function AnagramScreen({ route, navigation }) {
       Vibration.vibrate([0, 50, 50, 100]);
       setIsCorrect(true);
       setCorrectLetters(letters);
-      
+
       // Success animation
       Animated.sequence([
         Animated.timing(successAnim, {
@@ -143,13 +142,13 @@ export default function AnagramScreen({ route, navigation }) {
       const streakBonus = streak * 5;
       const hintPenalty = hintsUsed * 10;
       const totalScore = baseScore + timeBonus + streakBonus - hintPenalty;
-      
+
       setScore(score + totalScore);
       setStreak(streak + 1);
-      
+
       // Mark as discovered
       await VocabularyManager.markDiscovered(currentWord.id, level);
-      
+
       // Update stats
       const stats = await VocabularyManager.getGameStats('anagram');
       await VocabularyManager.updateGameStats('anagram', {
@@ -162,7 +161,7 @@ export default function AnagramScreen({ route, navigation }) {
       // Wrong - shake animation
       Vibration.vibrate(200);
       setStreak(0);
-      
+
       Animated.sequence([
         Animated.timing(shakeAnim, { toValue: 10, duration: 50, useNativeDriver: true }),
         Animated.timing(shakeAnim, { toValue: -10, duration: 50, useNativeDriver: true }),
@@ -174,11 +173,11 @@ export default function AnagramScreen({ route, navigation }) {
 
   const useHint = () => {
     if (showHint || isCorrect) return;
-    
+
     setShowHint(true);
     setHintsUsed(hintsUsed + 1);
     Vibration.vibrate(50);
-    
+
     // Auto-hide hint after 5 seconds
     setTimeout(() => {
       setShowHint(false);
@@ -187,21 +186,21 @@ export default function AnagramScreen({ route, navigation }) {
 
   const shuffleScrambled = () => {
     if (isCorrect) return;
-    
+
     Vibration.vibrate(30);
     const shuffled = [...scrambledLetters];
-    
+
     for (let i = shuffled.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
     }
-    
+
     setScrambledLetters(shuffled);
   };
 
   const clearSelected = () => {
     if (isCorrect) return;
-    
+
     Vibration.vibrate(30);
     setScrambledLetters([...scrambledLetters, ...selectedLetters]);
     setSelectedLetters([]);
@@ -276,7 +275,7 @@ export default function AnagramScreen({ route, navigation }) {
       <View style={styles.definitionCard}>
         <Text style={styles.definitionLabel}>📖 Definition:</Text>
         <Text style={styles.definitionText}>{currentWord.definition}</Text>
-        
+
         {showHint && (
           <View style={styles.hintBox}>
             <Text style={styles.hintLabel}>💡 Hint:</Text>
@@ -289,7 +288,7 @@ export default function AnagramScreen({ route, navigation }) {
       {/* Selected Letters (Answer Area) */}
       <View style={styles.answerSection}>
         <Text style={styles.sectionTitle}>Your Answer:</Text>
-        <Animated.View 
+        <Animated.View
           style={[
             styles.answerContainer,
             isCorrect && styles.answerContainerCorrect,
@@ -298,7 +297,7 @@ export default function AnagramScreen({ route, navigation }) {
         >
           {Array.from({ length: currentWord.word.length }).map((_, index) => {
             const letter = isCorrect ? correctLetters[index] : selectedLetters[index];
-            
+
             return (
               <TouchableOpacity
                 key={index}
@@ -332,7 +331,7 @@ export default function AnagramScreen({ route, navigation }) {
         >
           <Text style={styles.actionButtonText}>🗑 Clear</Text>
         </TouchableOpacity>
-        
+
         <TouchableOpacity
           style={[styles.actionButton, styles.actionButtonSecondary]}
           onPress={shuffleScrambled}
@@ -340,7 +339,7 @@ export default function AnagramScreen({ route, navigation }) {
         >
           <Text style={styles.actionButtonText}>🔀 Shuffle</Text>
         </TouchableOpacity>
-        
+
         <TouchableOpacity
           style={[styles.actionButton, styles.actionButtonPrimary]}
           onPress={useHint}
@@ -374,7 +373,7 @@ export default function AnagramScreen({ route, navigation }) {
           <Text style={styles.successTitle}>Correct!</Text>
           <Text style={styles.successWord}>{currentWord.word}</Text>
           <Text style={styles.successDefinition}>{currentWord.definition}</Text>
-          
+
           <View style={styles.successStats}>
             <View style={styles.successStat}>
               <Text style={styles.successStatLabel}>Time</Text>
@@ -423,8 +422,6 @@ export default function AnagramScreen({ route, navigation }) {
         </View>
       )}
 
-      {/* Ad Banner */}
-      <AdsterraBanner adKey="YOUR_BANNER_KEY_HERE" />
     </ScrollView>
   );
 }

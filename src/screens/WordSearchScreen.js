@@ -1,18 +1,17 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import {
-  View,
-  Text,
-  StyleSheet,
-  TouchableOpacity,
+  Alert,
+  Animated,
+  Dimensions,
   ScrollView,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
   useColorScheme,
   Vibration,
-  Dimensions,
-  Animated,
-  Alert,
+  View,
 } from 'react-native';
 import { VocabularyManager } from '../utils/vocabularyManager';
-import { AdsterraBanner } from '../components/AdsterraAd';
 
 const { width } = Dimensions.get('window');
 const GRID_SIZE = 12;
@@ -85,9 +84,9 @@ export default function WordSearchScreen({ route, navigation }) {
     }
 
     const wordList = randomWords.map(w => w.word.toUpperCase());
-    
+
     // Create empty grid
-    const newGrid = Array(GRID_SIZE).fill(null).map(() => 
+    const newGrid = Array(GRID_SIZE).fill(null).map(() =>
       Array(GRID_SIZE).fill('')
     );
 
@@ -113,15 +112,15 @@ export default function WordSearchScreen({ route, navigation }) {
       let placed = false;
       let attempts = 0;
       const maxAttempts = 200;
-      
+
       while (!placed && attempts < maxAttempts) {
         // Random direction
         const direction = directions[Math.floor(Math.random() * directions.length)];
-        
+
         // Random starting position
         const row = Math.floor(Math.random() * GRID_SIZE);
         const col = Math.floor(Math.random() * GRID_SIZE);
-        
+
         if (canPlaceWord(newGrid, word, row, col, direction, usedPositions)) {
           const positions = placeWord(newGrid, word, row, col, direction, usedPositions);
           placements.push({
@@ -194,17 +193,17 @@ export default function WordSearchScreen({ route, navigation }) {
 
   const placeWord = (grid, word, row, col, direction, usedPositions) => {
     const positions = [];
-    
+
     for (let i = 0; i < word.length; i++) {
       const r = row + direction.dy * i;
       const c = col + direction.dx * i;
       grid[r][c] = word[i];
-      
+
       const posKey = `${r},${c}`;
       usedPositions.add(posKey);
       positions.push({ row: r, col: c });
     }
-    
+
     return positions;
   };
 
@@ -226,7 +225,7 @@ export default function WordSearchScreen({ route, navigation }) {
     // Determine if this forms a valid line from first cell
     const rowDiff = row - firstCell.row;
     const colDiff = col - firstCell.col;
-    
+
     // Check if direction is consistent
     const isHorizontal = rowDiff === 0;
     const isVertical = colDiff === 0;
@@ -245,7 +244,7 @@ export default function WordSearchScreen({ route, navigation }) {
     const path = [];
     const rowDiff = end.row - start.row;
     const colDiff = end.col - start.col;
-    
+
     const steps = Math.max(Math.abs(rowDiff), Math.abs(colDiff));
     const rowStep = steps === 0 ? 0 : rowDiff / steps;
     const colStep = steps === 0 ? 0 : colDiff / steps;
@@ -277,35 +276,35 @@ export default function WordSearchScreen({ route, navigation }) {
     // Check if it matches any unfound word
     const matchedWord = words.find(w => {
       const wordUpper = w.word.toUpperCase();
-      return (wordUpper === selectedWord || wordUpper === selectedWordReverse) && 
-             !foundWords.includes(w.word);
+      return (wordUpper === selectedWord || wordUpper === selectedWordReverse) &&
+        !foundWords.includes(w.word);
     });
 
     if (matchedWord) {
       // Word found!
       Vibration.vibrate([0, 50, 50, 100]);
-      
+
       const newFoundWords = [...foundWords, matchedWord.word];
       setFoundWords(newFoundWords);
-      
+
       // Add permanent highlight
       setHighlightedCells([...highlightedCells, ...selectedCells]);
-      
+
       // Calculate score (bonus for less time, bonus for no hints)
       const wordBonus = matchedWord.word.length * 10;
       const timeBonus = Math.max(0, 300 - timer);
       const hintPenalty = hintsUsed * 20;
       const totalScore = score + wordBonus + timeBonus - hintPenalty;
       setScore(Math.max(0, totalScore));
-      
+
       // Mark as discovered
       await VocabularyManager.markDiscovered(matchedWord.id, level);
-      
+
       // Clear hint if this was the hinted word
       if (currentHintWord === matchedWord.word) {
         setCurrentHintWord(null);
       }
-      
+
       // Check if all words found
       if (newFoundWords.length === words.length) {
         setTimeout(() => finishGame(), 500);
@@ -326,13 +325,13 @@ export default function WordSearchScreen({ route, navigation }) {
 
   const useHint = () => {
     const remainingWords = words.filter(w => !foundWords.includes(w.word));
-    
+
     if (remainingWords.length === 0) return;
 
     const randomWord = remainingWords[Math.floor(Math.random() * remainingWords.length)];
     setCurrentHintWord(randomWord.word);
     setHintsUsed(hintsUsed + 1);
-    
+
     Vibration.vibrate(50);
 
     // Auto-clear hint after 10 seconds
@@ -363,10 +362,10 @@ export default function WordSearchScreen({ route, navigation }) {
 
   const isCellInHint = (row, col) => {
     if (!currentHintWord) return false;
-    
+
     const placement = wordPlacements.find(p => p.word === currentHintWord.toUpperCase());
     if (!placement) return false;
-    
+
     return placement.positions.some(pos => pos.row === row && pos.col === col);
   };
 
@@ -406,7 +405,7 @@ export default function WordSearchScreen({ route, navigation }) {
         >
           <Text style={styles.actionButtonText}>💡 Hint ({hintsUsed})</Text>
         </TouchableOpacity>
-        
+
         <TouchableOpacity
           style={styles.actionButton}
           onPress={() => setShowDefinitions(!showDefinitions)}
@@ -424,7 +423,7 @@ export default function WordSearchScreen({ route, navigation }) {
           {words.map((word, index) => {
             const isFound = foundWords.includes(word.word);
             const isHinted = currentHintWord === word.word;
-            
+
             return (
               <Animated.View
                 key={word.id}
@@ -448,7 +447,7 @@ export default function WordSearchScreen({ route, navigation }) {
                     {isFound ? '✓ ' : ''}{word.word}
                   </Text>
                 </View>
-                
+
                 {showDefinitions && (
                   <Text style={styles.wordDefinition}>{word.definition}</Text>
                 )}
@@ -459,7 +458,7 @@ export default function WordSearchScreen({ route, navigation }) {
       </View>
 
       {/* Grid */}
-      <Animated.View 
+      <Animated.View
         style={[
           styles.gridContainer,
           { transform: [{ translateX: shakeAnim }] }
@@ -489,8 +488,8 @@ export default function WordSearchScreen({ route, navigation }) {
                     const col = Math.floor(locationX / (cellSize + 2));
                     const row = Math.floor(locationY / (cellSize + 2));
                     if (row >= 0 && row < GRID_SIZE && col >= 0 && col < GRID_SIZE) {
-                      handleCellMove(rowIndex + row - Math.floor(locationY / (cellSize + 2)), 
-                                     colIndex + col - Math.floor(locationX / (cellSize + 2)));
+                      handleCellMove(rowIndex + row - Math.floor(locationY / (cellSize + 2)),
+                        colIndex + col - Math.floor(locationX / (cellSize + 2)));
                     }
                   }}
                   activeOpacity={0.8}
@@ -517,7 +516,7 @@ export default function WordSearchScreen({ route, navigation }) {
           <Text style={styles.resultText}>
             You found all {words.length} words in {formatTime(timer)}!
           </Text>
-          
+
           <View style={styles.resultStatsContainer}>
             <View style={styles.resultStat}>
               <Text style={styles.resultStatLabel}>Final Score</Text>
@@ -532,7 +531,7 @@ export default function WordSearchScreen({ route, navigation }) {
               <Text style={styles.resultStatValue}>{hintsUsed}</Text>
             </View>
           </View>
-          
+
           <TouchableOpacity
             style={styles.playAgainButton}
             onPress={generatePuzzle}
@@ -553,8 +552,6 @@ export default function WordSearchScreen({ route, navigation }) {
         </View>
       )}
 
-      {/* Ad Banner */}
-      <AdsterraBanner adKey="YOUR_BANNER_KEY_HERE" />
     </ScrollView>
   );
 }
