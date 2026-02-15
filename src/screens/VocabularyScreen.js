@@ -8,7 +8,7 @@ import {
   useColorScheme,
   View,
 } from 'react-native';
-import { VocabularyManager } from '../utils/vocabularyManager';
+import { VocabularyManager } from '../utils/VocabularyManager';
 
 export default function VocabularyScreen({ route }) {
   const { level } = route.params;

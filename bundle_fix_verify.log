@@ -1,0 +1,53 @@
+
+                        ▒▒▓▓▓▓▒▒
+                     ▒▓▓▓▒▒░░▒▒▓▓▓▒
+                  ▒▓▓▓▓░░░▒▒▒▒░░░▓▓▓▓▒
+                 ▓▓▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▓▓
+                 ▓▓░░░░░▒▓▓▓▓▓▓▒░░░░░▓▓
+                 ▓▓░░▓▓▒░░░▒▒░░░▒▓▒░░▓▓
+                 ▓▓░░▓▓▓▓▓▒▒▒▒▓▓▓▓▒░░▓▓
+                 ▓▓░░▓▓▓▓▓▓▓▓▓▓▓▓▓▒░░▓▓
+                 ▓▓▒░░▒▒▓▓▓▓▓▓▓▓▒░░░▒▓▓
+                  ▒▓▓▓▒░░░▒▓▓▒░░░▒▓▓▓▒
+                     ▒▓▓▓▒░░░░▒▓▓▓▒
+                        ▒▒▓▓▓▓▒▒
+
+
+                Welcome to Metro v0.83.3
+              Fast - Scalable - Integrated
+
+
+error Unable to resolve module ../utils/vocabularyManager from /home/kingjr/Desktop/React/word-game-mobile/src/screens/VocabularyScreen.js: 
+
+None of these files exist:
+  * src/utils/vocabularyManager(.android.js|.native.js|.js|.android.jsx|.native.jsx|.jsx|.android.json|.native.json|.json|.android.ts|.native.ts|.ts|.android.tsx|.native.tsx|.tsx)
+  * src/utils/vocabularyManager
+[0m [90m  9 |[39m   [33mView[39m[33m,[39m
+ [90m 10 |[39m } [36mfrom[39m [32m'react-native'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 11 |[39m [36mimport[39m { [33mVocabularyManager[39m } [36mfrom[39m [32m'../utils/vocabularyManager'[39m[33m;[39m
+ [90m    |[39m                                    [31m[1m^[22m[39m
+ [90m 12 |[39m
+ [90m 13 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mVocabularyScreen[39m({ route }) {
+ [90m 14 |[39m   [36mconst[39m { level } [33m=[39m route[33m.[39mparams[33m;[39m[0m.
+Error: Unable to resolve module ../utils/vocabularyManager from /home/kingjr/Desktop/React/word-game-mobile/src/screens/VocabularyScreen.js: 
+
+None of these files exist:
+  * src/utils/vocabularyManager(.android.js|.native.js|.js|.android.jsx|.native.jsx|.jsx|.android.json|.native.json|.json|.android.ts|.native.ts|.ts|.android.tsx|.native.tsx|.tsx)
+  * src/utils/vocabularyManager
+[0m [90m  9 |[39m   [33mView[39m[33m,[39m
+ [90m 10 |[39m } [36mfrom[39m [32m'react-native'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 11 |[39m [36mimport[39m { [33mVocabularyManager[39m } [36mfrom[39m [32m'../utils/vocabularyManager'[39m[33m;[39m
+ [90m    |[39m                                    [31m[1m^[22m[39m
+ [90m 12 |[39m
+ [90m 13 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mVocabularyScreen[39m({ route }) {
+ [90m 14 |[39m   [36mconst[39m { level } [33m=[39m route[33m.[39mparams[33m;[39m[0m
+    at ModuleResolver.resolveDependency (/home/kingjr/Desktop/React/word-game-mobile/node_modules/metro/src/node-haste/DependencyGraph/ModuleResolution.js:136:15)
+    at DependencyGraph.resolveDependency (/home/kingjr/Desktop/React/word-game-mobile/node_modules/metro/src/node-haste/DependencyGraph.js:252:43)
+    at /home/kingjr/Desktop/React/word-game-mobile/node_modules/metro/src/lib/transformHelpers.js:163:21
+    at resolveDependencies (/home/kingjr/Desktop/React/word-game-mobile/node_modules/metro/src/DeltaBundler/buildSubgraph.js:43:25)
+    at visit (/home/kingjr/Desktop/React/word-game-mobile/node_modules/metro/src/DeltaBundler/buildSubgraph.js:81:30)
+    at async Promise.all (index 8)
+    at async visit (/home/kingjr/Desktop/React/word-game-mobile/node_modules/metro/src/DeltaBundler/buildSubgraph.js:90:5)
+    at async Promise.all (index 2)
+    at async visit (/home/kingjr/Desktop/React/word-game-mobile/node_modules/metro/src/DeltaBundler/buildSubgraph.js:90:5)
+    at async Promise.all (index 0)

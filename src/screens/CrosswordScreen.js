@@ -13,7 +13,7 @@ import {
   Vibration,
   View
 } from 'react-native';
-import { VocabularyManager } from '../utils/vocabularyManager';
+import { VocabularyManager } from '../utils/VocabularyManager';
 
 const { width, height } = Dimensions.get('window');
 const GRID_SIZE = 9;

@@ -8,7 +8,7 @@ import {
   Vibration,
   View
 } from 'react-native';
-import { VocabularyManager } from '../utils/vocabularyManager';
+import { VocabularyManager } from '../utils/VocabularyManager';
 
 const MAX_ATTEMPTS = 6;
 

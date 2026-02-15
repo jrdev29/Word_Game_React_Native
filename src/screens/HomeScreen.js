@@ -8,7 +8,7 @@ import {
   useColorScheme,
   View,
 } from 'react-native';
-import { VocabularyManager } from '../utils/vocabularyManager';
+import { VocabularyManager } from '../utils/VocabularyManager';
 
 const { width } = Dimensions.get('window');
 
