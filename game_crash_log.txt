@@ -1,0 +1,1130 @@
+--------- beginning of system
+02-16 07:33:22.635   870   929 E ResilientAtomicFile: Failed to verity-protect package manager settings
+02-16 07:33:22.635   870   929 E ResilientAtomicFile: java.io.IOException: Failed to enable fs-verity on FD(395): Operation not supported on transport endpoint
+02-16 07:33:22.635   870   929 E ResilientAtomicFile: 	at com.android.internal.security.VerityUtils.setUpFsverity(VerityUtils.java:94)
+02-16 07:33:22.635   870   929 E ResilientAtomicFile: 	at com.android.server.security.FileIntegrity.setUpFsVerity(FileIntegrity.java:66)
+02-16 07:33:22.635   870   929 E ResilientAtomicFile: 	at com.android.server.pm.ResilientAtomicFile.finishWrite(ResilientAtomicFile.java:151)
+02-16 07:33:22.635   870   929 E ResilientAtomicFile: 	at com.android.server.pm.Settings.writeLPr(Settings.java:2850)
+02-16 07:33:22.635   870   929 E ResilientAtomicFile: 	at com.android.server.pm.PackageManagerService.writeSettingsLPrTEMP(PackageManagerService.java:7562)
+02-16 07:33:22.635   870   929 E ResilientAtomicFile: 	at com.android.server.pm.PackageManagerService.writeSettings(PackageManagerService.java:1632)
+02-16 07:33:22.635   870   929 E ResilientAtomicFile: 	at com.android.server.pm.PackageHandler.doHandleMessage(PackageHandler.java:126)
+02-16 07:33:22.635   870   929 E ResilientAtomicFile: 	at com.android.server.pm.PackageHandler.handleMessage(PackageHandler.java:72)
+02-16 07:33:22.635   870   929 E ResilientAtomicFile: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+02-16 07:33:22.635   870   929 E ResilientAtomicFile: 	at android.os.Looper.loopOnce(Looper.java:232)
+02-16 07:33:22.635   870   929 E ResilientAtomicFile: 	at android.os.Looper.loop(Looper.java:317)
+02-16 07:33:22.635   870   929 E ResilientAtomicFile: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+02-16 07:33:22.635   870   929 E ResilientAtomicFile: 	at com.android.server.ServiceThread.run(ServiceThread.java:46)
+02-16 07:33:22.665   870   927 E ResilientAtomicFile: Failed to verity-protect package restrictions
+02-16 07:33:22.665   870   927 E ResilientAtomicFile: java.io.IOException: Failed to enable fs-verity on FD(395): Operation not supported on transport endpoint
+02-16 07:33:22.665   870   927 E ResilientAtomicFile: 	at com.android.internal.security.VerityUtils.setUpFsverity(VerityUtils.java:94)
+02-16 07:33:22.665   870   927 E ResilientAtomicFile: 	at com.android.server.security.FileIntegrity.setUpFsVerity(FileIntegrity.java:66)
+02-16 07:33:22.665   870   927 E ResilientAtomicFile: 	at com.android.server.pm.ResilientAtomicFile.finishWrite(ResilientAtomicFile.java:151)
+02-16 07:33:22.665   870   927 E ResilientAtomicFile: 	at com.android.server.pm.Settings.writePackageRestrictions(Settings.java:2499)
+02-16 07:33:22.665   870   927 E ResilientAtomicFile: 	at com.android.server.pm.Settings.lambda$writePackageRestrictionsLPr$1(Settings.java:2315)
+02-16 07:33:22.665   870   927 E ResilientAtomicFile: 	at com.android.server.pm.Settings.$r8$lambda$xF8vBosZYCuleRIdy4wr1C_PPCw(Settings.java:0)
+02-16 07:33:22.665   870   927 E ResilientAtomicFile: 	at com.android.server.pm.Settings$$ExternalSyntheticLambda0.run(R8$$SyntheticClass:0)
+02-16 07:33:22.665   870   927 E ResilientAtomicFile: 	at com.android.server.pm.PackageManagerService$2.handleMessage(PackageManagerService.java:1657)
+02-16 07:33:22.665   870   927 E ResilientAtomicFile: 	at android.os.Handler.dispatchMessage(Handler.java:103)
+02-16 07:33:22.665   870   927 E ResilientAtomicFile: 	at android.os.Looper.loopOnce(Looper.java:232)
+02-16 07:33:22.665   870   927 E ResilientAtomicFile: 	at android.os.Looper.loop(Looper.java:317)
+02-16 07:33:22.665   870   927 E ResilientAtomicFile: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+02-16 07:33:22.665   870   927 E ResilientAtomicFile: 	at com.android.server.ServiceThread.run(ServiceThread.java:46)
+02-16 07:33:22.823   870  1094 W FileUtils: Failed to chmod(AtomicFile[/data/system_de/0/system/game-manager-service.xml]): android.system.ErrnoException: chmod failed: ENOENT (No such file or directory)
+02-16 07:33:23.233   870   964 D ActivityManager: freezing 2012 android.process.media
+02-16 07:33:23.234   870   964 D ActivityManager: freezing 2663 com.android.documentsui
+02-16 07:33:23.234   870   964 D ActivityManager: freezing 2325 com.android.externalstorage
+--------- beginning of main
+02-16 07:33:23.235   870  1033 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+02-16 07:33:23.235   870  1033 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+02-16 07:33:23.235   870  1033 D InetDiagMessage: Destroyed live tcp sockets for uids={10010} in 1ms
+02-16 07:33:23.236   870  1033 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+02-16 07:33:23.236   870  1033 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+02-16 07:33:23.236   870  1033 D InetDiagMessage: Destroyed live tcp sockets for uids={10015} in 1ms
+02-16 07:33:23.247   870  1033 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+02-16 07:33:23.248   870  1033 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+02-16 07:33:23.248   870  1033 D InetDiagMessage: Destroyed live tcp sockets for uids={10022} in 4ms
+02-16 07:33:23.587   870   909 E RuntimePermissionsPersistenceImpl: Failed to verity-protect runtime-permissions
+02-16 07:33:23.587   870   909 E RuntimePermissionsPersistenceImpl: java.io.IOException: Failed to enable fs-verity on FD(395): Operation not supported on transport endpoint
+02-16 07:33:23.587   870   909 E RuntimePermissionsPersistenceImpl: 	at com.android.internal.security.VerityUtils.setUpFsverity(VerityUtils.java:94)
+02-16 07:33:23.587   870   909 E RuntimePermissionsPersistenceImpl: 	at com.android.server.security.FileIntegrity.setUpFsVerity(FileIntegrity.java:66)
+02-16 07:33:23.587   870   909 E RuntimePermissionsPersistenceImpl: 	at com.android.server.security.FileIntegrity.setUpFsVerity(FileIntegrity.java:50)
+02-16 07:33:23.587   870   909 E RuntimePermissionsPersistenceImpl: 	at com.android.permission.persistence.RuntimePermissionsPersistenceImpl.lambda$new$0(RuntimePermissionsPersistenceImpl.java:86)
+02-16 07:33:23.587   870   909 E RuntimePermissionsPersistenceImpl: 	at com.android.permission.persistence.RuntimePermissionsPersistenceImpl.$r8$lambda$UttRlzRQpCN5koaFaB3D8dqERv4(RuntimePermissionsPersistenceImpl.java:0)
+02-16 07:33:23.587   870   909 E RuntimePermissionsPersistenceImpl: 	at com.android.permission.persistence.RuntimePermissionsPersistenceImpl$$ExternalSyntheticLambda0.enableFsVerity(R8$$SyntheticClass:0)
+02-16 07:33:23.587   870   909 E RuntimePermissionsPersistenceImpl: 	at com.android.permission.persistence.RuntimePermissionsPersistenceImpl.writeForUser(RuntimePermissionsPersistenceImpl.java:251)
+02-16 07:33:23.587   870   909 E RuntimePermissionsPersistenceImpl: 	at com.android.server.pm.Settings$RuntimePermissionPersistence.writePendingStates(Settings.java:6239)
+02-16 07:33:23.587   870   909 E RuntimePermissionsPersistenceImpl: 	at com.android.server.pm.Settings$RuntimePermissionPersistence.-$$Nest$mwritePendingStates(Settings.java:0)
+02-16 07:33:23.587   870   909 E RuntimePermissionsPersistenceImpl: 	at com.android.server.pm.Settings$RuntimePermissionPersistence$PersistenceHandler.handleMessage(Settings.java:6494)
+02-16 07:33:23.587   870   909 E RuntimePermissionsPersistenceImpl: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+02-16 07:33:23.587   870   909 E RuntimePermissionsPersistenceImpl: 	at android.os.Looper.loopOnce(Looper.java:232)
+02-16 07:33:23.587   870   909 E RuntimePermissionsPersistenceImpl: 	at android.os.Looper.loop(Looper.java:317)
+02-16 07:33:23.587   870   909 E RuntimePermissionsPersistenceImpl: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+02-16 07:33:24.286   870  2652 D WifiNl80211Manager: Scan result ready event
+02-16 07:33:24.286   870  2652 D WifiNative: Scan result ready event
+02-16 07:33:26.718  2720  2720 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+02-16 07:33:26.727  2720  2720 I AndroidRuntime: Using default boot image
+02-16 07:33:26.727  2720  2720 I AndroidRuntime: Leaving lock profiling enabled
+02-16 07:33:26.732  2720  2720 W app_process: ART APEX data files are untrusted.
+02-16 07:33:26.733  2720  2720 I app_process: Using CollectorTypeCMC GC.
+02-16 07:33:26.884  2720  2720 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+02-16 07:33:26.903  2720  2720 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+02-16 07:33:26.903  2720  2720 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+02-16 07:33:26.903  2720  2720 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+02-16 07:33:26.905  2720  2720 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+02-16 07:33:26.906  2720  2720 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+02-16 07:33:26.910  2720  2720 W app_process: Unexpected CPU variant for x86: x86_64.
+02-16 07:33:26.910  2720  2720 W app_process: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+02-16 07:33:26.953  2720  2720 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+02-16 07:33:26.953  2720  2720 D AndroidRuntime: Calling main entry com.android.commands.monkey.Monkey
+02-16 07:33:26.954  2720  2720 W Monkey  : args: [-p, com.wordgamemobile, -c, android.intent.category.LAUNCHER, 1]
+02-16 07:33:26.954  2720  2720 W Monkey  :  arg: "-p"
+02-16 07:33:26.954  2720  2720 W Monkey  :  arg: "com.wordgamemobile"
+02-16 07:33:26.954  2720  2720 W Monkey  :  arg: "-c"
+02-16 07:33:26.954  2720  2720 W Monkey  :  arg: "android.intent.category.LAUNCHER"
+02-16 07:33:26.954  2720  2720 W Monkey  :  arg: "1"
+02-16 07:33:26.954  2720  2720 W Monkey  : data="com.wordgamemobile"
+02-16 07:33:26.954  2720  2720 W Monkey  : data="android.intent.category.LAUNCHER"
+02-16 07:33:27.003   870  2652 W ActivityManager: registerReceiverWithFeature: no app for null
+02-16 07:33:27.015   870  2652 W ActivityTaskManager: callingPackage for (uid=2000, pid=2720) has no WPC
+02-16 07:33:27.016   870  2652 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_ORIENTATION_OVERRIDE
+02-16 07:33:27.018   870  2652 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@9ba48d42 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+02-16 07:33:27.019   870  2652 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES
+02-16 07:33:27.019   870  2652 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE
+02-16 07:33:27.025   870  2652 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.wordgamemobile/.MainActivity} with LAUNCH_SINGLE_TASK from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
+02-16 07:33:27.026  1129  1203 V WindowManagerShell: Transition requested (#16): android.os.BinderProxy@40dc7da TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=11 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.wordgamemobile/.MainActivity } baseActivity=ComponentInfo{com.wordgamemobile/com.wordgamemobile.MainActivity} topActivity=ComponentInfo{com.wordgamemobile/com.wordgamemobile.MainActivity} origActivity=null realActivity=ComponentInfo{com.wordgamemobile/com.wordgamemobile.MainActivity} numActivities=1 lastActiveTime=510146 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@95eb40b} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{3b032e8 com.wordgamemobile.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1440 topActivityLetterboxHeight=3120 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 16 }
+02-16 07:33:27.026   870   902 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@9ba48d42 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+02-16 07:33:27.028   870  1255 D OomAdjuster: Not killing cached processes
+02-16 07:33:27.029  2720  2720 I Monkey  : Events injected: 1
+02-16 07:33:27.030  1365  1365 W SplitSelectStateCtor: Missing session instanceIds
+02-16 07:33:27.030  1365  1365 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+02-16 07:33:27.031  1129  1203 D WindowManagerShell: setLauncherKeepClearAreaHeight: visible=false, height=359
+02-16 07:33:27.034  1365  1365 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=11, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.wordgamemobile/.MainActivity }
+02-16 07:33:27.034   613   613 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+02-16 07:33:27.036   870   902 W ProcessStats: Tracking association SourceState{e2731b system/1000 ImpBg #508} whose proc state 6 is better than process ProcessState{13af203 com.android.inputmethod.latin/10061 pkg=com.android.inputmethod.latin} proc state 14 (4 skipped)
+02-16 07:33:27.037  2720  2720 I Monkey  : ## Network stats: elapsed time=24ms (0ms mobile, 0ms wifi, 24ms not connected)
+02-16 07:33:27.037   569   569 D Zygote  : Forked child process 2731
+02-16 07:33:27.040   870   911 I ActivityManager: Start proc 2731:com.wordgamemobile/u0a98 for next-top-activity {com.wordgamemobile/com.wordgamemobile.MainActivity}
+02-16 07:33:27.043  2720  2720 I app_process: System.exit called, status: 0
+02-16 07:33:27.043  2720  2720 I AndroidRuntime: VM exiting with result code 0.
+02-16 07:33:27.102  2731  2731 I Zygote  : seccomp disabled by setenforce 0
+02-16 07:33:27.104  1365  1823 D EGL_emulation: app_time_stats: avg=14067.05ms min=14067.05ms max=14067.05ms count=1
+02-16 07:33:27.112  2731  2731 I .wordgamemobile: Using CollectorTypeCMC GC.
+02-16 07:33:27.116  2731  2731 W .wordgamemobile: Unexpected CPU variant for x86: x86_64.
+02-16 07:33:27.116  2731  2731 W .wordgamemobile: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+02-16 07:33:27.117   613   613 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#102 parentId=91} producedId=4 frameNumber=509 -> producedId=4 frameNumber=266
+02-16 07:33:27.130  2731  2731 E .wordgamemobile: Not starting debugger since process cannot load the jdwp agent.
+02-16 07:33:27.133  1129  1250 D EGL_emulation: app_time_stats: avg=27073.52ms min=27073.52ms max=27073.52ms count=1
+02-16 07:33:27.135  2731  2731 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+02-16 07:33:27.136   870  1255 D CoreBackPreview: Window{6671e45 u0 Splash Screen com.wordgamemobile}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@6e059c1, mPriority=0, mIsAnimationCallback=false}
+02-16 07:33:27.144   588   588 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 17973248
+02-16 07:33:27.161  2731  2731 D nativeloader: Configuring clns-7 for other apk /data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/lib/x86_64:/data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.wordgamemobile
+02-16 07:33:27.175   588   588 E android.hardware.graphics.allocator@2.0-service: open_verbose_path:56: Could not open '/dev/goldfish_pipe_dprctd': No such file or directory
+02-16 07:33:27.175   588   588 E android.hardware.graphics.allocator@2.0-service: open_verbose:128: both vsock and goldfish_pipe paths failed
+02-16 07:33:27.178   588   588 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 17973248
+02-16 07:33:27.195  2731  2731 V GraphicsEnvironment: Currently set values for:
+02-16 07:33:27.195  2731  2731 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+02-16 07:33:27.195  2731  2731 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+02-16 07:33:27.195  2731  2731 V GraphicsEnvironment: Global.Settings values are invalid: number of packages: 0, number of values: 0
+02-16 07:33:27.196  2731  2731 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+02-16 07:33:27.217  2731  2731 W SoLoader: Initializing SoLoader: 0
+02-16 07:33:27.217  2731  2731 W SoLoader: Recording new base apk path: /data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk
+02-16 07:33:27.217  2731  2731 W SoLoader: Previously recorded 0 base apk paths.
+02-16 07:33:27.218  2731  2731 I SoLoader: Preparing SO source: DirectorySoSource[root = /system/vendor/lib64 flags = 2]
+02-16 07:33:27.218  2731  2731 I SoLoader: Preparing SO source: DirectorySoSource[root = /system/lib64 flags = 2]
+02-16 07:33:27.218  2731  2731 I SoLoader: Preparing SO source: DirectApkSoSource[root = [/data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk!/lib/x86_64]]
+02-16 07:33:27.227  2731  2731 I SoLoader: Preparing SO source: ApplicationSoSource[DirectorySoSource[root = /data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/lib/x86_64 flags = 0]]
+02-16 07:33:27.228  2731  2731 I SoLoader: init finish: 4 SO sources prepared
+02-16 07:33:27.228  2731  2731 W SoLoader: SoLoader initialized: 8
+02-16 07:33:27.246   588   588 E android.hardware.graphics.allocator@2.0-service: open_verbose_path:56: Could not open '/dev/goldfish_pipe_dprctd': No such file or directory
+02-16 07:33:27.246   588   588 E android.hardware.graphics.allocator@2.0-service: open_verbose:128: both vsock and goldfish_pipe paths failed
+02-16 07:33:27.248   588   588 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 17973248
+02-16 07:33:27.250  2731  2731 D nativeloader: Load /data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk!/lib/x86_64/libc++_shared.so using ns clns-7 from class loader (caller=/data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk): ok
+02-16 07:33:27.255  2731  2731 D nativeloader: Load /data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk!/lib/x86_64/libjsi.so using ns clns-7 from class loader (caller=/data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk): ok
+02-16 07:33:27.261  2731  2731 D nativeloader: Load /data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk!/lib/x86_64/libfbjni.so using ns clns-7 from class loader (caller=/data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk): ok
+02-16 07:33:27.265  2731  2731 D nativeloader: Load /data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk!/lib/x86_64/libreactnative.so using ns clns-7 from class loader (caller=/data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk): ok
+02-16 07:33:27.265  2731  2731 D jni_lib_merge: Entering merged library JNI_OnLoad.
+02-16 07:33:27.266  2731  2731 D jni_lib_merge: Preparing 12 pre-merged libs (including stub)
+02-16 07:33:27.266  2731  2731 D jni_lib_merge: Preparing to register libfabricjni_so.  onload_func: 0x78022a8b1ba0
+02-16 07:33:27.266  2731  2731 D jni_lib_merge: Preparing to register libreact_devsupportjni_so.  onload_func: 0x78022a98d530
+02-16 07:33:27.266  2731  2731 D jni_lib_merge: Preparing to register libreact_featureflagsjni_so.  onload_func: 0x78022a9a00a0
+02-16 07:33:27.266  2731  2731 D jni_lib_merge: Preparing to register libreact_newarchdefaults_so.  onload_func: 0x78022a9c6fa0
+02-16 07:33:27.266  2731  2731 D jni_lib_merge: Preparing to register libreactnativeblob_so.  onload_func: 0x78022aa6ea50
+02-16 07:33:27.266  2731  2731 D jni_lib_merge: Preparing to register libreactnativejni_so.  onload_func: 0x78022aa898c0
+02-16 07:33:27.266  2731  2731 D jni_lib_merge: Preparing to register libreactnativejni_common_so.  onload_func: 0x78022aa90150
+02-16 07:33:27.266  2731  2731 D jni_lib_merge: Preparing to register librninstance_so.  onload_func: 0x78022aaae450
+02-16 07:33:27.266  2731  2731 D jni_lib_merge: Preparing to register libturbomodulejsijni_so.  onload_func: 0x78022ab59b80
+02-16 07:33:27.266  2731  2731 D jni_lib_merge: Preparing to register libuimanagerjni_so.  onload_func: 0x78022ab61ab0
+02-16 07:33:27.266  2731  2731 D jni_lib_merge: Preparing to register libyoga_so.  onload_func: 0x78022ab69130
+02-16 07:33:27.266  2731  2731 D jni_lib_merge: About to register 11 actual methods.
+02-16 07:33:27.276  2731  2731 D nativeloader: Load /data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk!/lib/x86_64/libreact_codegen_rnscreens.so using ns clns-7 from class loader (caller=/data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk): ok
+02-16 07:33:27.276  2731  2731 D jni_lib_merge: Entering merged library JNI_OnLoad.
+02-16 07:33:27.276  2731  2731 D jni_lib_merge: Preparing 12 pre-merged libs (including stub)
+02-16 07:33:27.276  2731  2731 D jni_lib_merge: Preparing to register libfabricjni_so.  onload_func: 0x78022a8b1ba0
+02-16 07:33:27.276  2731  2731 D jni_lib_merge: Preparing to register libreact_devsupportjni_so.  onload_func: 0x78022a98d530
+02-16 07:33:27.276  2731  2731 D jni_lib_merge: Preparing to register libreact_featureflagsjni_so.  onload_func: 0x78022a9a00a0
+02-16 07:33:27.276  2731  2731 D jni_lib_merge: Preparing to register libreact_newarchdefaults_so.  onload_func: 0x78022a9c6fa0
+02-16 07:33:27.276  2731  2731 D jni_lib_merge: Preparing to register libreactnativeblob_so.  onload_func: 0x78022aa6ea50
+02-16 07:33:27.276  2731  2731 D jni_lib_merge: Preparing to register libreactnativejni_so.  onload_func: 0x78022aa898c0
+02-16 07:33:27.276  2731  2731 D jni_lib_merge: Preparing to register libreactnativejni_common_so.  onload_func: 0x78022aa90150
+02-16 07:33:27.276  2731  2731 D jni_lib_merge: Preparing to register librninstance_so.  onload_func: 0x78022aaae450
+02-16 07:33:27.276  2731  2731 D jni_lib_merge: Preparing to register libturbomodulejsijni_so.  onload_func: 0x78022ab59b80
+02-16 07:33:27.276  2731  2731 D jni_lib_merge: Preparing to register libuimanagerjni_so.  onload_func: 0x78022ab61ab0
+02-16 07:33:27.276  2731  2731 D jni_lib_merge: Preparing to register libyoga_so.  onload_func: 0x78022ab69130
+02-16 07:33:27.276  2731  2731 D jni_lib_merge: About to register 11 actual methods.
+02-16 07:33:27.279   588   588 E android.hardware.graphics.allocator@2.0-service: open_verbose_path:56: Could not open '/dev/goldfish_pipe_dprctd': No such file or directory
+02-16 07:33:27.279  2731  2731 D nativeloader: Load /data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk!/lib/x86_64/libreact_codegen_safeareacontext.so using ns clns-7 from class loader (caller=/data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk): ok
+02-16 07:33:27.279   588   588 E android.hardware.graphics.allocator@2.0-service: open_verbose:128: both vsock and goldfish_pipe paths failed
+02-16 07:33:27.280  2731  2731 D nativeloader: Load /data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk!/lib/x86_64/libappmodules.so using ns clns-7 from class loader (caller=/data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk): ok
+02-16 07:33:27.285  2731  2731 I RenderThread: type=1400 audit(0.0:312): avc:  denied  { read } for  name="libandroidemu.so" dev="vda4" ino=4451 scontext=u:r:untrusted_app:s0:c98,c256,c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1 app=com.wordgamemobile
+02-16 07:33:27.285  2731  2731 I RenderThread: type=1400 audit(0.0:313): avc:  denied  { open } for  path="/system/vendor/lib64/libandroidemu.so" dev="vda4" ino=4451 scontext=u:r:untrusted_app:s0:c98,c256,c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1 app=com.wordgamemobile
+02-16 07:33:27.285  2731  2731 I RenderThread: type=1400 audit(0.0:314): avc:  denied  { getattr } for  path="/system/vendor/lib64/libandroidemu.so" dev="vda4" ino=4451 scontext=u:r:untrusted_app:s0:c98,c256,c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1 app=com.wordgamemobile
+02-16 07:33:27.285  2731  2731 I RenderThread: type=1400 audit(0.0:315): avc:  denied  { map } for  path="/system/vendor/lib64/libandroidemu.so" dev="vda4" ino=4451 scontext=u:r:untrusted_app:s0:c98,c256,c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1 app=com.wordgamemobile
+02-16 07:33:27.286  2731  2731 I RenderThread: type=1400 audit(0.0:316): avc:  denied  { execute } for  path="/system/vendor/lib64/libandroidemu.so" dev="vda4" ino=4451 scontext=u:r:untrusted_app:s0:c98,c256,c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1 app=com.wordgamemobile
+02-16 07:33:27.296  2731  2731 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+02-16 07:33:27.306   870   899 V WindowManager: Sent Transition (#16) createdAt=02-16 07:33:27.019 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=11 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.wordgamemobile/.MainActivity } baseActivity=ComponentInfo{com.wordgamemobile/com.wordgamemobile.MainActivity} topActivity=ComponentInfo{com.wordgamemobile/com.wordgamemobile.MainActivity} origActivity=null realActivity=ComponentInfo{com.wordgamemobile/com.wordgamemobile.MainActivity} numActivities=1 lastActiveTime=510146 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{c123531 Task{d91d6e1 #11 type=standard A=10098:com.wordgamemobile}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{4dbc416 com.wordgamemobile.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1440 topActivityLetterboxHeight=3120 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 16 }
+02-16 07:33:27.306  1129  1397 V WindowManagerShell: onTransitionReady(transaction=3736621548253)
+02-16 07:33:27.306   870   899 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+02-16 07:33:27.306   870   899 V WindowManager:     info={id=16 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+02-16 07:33:27.306   870   899 V WindowManager:         {WCT{RemoteToken{c123531 Task{d91d6e1 #11 type=standard A=10098:com.wordgamemobile}}} m=OPEN f=NONE leash=Surface(name=Task=11)/@0xd4234bb sb=Rect(0, 0 - 1440, 3120) eb=Rect(0, 0 - 1440, 3120) d=0 taskParent=-1},
+02-16 07:33:27.306   870   899 V WindowManager:         {WCT{RemoteToken{cacde10 Task{271a92e #1 type=home}}} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x45e620 sb=Rect(0, 0 - 1440, 3120) eb=Rect(0, 0 - 1440, 3120) d=0 taskParent=-1}
+02-16 07:33:27.306   870   899 V WindowManager:     ]}
+02-16 07:33:27.306  1129  1203 V WindowManagerShell: onTransitionReady (#16) android.os.BinderProxy@40dc7da: {id=16 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@cd40143} m=OPEN f=NONE leash=Surface(name=Task=11)/@0xf58f654 sb=Rect(0, 0 - 1440, 3120) eb=Rect(0, 0 - 1440, 3120) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@b7923c0} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0xce6a9fd sb=Rect(0, 0 - 1440, 3120) eb=Rect(0, 0 - 1440, 3120) d=0 taskParent=-1}]}
+02-16 07:33:27.307  1129  1203 V WindowManagerShell: Playing animation for (#16) android.os.BinderProxy@40dc7da@0
+02-16 07:33:27.307  1129  1203 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@737008c
+02-16 07:33:27.307  1129  1203 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@cde13d5
+02-16 07:33:27.307  1129  1203 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@5787ea
+02-16 07:33:27.307  1129  1203 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@9aa5adb
+02-16 07:33:27.307  1129  1203 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@5999978
+02-16 07:33:27.307  1129  1203 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+02-16 07:33:27.307  1129  1203 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@9f91851
+02-16 07:33:27.307  1129  1203 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@41e38b6
+02-16 07:33:27.307  1129  1203 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=16 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@cd40143} m=OPEN f=NONE leash=Surface(name=Task=11)/@0xf58f654 sb=Rect(0, 0 - 1440, 3120) eb=Rect(0, 0 - 1440, 3120) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@b7923c0} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0xce6a9fd sb=Rect(0, 0 - 1440, 3120) eb=Rect(0, 0 - 1440, 3120) d=0 taskParent=-1}]}
+02-16 07:33:27.307  1129  1203 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher} launchCookie=null},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@34a2a80, appThread = android.app.IApplicationThread$Stub$Proxy@e8748b9, debugName = QuickstepLaunchHome }}
+02-16 07:33:27.307  1129  1203 V WindowManagerShell:  Delegate animation for (#16) to null
+02-16 07:33:27.307  1129  1203 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@8e9c9b7
+02-16 07:33:27.307  1129  1203 V WindowManagerShell: start default transition animation, info = {id=16 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@cd40143} m=OPEN f=NONE leash=Surface(name=Task=11)/@0xf58f654 sb=Rect(0, 0 - 1440, 3120) eb=Rect(0, 0 - 1440, 3120) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@b7923c0} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0xce6a9fd sb=Rect(0, 0 - 1440, 3120) eb=Rect(0, 0 - 1440, 3120) d=0 taskParent=-1}]}
+02-16 07:33:27.308  1129  1203 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@78d403e animAttr=0x13 type=OPEN isEntrance=false
+02-16 07:33:27.308  1129  1203 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@f19224a animAttr=0x12 type=OPEN isEntrance=true
+02-16 07:33:27.309  1129  1203 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@8e9c9b7
+02-16 07:33:27.311   870  1255 W UserManagerService: Requested status bar icon for non-badged user 0
+02-16 07:33:27.329  2731  2731 D nativeloader: Load /data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk!/lib/x86_64/libhermes.so using ns clns-7 from class loader (caller=/data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk): ok
+02-16 07:33:27.332  2731  2731 D nativeloader: Load /data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk!/lib/x86_64/libhermestooling.so using ns clns-7 from class loader (caller=/data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk): ok
+02-16 07:33:27.332  2731  2731 D jni_lib_merge: Entering merged library JNI_OnLoad.
+02-16 07:33:27.333  2731  2731 D jni_lib_merge: Preparing 4 pre-merged libs (including stub)
+02-16 07:33:27.333  2731  2731 D jni_lib_merge: Preparing to register libhermes_executor_so.  onload_func: 0x7802274a3730
+02-16 07:33:27.333  2731  2731 D jni_lib_merge: Preparing to register libhermesinstancejni_so.  onload_func: 0x7802274aadb0
+02-16 07:33:27.333  2731  2731 D jni_lib_merge: Preparing to register libjsijniprofiler_so.  onload_func: 0x7802274ab540
+02-16 07:33:27.333  2731  2731 D jni_lib_merge: About to register 3 actual methods.
+02-16 07:33:27.344  2731  2731 W unknown:BridgelessReact: ReactHost{0}.startSurface(surfaceId = 0): Schedule
+02-16 07:33:27.344  2731  2731 W unknown:BridgelessReact: ReactHost{0}.attachSurface(surfaceId = 0)
+02-16 07:33:27.344  2731  2750 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask()
+02-16 07:33:27.345  2731  2750 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Start
+02-16 07:33:27.345  2731  2750 W unknown:BridgelessReact: ReactHost{0}.getJSBundleLoader()
+02-16 07:33:27.346  2731  2750 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactContext(): Creating BridgelessReactContext
+02-16 07:33:27.347  2731  2750 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Creating ReactInstance
+02-16 07:33:27.356  2731  2731 W unknown:BridgelessReact: ReactHost{0}.onHostResume(activity)
+02-16 07:33:27.356  2731  2731 W unknown:BridgelessReact: ReactContext.onHostResume()
+02-16 07:33:27.365  2731  2731 W HWUI    : Unknown dataspace 0
+02-16 07:33:27.384   870  1255 D CoreBackPreview: Window{2195969 u0 com.wordgamemobile/com.wordgamemobile.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@67cec8f, mPriority=0, mIsAnimationCallback=false}
+02-16 07:33:27.410   613   755 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10098 pid=0
+02-16 07:33:27.410   613   755 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10098 => denied (306 us)
+02-16 07:33:27.411   613   755 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10098 pid=0
+02-16 07:33:27.411   613   755 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10098 => denied (194 us)
+02-16 07:33:27.411   613   755 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10098 pid=0
+02-16 07:33:27.411   613   755 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10098 => denied (467 us)
+02-16 07:33:27.415  2731  2745 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+02-16 07:33:27.418  2731  2745 I EGL_emulation: Opening libGLESv2_emulation.so
+02-16 07:33:27.420  2731  2745 E .wordgamemobile: open_verbose_path:56: Could not open '/dev/goldfish_pipe_dprctd': No such file or directory
+02-16 07:33:27.421  2731  2745 E .wordgamemobile: open_verbose:128: both vsock and goldfish_pipe paths failed
+02-16 07:33:27.421  2731  2745 W .wordgamemobile: Process pipe failed
+02-16 07:33:27.422  2731  2745 D HostConnection: New host connection established 0x78038af018d0, pid 2731, tid 2745
+02-16 07:33:27.443  2731  2750 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Loading JS Bundle
+02-16 07:33:27.457   397  2755 D local_opengl: Sending id 29 to host
+02-16 07:33:27.457  1129  1250 D EGL_emulation: app_time_stats: avg=18305.00ms min=5.53ms max=218708.27ms count=12
+02-16 07:33:27.469  2731  2750 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Calling DevSupportManagerBase.onNewReactContextCreated(reactContext)
+02-16 07:33:27.470  2731  2750 W unknown:BridgelessReact: ReactHost{0}.startSurface(surfaceId = 0): Execute
+02-16 07:33:27.494  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaProviderManager
+02-16 07:33:27.499  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.uimanager.LayoutShadowNode
+02-16 07:33:27.501  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.SearchBarManager
+02-16 07:33:27.503  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenFooterManager
+02-16 07:33:27.506  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.gamma.tabs.TabScreenViewManager
+02-16 07:33:27.508  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenContainerViewManager
+02-16 07:33:27.509  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.gamma.tabs.TabsHostViewManager
+02-16 07:33:27.511  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ModalScreenViewManager
+02-16 07:33:27.513  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackHeaderConfigViewManager
+02-16 07:33:27.514  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenContentWrapperManager
+02-16 07:33:27.515  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaViewManager
+02-16 07:33:27.517  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaViewShadowNode
+02-16 07:33:27.518  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenViewManager
+02-16 07:33:27.518  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackHeaderSubviewManager
+02-16 07:33:27.519   206   206 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device VINTF manifest.
+02-16 07:33:27.519  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackViewManager
+02-16 07:33:27.523  2731  2745 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+02-16 07:33:27.532  2731  2745 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+02-16 07:33:27.546  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.gesturehandler.react.RNGestureHandlerButtonViewManager
+02-16 07:33:27.553  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.safeareaview.ReactSafeAreaViewManager
+02-16 07:33:27.553  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.safeareaview.ReactSafeAreaViewShadowNode
+02-16 07:33:27.556  2731  2745 E .wordgamemobile: open_verbose_path:56: Could not open '/dev/goldfish_pipe_dprctd': No such file or directory
+02-16 07:33:27.556  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ReactModalHostManager
+02-16 07:33:27.556  2731  2745 E .wordgamemobile: open_verbose:128: both vsock and goldfish_pipe paths failed
+02-16 07:33:27.559  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageViewManager
+02-16 07:33:27.560  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageShadowNode
+02-16 07:33:27.563  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ReactProgressBarViewManager
+02-16 07:33:27.564  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ProgressBarShadowNode
+02-16 07:33:27.566  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollViewManager
+02-16 07:33:27.573  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.image.ReactImageManager
+02-16 07:33:27.582  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextViewManager
+02-16 07:33:27.584  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextShadowNode
+02-16 07:33:27.589  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollContainerViewManager
+02-16 07:33:27.594  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.unimplementedview.ReactUnimplementedViewManager
+02-16 07:33:27.601  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactScrollViewManager
+02-16 07:33:27.605  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.view.ReactViewManager
+02-16 07:33:27.608  1129  1203 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#16) android.os.BinderProxy@40dc7da@0
+02-16 07:33:27.608  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.drawer.ReactDrawerLayoutManager
+02-16 07:33:27.613   870   899 V WindowManager: Finish Transition (#16): created at 02-16 07:33:27.019 collect-started=0.052ms request-sent=5.358ms started=6.518ms ready=263.298ms sent=286.113ms finished=591.519ms
+02-16 07:33:27.616  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager
+02-16 07:33:27.617  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchShadowNode
+02-16 07:33:27.618  1365  1365 D VRI[QuickstepLauncher]: visibilityChanged oldVisibility=true newVisibility=false
+02-16 07:33:27.619  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextViewManager
+02-16 07:33:27.619  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextShadowNode
+02-16 07:33:27.620  1129  1203 V WindowManagerShell: Track 0 became idle
+02-16 07:33:27.620  1129  1203 V WindowManagerShell: All active transition animations finished
+02-16 07:33:27.620  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager
+02-16 07:33:27.622  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextManager
+02-16 07:33:27.623  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextShadowNode
+02-16 07:33:27.624  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputManager
+02-16 07:33:27.627  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputShadowNode
+02-16 07:33:27.629  2731  2751 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.gesturehandler.react.RNGestureHandlerRootViewManager
+02-16 07:33:27.639  2731  2751 V AsyncStorageExpoMigration: No scoped database found
+02-16 07:33:27.641   870  1255 W UserManagerService: Requested status bar icon for non-badged user 0
+02-16 07:33:27.641  2731  2751 I ReactNativeJS: Running "WordGameMobile"
+02-16 07:33:27.642   870  1255 W UserManagerService: Requested status bar icon for non-badged user 0
+02-16 07:33:27.672  2731  2751 D nativeloader: Load /data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk!/lib/x86_64/librnscreens.so using ns clns-7 from class loader (caller=/data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk!classes2.dex): ok
+02-16 07:33:27.720   206   206 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+02-16 07:33:27.720  2731  2745 I Gralloc4: mapper 4.x is not supported
+02-16 07:33:27.720   206   206 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@3.0::IMapper/default in either framework or device VINTF manifest.
+02-16 07:33:27.720  2731  2745 W Gralloc3: mapper 3.x is not supported
+02-16 07:33:27.724   588   588 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 17973248
+02-16 07:33:27.728   588   588 E android.hardware.graphics.allocator@2.0-service: open_verbose_path:56: Could not open '/dev/goldfish_pipe_dprctd': No such file or directory
+02-16 07:33:27.728   588   588 E android.hardware.graphics.allocator@2.0-service: open_verbose:128: both vsock and goldfish_pipe paths failed
+02-16 07:33:27.728  2731  2745 D HostConnection: New host connection established 0x78038af036d0, pid 2731, tid 2745
+02-16 07:33:27.730   397  2756 D local_opengl: Sending id 30 to host
+02-16 07:33:27.733   588   588 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 17973248
+02-16 07:33:27.751   588   588 E android.hardware.graphics.allocator@2.0-service: open_verbose_path:56: Could not open '/dev/goldfish_pipe_dprctd': No such file or directory
+02-16 07:33:27.751   588   588 E android.hardware.graphics.allocator@2.0-service: open_verbose:128: both vsock and goldfish_pipe paths failed
+02-16 07:33:27.751   588   588 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 17973248
+02-16 07:33:27.751  2731  2751 D nativeloader: Load /data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk!/lib/x86_64/libgesturehandler.so using ns clns-7 from class loader (caller=/data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk): ok
+02-16 07:33:27.751  2731  2751 D jni_lib_merge: Entering merged library JNI_OnLoad.
+02-16 07:33:27.751  2731  2751 D jni_lib_merge: Preparing 12 pre-merged libs (including stub)
+02-16 07:33:27.751  2731  2751 D jni_lib_merge: Preparing to register libfabricjni_so.  onload_func: 0x78022a8b1ba0
+02-16 07:33:27.751  2731  2751 D jni_lib_merge: Preparing to register libreact_devsupportjni_so.  onload_func: 0x78022a98d530
+02-16 07:33:27.751  2731  2751 D jni_lib_merge: Preparing to register libreact_featureflagsjni_so.  onload_func: 0x78022a9a00a0
+02-16 07:33:27.751  2731  2751 D jni_lib_merge: Preparing to register libreact_newarchdefaults_so.  onload_func: 0x78022a9c6fa0
+02-16 07:33:27.751  2731  2751 D jni_lib_merge: Preparing to register libreactnativeblob_so.  onload_func: 0x78022aa6ea50
+02-16 07:33:27.751  2731  2751 D jni_lib_merge: Preparing to register libreactnativejni_so.  onload_func: 0x78022aa898c0
+02-16 07:33:27.751  2731  2751 D jni_lib_merge: Preparing to register libreactnativejni_common_so.  onload_func: 0x78022aa90150
+02-16 07:33:27.751  2731  2751 D jni_lib_merge: Preparing to register librninstance_so.  onload_func: 0x78022aaae450
+02-16 07:33:27.751  2731  2751 D jni_lib_merge: Preparing to register libturbomodulejsijni_so.  onload_func: 0x78022ab59b80
+02-16 07:33:27.751  2731  2751 D jni_lib_merge: Preparing to register libuimanagerjni_so.  onload_func: 0x78022ab61ab0
+02-16 07:33:27.751  2731  2751 D jni_lib_merge: Preparing to register libyoga_so.  onload_func: 0x78022ab69130
+02-16 07:33:27.751  2731  2751 D jni_lib_merge: About to register 11 actual methods.
+02-16 07:33:27.829   588   588 E android.hardware.graphics.allocator@2.0-service: open_verbose_path:56: Could not open '/dev/goldfish_pipe_dprctd': No such file or directory
+02-16 07:33:27.829   588   588 E android.hardware.graphics.allocator@2.0-service: open_verbose:128: both vsock and goldfish_pipe paths failed
+02-16 07:33:27.905  2731  2731 I Choreographer: Skipped 31 frames!  The application may be doing too much work on its main thread.
+02-16 07:33:27.905   870  1255 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10098 pid=0
+02-16 07:33:27.905   870  1255 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10098 => denied (123 us)
+02-16 07:33:27.906   870  1255 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10098 pid=0
+02-16 07:33:27.906   870  1255 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10098 => denied (46 us)
+02-16 07:33:27.906   870  1255 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10098 pid=0
+02-16 07:33:27.906   870  1255 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10098 => denied (32 us)
+02-16 07:33:27.912   870   899 I ActivityTaskManager: Displayed com.wordgamemobile/.MainActivity for user 0: +893ms
+02-16 07:33:27.914  2731  2731 W unknown:BridgelessReact: ReactContext.onHostResume()
+02-16 07:33:27.914  2731  2731 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Executing ReactInstanceEventListeners
+02-16 07:33:27.924  2731  2731 W [RNScreens]: backTitleFontFamily prop is not available on Android
+02-16 07:33:27.924  2731  2731 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+02-16 07:33:27.924  2731  2731 W [RNScreens]: backTitleVisible prop is not available on Android
+02-16 07:33:27.924  2731  2731 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+02-16 07:33:27.924  2731  2731 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+02-16 07:33:27.924  2731  2731 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+02-16 07:33:27.926  2731  2731 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.runtime.ReactSurfaceView{6f4eeed V.E...... ......ID 0,0-1440,3120 #1}
+02-16 07:33:27.934   870   964 D ActivityManager: freezing 2244 com.android.packageinstaller
+02-16 07:33:27.936   870  1033 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+02-16 07:33:27.937   870  1033 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+02-16 07:33:27.937   870  1033 D InetDiagMessage: Destroyed live tcp sockets for uids={10026} in 2ms
+02-16 07:33:28.117   870   981 I ImeTracker: com.wordgamemobile:2d3564fb: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+02-16 07:33:28.119   870   981 I ImeTracker: com.wordgamemobile:2d3564fb: onCancelled at PHASE_SERVER_SHOULD_HIDE
+02-16 07:33:28.332  1129  1215 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@c6ce3cb
+02-16 07:33:28.332   870  1255 W InputManager-JNI: Input channel object '6671e45 Splash Screen com.wordgamemobile (client)' was disposed without first being removed with the input manager!
+02-16 07:33:28.333   870  2575 D CoreBackPreview: Window{6671e45 u0 Splash Screen com.wordgamemobile EXITING}: Setting back callback null
+02-16 07:33:28.335  1365  1365 D BaseDepthController: setSurface:
+02-16 07:33:28.335  1365  1365 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+02-16 07:33:28.335  1365  1365 D BaseDepthController: 	mSurface: null
+02-16 07:33:28.336  1365  1365 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
+02-16 07:33:28.336  1365  1365 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(StateManager.java:453)
+02-16 07:33:28.336  1365  1365 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(StateManager.java:444)
+02-16 07:33:28.336  1365  1365 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(StatefulActivity.java:119)
+02-16 07:33:28.341  1365  1365 D StatsLog: LAUNCHER_ONSTOP
+02-16 07:33:28.360   226  2659 I keystore2: system/security/keystore2/watchdog/src/lib.rs:319 - Watchdog thread idle -> terminating. Have a great day.
+02-16 07:33:28.459  1129  1250 D EGL_emulation: app_time_stats: avg=25.44ms min=2.53ms max=104.52ms count=33
+02-16 07:33:29.666  2731  2745 D EGL_emulation: app_time_stats: avg=350.92ms min=18.51ms max=1114.58ms count=5
+02-16 07:33:30.033   870  1795 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+02-16 07:33:30.263   870  1013 D WifiConfigStore: Writing to stores completed in 16 ms.
+02-16 07:33:32.446  2731  2765 D ProfileInstaller: Installing profile for com.wordgamemobile
+02-16 07:33:37.055   870   927 E ResilientAtomicFile: Failed to verity-protect package restrictions
+02-16 07:33:37.055   870   927 E ResilientAtomicFile: java.io.IOException: Failed to enable fs-verity on FD(507): Operation not supported on transport endpoint
+02-16 07:33:37.055   870   927 E ResilientAtomicFile: 	at com.android.internal.security.VerityUtils.setUpFsverity(VerityUtils.java:94)
+02-16 07:33:37.055   870   927 E ResilientAtomicFile: 	at com.android.server.security.FileIntegrity.setUpFsVerity(FileIntegrity.java:66)
+02-16 07:33:37.055   870   927 E ResilientAtomicFile: 	at com.android.server.pm.ResilientAtomicFile.finishWrite(ResilientAtomicFile.java:151)
+02-16 07:33:37.055   870   927 E ResilientAtomicFile: 	at com.android.server.pm.Settings.writePackageRestrictions(Settings.java:2499)
+02-16 07:33:37.055   870   927 E ResilientAtomicFile: 	at com.android.server.pm.Settings.writePackageRestrictions(Settings.java:2324)
+02-16 07:33:37.055   870   927 E ResilientAtomicFile: 	at com.android.server.pm.PackageManagerService.writePendingRestrictions(PackageManagerService.java:1625)
+02-16 07:33:37.055   870   927 E ResilientAtomicFile: 	at com.android.server.pm.PackageManagerService$2.handleMessage(PackageManagerService.java:1652)
+02-16 07:33:37.055   870   927 E ResilientAtomicFile: 	at android.os.Handler.dispatchMessage(Handler.java:103)
+02-16 07:33:37.055   870   927 E ResilientAtomicFile: 	at android.os.Looper.loopOnce(Looper.java:232)
+02-16 07:33:37.055   870   927 E ResilientAtomicFile: 	at android.os.Looper.loop(Looper.java:317)
+02-16 07:33:37.055   870   927 E ResilientAtomicFile: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+02-16 07:33:37.055   870   927 E ResilientAtomicFile: 	at com.android.server.ServiceThread.run(ServiceThread.java:46)
+02-16 07:33:37.943   870   964 D ActivityManager: freezing 1415 com.android.permissioncontroller
+02-16 07:33:37.945   870  1033 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+02-16 07:33:37.946   870  1033 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+02-16 07:33:37.946   870  1033 D InetDiagMessage: Destroyed live tcp sockets for uids={10075} in 2ms
+02-16 07:33:42.782   870   954 D OomAdjuster: Not killing cached processes
+02-16 07:33:52.787   870   964 D ActivityManager: freezing 2101 com.android.localtransport
+02-16 07:33:52.787   870   964 D ActivityManager: freezing 1908 com.android.keychain
+02-16 07:33:52.788   870   964 D ActivityManager: freezing 1334 com.android.settings
+02-16 07:33:52.788   870   964 D ActivityManager: freezing 2123 com.android.dynsystem:dynsystem
+02-16 07:33:52.788   870   964 D ActivityManager: freezing 2050 com.android.dynsystem
+02-16 07:34:00.044  1129  1250 D EGL_emulation: app_time_stats: avg=5484.54ms min=34.82ms max=32396.65ms count=6
+02-16 07:35:00.035  1129  1250 D EGL_emulation: app_time_stats: avg=59991.71ms min=59991.71ms max=59991.71ms count=1
+02-16 07:35:40.244  2731  2745 D EGL_emulation: app_time_stats: avg=8155.36ms min=9.27ms max=130278.70ms count=16
+02-16 07:35:41.250  2731  2745 D EGL_emulation: app_time_stats: avg=19.29ms min=10.89ms max=102.71ms count=43
+02-16 07:35:43.352  2731  2745 D EGL_emulation: app_time_stats: avg=44.19ms min=13.26ms max=1123.77ms count=44
+02-16 07:35:44.365  2731  2745 D EGL_emulation: app_time_stats: avg=18.33ms min=11.27ms max=45.11ms count=43
+02-16 07:35:45.079   601   601 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+02-16 07:35:45.080   870  2575 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 16
+02-16 07:35:45.219   601   740 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+02-16 07:35:45.237  2731  2731 W [RNScreens]: backTitle prop is not available on Android
+02-16 07:35:45.237  2731  2731 W [RNScreens]: backTitleFontFamily prop is not available on Android
+02-16 07:35:45.237  2731  2731 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+02-16 07:35:45.237  2731  2731 W [RNScreens]: backTitleVisible prop is not available on Android
+02-16 07:35:45.237  2731  2731 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+02-16 07:35:45.237  2731  2731 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+02-16 07:35:45.237  2731  2731 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+02-16 07:35:45.404  2731  2745 D EGL_emulation: app_time_stats: avg=44.89ms min=10.10ms max=473.51ms count=21
+02-16 07:35:46.901  2731  2745 D EGL_emulation: app_time_stats: avg=147.56ms min=14.44ms max=1052.06ms count=10
+02-16 07:35:48.070  2731  2745 D EGL_emulation: app_time_stats: avg=27.13ms min=12.58ms max=339.08ms count=38
+02-16 07:35:49.154  2731  2745 D EGL_emulation: app_time_stats: avg=34.01ms min=11.23ms max=322.94ms count=29
+02-16 07:35:49.203   601   601 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+02-16 07:35:49.204   870  2652 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 16
+02-16 07:35:49.211  2731  2752 W unknown:BridgelessReact: ReactHost{0}.handleHostException(message = "vibrate: Neither user 10098 nor current process has android.permission.VIBRATE.")
+--------- beginning of crash
+02-16 07:35:49.211  2731  2752 E AndroidRuntime: FATAL EXCEPTION: mqt_v_native
+02-16 07:35:49.211  2731  2752 E AndroidRuntime: Process: com.wordgamemobile, PID: 2731
+02-16 07:35:49.211  2731  2752 E AndroidRuntime: java.lang.SecurityException: vibrate: Neither user 10098 nor current process has android.permission.VIBRATE.
+02-16 07:35:49.211  2731  2752 E AndroidRuntime: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3242)
+02-16 07:35:49.211  2731  2752 E AndroidRuntime: 	at android.os.Parcel.createException(Parcel.java:3226)
+02-16 07:35:49.211  2731  2752 E AndroidRuntime: 	at android.os.Parcel.readException(Parcel.java:3209)
+02-16 07:35:49.211  2731  2752 E AndroidRuntime: 	at android.os.Parcel.readException(Parcel.java:3151)
+02-16 07:35:49.211  2731  2752 E AndroidRuntime: 	at android.os.IVibratorManagerService$Stub$Proxy.vibrate(IVibratorManagerService.java:425)
+02-16 07:35:49.211  2731  2752 E AndroidRuntime: 	at android.os.SystemVibratorManager.vibrate(SystemVibratorManager.java:142)
+02-16 07:35:49.211  2731  2752 E AndroidRuntime: 	at android.os.SystemVibrator.vibrate(SystemVibrator.java:205)
+02-16 07:35:49.211  2731  2752 E AndroidRuntime: 	at android.os.Vibrator.vibrate(Vibrator.java:509)
+02-16 07:35:49.211  2731  2752 E AndroidRuntime: 	at android.os.Vibrator.vibrate(Vibrator.java:471)
+02-16 07:35:49.211  2731  2752 E AndroidRuntime: 	at com.facebook.react.modules.vibration.VibrationModule.vibrate(VibrationModule.kt:30)
+02-16 07:35:49.211  2731  2752 E AndroidRuntime: 	at com.facebook.jni.NativeRunnable.run(Native Method)
+02-16 07:35:49.211  2731  2752 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:959)
+02-16 07:35:49.211  2731  2752 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+02-16 07:35:49.211  2731  2752 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage(MessageQueueThreadHandler.kt:21)
+02-16 07:35:49.211  2731  2752 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:232)
+02-16 07:35:49.211  2731  2752 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:317)
+02-16 07:35:49.211  2731  2752 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.startNewBackgroundThread$lambda$1(MessageQueueThreadImpl.kt:175)
+02-16 07:35:49.211  2731  2752 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.$r8$lambda$ldnZnqelhYFctGaUKkOKYj5rxo4(Unknown Source:0)
+02-16 07:35:49.211  2731  2752 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+02-16 07:35:49.211  2731  2752 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:1012)
+02-16 07:35:49.211  2731  2752 E AndroidRuntime: Caused by: android.os.RemoteException: Remote stack trace:
+02-16 07:35:49.211  2731  2752 E AndroidRuntime: 	at android.app.ContextImpl.enforce(ContextImpl.java:2389)
+02-16 07:35:49.211  2731  2752 E AndroidRuntime: 	at android.app.ContextImpl.enforceCallingOrSelfPermission(ContextImpl.java:2417)
+02-16 07:35:49.211  2731  2752 E AndroidRuntime: 	at com.android.server.vibrator.VibratorManagerService.vibrateWithPermissionCheck(VibratorManagerService.java:474)
+02-16 07:35:49.211  2731  2752 E AndroidRuntime: 	at com.android.server.vibrator.VibratorManagerService.vibrate(VibratorManagerService.java:413)
+02-16 07:35:49.211  2731  2752 E AndroidRuntime: 	at android.os.IVibratorManagerService$Stub.onTransact(IVibratorManagerService.java:241)
+02-16 07:35:49.211  2731  2752 E AndroidRuntime: 
+02-16 07:35:49.213   870  2775 I DropBoxManagerService: add tag=data_app_crash isTagEnabled=true flags=0x2
+02-16 07:35:49.214   870  2652 W ActivityTaskManager:   Force finishing activity com.wordgamemobile/.MainActivity
+02-16 07:35:49.215  1129  1203 V WindowManagerShell: Transition requested (#17): android.os.BinderProxy@e4620dc TransitionRequestInfo { type = CLOSE, triggerTask = null, pipTask = null, remoteTransition = null, displayChange = null, flags = 16, debugId = 17 }
+02-16 07:35:49.225  1365  1365 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=6, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.android.launcher3/.uioverrides.QuickstepLauncher }
+02-16 07:35:49.226  2731  2752 I Process : Sending signal. PID: 2731 SIG: 9
+02-16 07:35:49.233   613   613 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+02-16 07:35:49.269   870   895 I ActivityManager: Process com.wordgamemobile (pid 2731) has died: fg  TOP 
+02-16 07:35:49.269   870   944 I ImeTracker: com.wordgamemobile:2f23d9b9: onRequestHide at ORIGIN_SERVER reason HIDE_REMOVE_CLIENT fromUser false
+02-16 07:35:49.269   870   944 I ImeTracker: com.wordgamemobile:2f23d9b9: onCancelled at PHASE_SERVER_SHOULD_HIDE
+02-16 07:35:49.271   870   912 I libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_10098/pid_2731
+02-16 07:35:49.271   569   569 I Zygote  : Process 2731 exited due to signal 9 (Killed)
+02-16 07:35:49.272   870   900 D DisplayManagerService: Drop pending events for gone uid 10098
+02-16 07:35:49.275   870   902 I ActivityManager: Killing 2176:com.android.healthconnect.controller/u0a93 (adj 985): empty #17
+02-16 07:35:49.275   870  1033 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+02-16 07:35:49.275   870   902 I ActivityManager: Killing 1978:com.android.imsserviceentitlement/u0a49 (adj 985): empty #18
+02-16 07:35:49.276   870   902 I ActivityManager: Killing 2123:com.android.dynsystem:dynsystem/1000 (adj 915): empty #19
+02-16 07:35:49.276   870   902 I ActivityManager: Killing 2122:com.android.federatedcompute.services/u0a91 (adj 995): empty #20
+02-16 07:35:49.277   870  1033 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+02-16 07:35:49.277   870  1033 D InetDiagMessage: Destroyed live tcp sockets for uids={10098} in 3ms
+02-16 07:35:49.278   870  1033 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+02-16 07:35:49.278  1365  1365 D StatsLog: LAUNCHER_ONRESUME
+02-16 07:35:49.278   870  1033 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+02-16 07:35:49.278   870  1033 D InetDiagMessage: Destroyed live tcp sockets for uids={20098} in 2ms
+02-16 07:35:49.280  1129  1203 D WindowManagerShell: setLauncherKeepClearAreaHeight: visible=true, height=359
+02-16 07:35:49.280   870   902 I ActivityManager: Killing 2050:com.android.dynsystem/1000 (adj 925): empty #21
+02-16 07:35:49.280   870   902 I ActivityManager: Killing 1534:com.android.cellbroadcastreceiver.module/u0a92 (adj 999): empty #22
+02-16 07:35:49.281   870   902 I ActivityManager: Killing 2027:.adservices/u0a82 (adj 999): empty #23
+02-16 07:35:49.281   870   902 I ActivityManager: Killing 1929:com.android.traceur/u0a37 (adj 999): empty #24
+02-16 07:35:49.281   870   902 I ActivityManager: Killing 1863:com.android.quicksearchbox/u0a57 (adj 999): empty #25
+02-16 07:35:49.288   870  2575 I WindowManager: WIN DEATH: Window{2195969 u0 com.wordgamemobile/com.wordgamemobile.MainActivity}
+02-16 07:35:49.288   870  2575 W InputManager-JNI: Input channel object '2195969 com.wordgamemobile/com.wordgamemobile.MainActivity (client)' was disposed without first being removed with the input manager!
+02-16 07:35:49.289   588   588 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 17973248
+02-16 07:35:49.290  1365  1365 D BaseDepthController: setSurface:
+02-16 07:35:49.290  1365  1365 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+02-16 07:35:49.290  1365  1365 D BaseDepthController: 	mSurface: Surface(name=com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher)/@0x1e517c5
+02-16 07:35:49.290   870   902 W ActivityManager: setHasOverlayUi called on unknown pid: 2731
+02-16 07:35:49.292   588   588 E android.hardware.graphics.allocator@2.0-service: open_verbose_path:56: Could not open '/dev/goldfish_pipe_dprctd': No such file or directory
+02-16 07:35:49.292   588   588 E android.hardware.graphics.allocator@2.0-service: open_verbose:128: both vsock and goldfish_pipe paths failed
+02-16 07:35:49.294   588   588 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 17973248
+02-16 07:35:49.296   569   569 I Zygote  : Process 2123 exited due to signal 9 (Killed)
+02-16 07:35:49.302   870   900 D DisplayManagerService: Drop pending events for gone uid 10093
+02-16 07:35:49.303   569   569 I Zygote  : Process 2176 exited due to signal 9 (Killed)
+02-16 07:35:49.308   569   569 I Zygote  : Process 2027 exited due to signal 9 (Killed)
+02-16 07:35:49.314   588   588 E android.hardware.graphics.allocator@2.0-service: open_verbose_path:56: Could not open '/dev/goldfish_pipe_dprctd': No such file or directory
+02-16 07:35:49.314   588   588 E android.hardware.graphics.allocator@2.0-service: open_verbose:128: both vsock and goldfish_pipe paths failed
+02-16 07:35:49.314   588   588 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 17973248
+02-16 07:35:49.342   601   740 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+02-16 07:35:49.342   588   588 E android.hardware.graphics.allocator@2.0-service: open_verbose_path:56: Could not open '/dev/goldfish_pipe_dprctd': No such file or directory
+02-16 07:35:49.342   588   588 E android.hardware.graphics.allocator@2.0-service: open_verbose:128: both vsock and goldfish_pipe paths failed
+02-16 07:35:49.349   569   569 I Zygote  : Process 1534 exited due to signal 9 (Killed)
+02-16 07:35:49.351   870   900 D DisplayManagerService: Drop pending events for gone uid 10092
+02-16 07:35:49.353  1129  1397 V WindowManagerShell: onTransitionReady(transaction=3736621548300)
+02-16 07:35:49.355  1129  1203 V WindowManagerShell: onTransitionReady (#17) android.os.BinderProxy@e4620dc: {id=17 t=CLOSE f=0x10 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@a8fd686} m=TO_FRONT f=SHOW_WALLPAPER|MOVE_TO_TOP leash=Surface(name=Task=1)/@0x19be8ba sb=Rect(0, 0 - 1440, 3120) eb=Rect(0, 0 - 1440, 3120) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@43f5b47} m=CLOSE f=NONE leash=Surface(name=Task=11)/@0xa26f36b sb=Rect(0, 0 - 1440, 3120) eb=Rect(0, 0 - 1440, 3120) d=0 taskParent=-1},{null m=TO_FRONT f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{84485ce token=android.os.Binder@c328ac9})/@0x826ec8 sb=Rect(0, 0 - 1440, 3120) eb=Rect(0, 0 - 1440, 3120) d=0}]}
+02-16 07:35:49.356  1129  1203 V WindowManagerShell: Playing animation for (#17) android.os.BinderProxy@e4620dc@0
+02-16 07:35:49.357  1129  1203 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@737008c
+02-16 07:35:49.357  1129  1203 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@cde13d5
+02-16 07:35:49.357  1129  1203 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@5787ea
+02-16 07:35:49.358  1129  1203 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@9aa5adb
+02-16 07:35:49.358  1129  1203 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@5999978
+02-16 07:35:49.358  1129  1203 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+02-16 07:35:49.358  1129  1203 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@9f91851
+02-16 07:35:49.358  1129  1203 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@41e38b6
+02-16 07:35:49.359   569   569 I Zygote  : Process 2122 exited due to signal 9 (Killed)
+02-16 07:35:49.359  1129  1203 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=17 t=CLOSE f=0x10 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@a8fd686} m=TO_FRONT f=SHOW_WALLPAPER|MOVE_TO_TOP leash=Surface(name=Task=1)/@0x19be8ba sb=Rect(0, 0 - 1440, 3120) eb=Rect(0, 0 - 1440, 3120) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@43f5b47} m=CLOSE f=NONE leash=Surface(name=Task=11)/@0xa26f36b sb=Rect(0, 0 - 1440, 3120) eb=Rect(0, 0 - 1440, 3120) d=0 taskParent=-1},{null m=TO_FRONT f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{84485ce token=android.os.Binder@c328ac9})/@0x826ec8 sb=Rect(0, 0 - 1440, 3120) eb=Rect(0, 0 - 1440, 3120) d=0}]}
+02-16 07:35:49.361  1129  1203 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher} launchCookie=null},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@34a2a80, appThread = android.app.IApplicationThread$Stub$Proxy@e8748b9, debugName = QuickstepLaunchHome }}
+02-16 07:35:49.362   870   912 I libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_10093/pid_2176
+02-16 07:35:49.362  1129  1203 D RemoteTransitionHandler: Found filterPair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher} launchCookie=null},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@34a2a80, appThread = android.app.IApplicationThread$Stub$Proxy@e8748b9, debugName = QuickstepLaunchHome }}
+02-16 07:35:49.362  1129  1203 V WindowManagerShell:  Delegate animation for (#17) to RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@34a2a80, appThread = android.app.IApplicationThread$Stub$Proxy@e8748b9, debugName = QuickstepLaunchHome }
+02-16 07:35:49.362   569   569 I Zygote  : Process 1929 exited due to signal 9 (Killed)
+02-16 07:35:49.363   588   588 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 17973248
+02-16 07:35:49.367   870   912 I libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_10049/pid_1978
+02-16 07:35:49.367   569   569 I Zygote  : Process 1978 exited due to signal 9 (Killed)
+02-16 07:35:49.368   870   912 I libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_1000/pid_2123
+02-16 07:35:49.368   870   912 I libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_10091/pid_2122
+02-16 07:35:49.370  1365  1365 D StateManager: createAtomicAnimation - fromState: Background, toState: Normal, partial trace:
+02-16 07:35:49.370  1365  1365 D StateManager: 	at com.android.quickstep.util.WorkspaceRevealAnim.prepareToAnimate(WorkspaceRevealAnim.java:130)
+02-16 07:35:49.370  1365  1365 D StateManager: 	at com.android.quickstep.util.WorkspaceRevealAnim.<init>(WorkspaceRevealAnim.java:66)
+02-16 07:35:49.370  1365  1365 D StateManager: 	at com.android.launcher3.QuickstepTransitionManager.createWallpaperOpenAnimations(QuickstepTransitionManager.java:1716)
+02-16 07:35:49.376   870   912 I libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_1000/pid_2050
+02-16 07:35:49.377   870   912 I libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_10092/pid_1534
+02-16 07:35:49.377   870   912 I libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_10082/pid_2027
+02-16 07:35:49.377   870   912 I libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_10037/pid_1929
+02-16 07:35:49.378   569   569 I Zygote  : Process 2050 exited due to signal 9 (Killed)
+02-16 07:35:49.387   870   912 I libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_10057/pid_1863
+02-16 07:35:49.387   569   569 I Zygote  : Process 1863 exited due to signal 9 (Killed)
+02-16 07:35:49.392   588   588 E android.hardware.graphics.allocator@2.0-service: open_verbose_path:56: Could not open '/dev/goldfish_pipe_dprctd': No such file or directory
+02-16 07:35:49.392   588   588 E android.hardware.graphics.allocator@2.0-service: open_verbose:128: both vsock and goldfish_pipe paths failed
+02-16 07:35:49.403  1129  1250 D EGL_emulation: app_time_stats: avg=3265.83ms min=2.19ms max=140229.41ms count=43
+02-16 07:35:49.413   870   899 V WindowManager: Sent Transition (#17) createdAt=02-16 07:35:49.214 via request=TransitionRequestInfo { type = CLOSE, triggerTask = null, pipTask = null, remoteTransition = null, displayChange = null, flags = 16, debugId = 17 }
+02-16 07:35:49.413   870   899 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+02-16 07:35:49.413   870   899 V WindowManager:     info={id=17 t=CLOSE f=0x10 trk=0 r=[0@Point(0, 0)] c=[
+02-16 07:35:49.413   870   899 V WindowManager:         {WCT{RemoteToken{cacde10 Task{271a92e #1 type=home}}} m=TO_FRONT f=SHOW_WALLPAPER|MOVE_TO_TOP leash=Surface(name=Task=1)/@0x45e620 sb=Rect(0, 0 - 1440, 3120) eb=Rect(0, 0 - 1440, 3120) d=0 taskParent=-1},
+02-16 07:35:49.413   870   899 V WindowManager:         {WCT{RemoteToken{c123531 Task{d91d6e1 #11 type=standard A=10098:com.wordgamemobile}}} m=CLOSE f=NONE leash=Surface(name=Task=11)/@0xd4234bb sb=Rect(0, 0 - 1440, 3120) eb=Rect(0, 0 - 1440, 3120) d=0 taskParent=-1},
+02-16 07:35:49.413   870   899 V WindowManager:         {null m=TO_FRONT f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{84485ce token=android.os.Binder@c328ac9})/@0x20da9a1 sb=Rect(0, 0 - 1440, 3120) eb=Rect(0, 0 - 1440, 3120) d=0}
+02-16 07:35:49.413   870   899 V WindowManager:     ]}
+02-16 07:35:49.413  1129  1203 V WindowManagerShell:  animated by com.android.wm.shell.transition.RemoteTransitionHandler@41e38b6
+02-16 07:35:49.416   870   895 W UserManagerService: Requested status bar icon for non-badged user 0
+02-16 07:35:49.417   870   900 D DisplayManagerService: Drop pending events for gone uid 10091
+02-16 07:35:49.418   870   900 D DisplayManagerService: Drop pending events for gone uid 10037
+02-16 07:35:49.419   870   900 D DisplayManagerService: Drop pending events for gone uid 10049
+02-16 07:35:49.423   870   900 D DisplayManagerService: Drop pending events for gone uid 10057
+02-16 07:35:49.427   870   902 W ProcessStats: Tracking association SourceState{e2731b system/1000 ImpBg #523} whose proc state 6 is better than process ProcessState{13af203 com.android.inputmethod.latin/10061 pkg=com.android.inputmethod.latin} proc state 14 (2 skipped)
+02-16 07:35:49.460   870   981 I ImeTracker: com.android.launcher3:ca029bba: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+02-16 07:35:49.468   870   981 I ImeTracker: com.android.launcher3:ca029bba: onCancelled at PHASE_SERVER_SHOULD_HIDE
+02-16 07:35:49.520  1129  1250 D EGL_emulation: app_time_stats: avg=49484.29ms min=49484.29ms max=49484.29ms count=1
+02-16 07:35:49.544  1365  1378 W droid.launcher3: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk' with 2 weak references
+02-16 07:35:49.716   870   902 W ActivityTaskManager: Activity top resumed state loss timeout for ActivityRecord{ddaf848 u0 com.wordgamemobile/.MainActivity t11 f} isExiting}
+02-16 07:35:49.745  1129  1203 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#17) android.os.BinderProxy@e4620dc@0
+02-16 07:35:49.748   870   899 V WindowManager: Finish Transition (#17): created at 02-16 07:35:49.214 collect-started=0.097ms request-sent=0.334ms started=10.218ms ready=59.505ms sent=137.065ms finished=532.407ms
+02-16 07:35:49.749   870  2776 E IPCThreadState: Binder transaction failure. id: 131238, BR_*: 29189, error: -22 (Invalid argument)
+02-16 07:35:49.749   870  2776 W ActivityManager: pid 870 system sent binder code 7 with flags 1 to frozen apps and got error -32
+02-16 07:35:49.758   870  2776 W WindowManager: Exception thrown during dispatchAppVisibility Window{2195969 u0 com.wordgamemobile/com.wordgamemobile.MainActivity EXITING}
+02-16 07:35:49.758   870  2776 W WindowManager: android.os.DeadObjectException
+02-16 07:35:49.758   870  2776 W WindowManager: 	at android.os.BinderProxy.transactNative(Native Method)
+02-16 07:35:49.758   870  2776 W WindowManager: 	at android.os.BinderProxy.transact(BinderProxy.java:586)
+02-16 07:35:49.758   870  2776 W WindowManager: 	at android.view.IWindow$Stub$Proxy.dispatchAppVisibility(IWindow.java:553)
+02-16 07:35:49.758   870  2776 W WindowManager: 	at com.android.server.wm.WindowState.sendAppVisibilityToClients(WindowState.java:3253)
+02-16 07:35:49.758   870  2776 W WindowManager: 	at com.android.server.wm.WindowContainer.sendAppVisibilityToClients(WindowContainer.java:1289)
+02-16 07:35:49.758   870  2776 W WindowManager: 	at com.android.server.wm.WindowToken.setClientVisible(WindowToken.java:403)
+02-16 07:35:49.758   870  2776 W WindowManager: 	at com.android.server.wm.ActivityRecord.setClientVisible(ActivityRecord.java:7166)
+02-16 07:35:49.758   870  2776 W WindowManager: 	at com.android.server.wm.ActivityRecord.postApplyAnimation(ActivityRecord.java:5881)
+02-16 07:35:49.758   870  2776 W WindowManager: 	at com.android.server.wm.ActivityRecord.commitVisibility(ActivityRecord.java:5823)
+02-16 07:35:49.758   870  2776 W WindowManager: 	at com.android.server.wm.Transition.finishTransition(Transition.java:1286)
+02-16 07:35:49.758   870  2776 W WindowManager: 	at com.android.server.wm.TransitionController.finishTransition(TransitionController.java:937)
+02-16 07:35:49.758   870  2776 W WindowManager: 	at com.android.server.wm.WindowOrganizerController.finishTransition(WindowOrganizerController.java:494)
+02-16 07:35:49.758   870  2776 W WindowManager: 	at android.window.IWindowOrganizerController$Stub.onTransact(IWindowOrganizerController.java:289)
+02-16 07:35:49.758   870  2776 W WindowManager: 	at com.android.server.wm.WindowOrganizerController.onTransact(WindowOrganizerController.java:204)
+02-16 07:35:49.758   870  2776 W WindowManager: 	at android.os.Binder.execTransactInternal(Binder.java:1500)
+02-16 07:35:49.758   870  2776 W WindowManager: 	at android.os.Binder.execTransact(Binder.java:1444)
+02-16 07:35:49.759   870  2776 W Process : Unable to open /proc/2731/status
+02-16 07:35:49.769   870   894 W UserManagerService: Requested status bar icon for non-badged user 0
+02-16 07:35:49.770  1129  1203 V WindowManagerShell: Track 0 became idle
+02-16 07:35:49.771  1129  1203 V WindowManagerShell: All active transition animations finished
+02-16 07:35:49.772   870   894 W UserManagerService: Requested status bar icon for non-badged user 0
+02-16 07:35:49.775  1365  1365 I TopTaskTracker: onTaskRemoved: taskId=11
+02-16 07:35:49.775  1365  1365 I TopTaskTracker: onTaskRemoved: taskId=11
+02-16 07:35:49.793   870  2493 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+02-16 07:35:49.795   870  2493 I EGL_emulation: Opening libGLESv2_emulation.so
+02-16 07:35:49.795   870  2493 D HostConnection: New host connection established 0x78038af2d610, pid 870, tid 2493
+02-16 07:35:49.798   397  2781 D local_opengl: Sending id 31 to host
+02-16 07:35:49.801   613   613 E BpTransactionCompletedListener: Failed to transact (-32)
+02-16 07:35:49.815   870  2493 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+02-16 07:35:49.817   870  2493 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+02-16 07:35:49.823   870  2493 E system_server: open_verbose_path:56: Could not open '/dev/goldfish_pipe_dprctd': No such file or directory
+02-16 07:35:49.823   870  2493 E system_server: open_verbose:128: both vsock and goldfish_pipe paths failed
+02-16 07:35:50.291   870   890 I system_server: NativeAlloc concurrent mark compact GC freed 6838KB AllocSpace bytes, 14(440KB) LOS objects, 49% free, 16MB/33MB, paused 1.182ms,1.686ms total 124.167ms
+02-16 07:35:50.292   870   891 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+02-16 07:35:50.293   870   892 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /system/product/app/LatinIME/LatinIME.apk' with 1 weak references
+02-16 07:35:50.293   870   892 W System  : A resource failed to call release. 
+02-16 07:35:50.293   870   892 W System  : A resource failed to call release. 
+02-16 07:35:50.461  1365  1823 D EGL_emulation: app_time_stats: avg=48.43ms min=6.63ms max=678.84ms count=20
+02-16 07:35:52.626  1365  1823 D EGL_emulation: app_time_stats: avg=39.73ms min=5.58ms max=1381.67ms count=45
+02-16 07:35:52.775   870  1795 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+02-16 07:35:53.909  1365  1823 D EGL_emulation: app_time_stats: avg=19.16ms min=5.45ms max=500.15ms count=46
+02-16 07:35:53.952  1365  1365 D StateManager: onStateTransitionStart - state: AllApps
+02-16 07:35:53.953  1129  1203 D WindowManagerShell: setLauncherKeepClearAreaHeight: visible=false, height=359
+02-16 07:35:54.095  1129  1250 D EGL_emulation: app_time_stats: avg=1136.76ms min=3.82ms max=4480.23ms count=4
+02-16 07:35:54.101  1129  1250 D EGL_emulation: app_time_stats: avg=932.02ms min=6.62ms max=4537.60ms count=5
+02-16 07:35:54.271  1365  1365 D StateManager: onStateTransitionStart - state: AllApps
+02-16 07:35:54.586  1365  1365 D StateManager: onStateTransitionEnd - state: AllApps
+02-16 07:35:54.586  1365  1365 D RecentsView: reset - mEnableDrawingLiveTile: false, mRecentsAnimationController: null
+02-16 07:35:54.587  1365  1365 D StatsLog: LAUNCHER_ALLAPPS_OPEN_UP
+02-16 07:35:54.624  2345  2349 I AidlLazyServiceRegistrar: Process has 0 (of 1 available) client(s) in use after notification artd has clients: 0
+02-16 07:35:54.624  2345  2349 I AidlLazyServiceRegistrar: Trying to shut down the service. No clients in use for any service in process.
+02-16 07:35:54.629  2345  2349 I AidlLazyServiceRegistrar: Unregistered all clients and exiting
+02-16 07:35:59.871   601   601 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+02-16 07:35:59.871   870   894 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 16
+02-16 07:35:59.873   870   944 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_ORIENTATION_OVERRIDE
+02-16 07:35:59.873   870   944 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@9ba48d42 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+02-16 07:35:59.873   870   944 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES
+02-16 07:35:59.874   870   944 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE
+02-16 07:35:59.882   870   944 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.wordgamemobile/.MainActivity bnds=[1151,1047][1439,1431]} with LAUNCH_SINGLE_TASK from uid 10070 (BAL_ALLOW_VISIBLE_WINDOW) result code=0
+02-16 07:35:59.883  1365  1365 D StatsLog: LAUNCHER_APP_LAUNCH_TAP
+02-16 07:35:59.883  1129  1203 V WindowManagerShell: Transition requested (#18): android.os.BinderProxy@f166c3f TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=12 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.wordgamemobile/.MainActivity } baseActivity=ComponentInfo{com.wordgamemobile/com.wordgamemobile.MainActivity} topActivity=ComponentInfo{com.wordgamemobile/com.wordgamemobile.MainActivity} origActivity=null realActivity=ComponentInfo{com.wordgamemobile/com.wordgamemobile.MainActivity} numActivities=1 lastActiveTime=663002 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@941790c} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{f0a6255 com.wordgamemobile.MainActivity} launchCookies=[android.os.BinderProxy@41ff46a] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1440 topActivityLetterboxHeight=3120 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@20f8d5b, appThread = android.app.IApplicationThread$Stub$Proxy@d1319f8, debugName = QuickstepLaunch }, displayChange = null, flags = 0, debugId = 18 }
+02-16 07:35:59.883  1365  1823 D EGL_emulation: app_time_stats: avg=309.48ms min=6.96ms max=5237.50ms count=19
+02-16 07:35:59.885   870   902 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@9ba48d42 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+02-16 07:35:59.886  1129  1203 V WindowManagerShell: RemoteTransition directly requested for (#18) android.os.BinderProxy@f166c3f: RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@20f8d5b, appThread = android.app.IApplicationThread$Stub$Proxy@d1319f8, debugName = QuickstepLaunch }
+02-16 07:35:59.889  1365  1365 W SplitSelectStateCtor: Missing session instanceIds
+02-16 07:35:59.889  1365  1365 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+02-16 07:35:59.899   569   569 D Zygote  : Forked child process 2786
+02-16 07:35:59.899   870   911 I ActivityManager: Start proc 2786:com.wordgamemobile/u0a98 for next-top-activity {com.wordgamemobile/com.wordgamemobile.MainActivity}
+02-16 07:35:59.900  1365  1365 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=12, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.wordgamemobile/.MainActivity }
+02-16 07:35:59.903  2786  2786 I Zygote  : seccomp disabled by setenforce 0
+02-16 07:35:59.908  2786  2786 I .wordgamemobile: Using CollectorTypeCMC GC.
+02-16 07:35:59.912  2786  2786 W .wordgamemobile: Unexpected CPU variant for x86: x86_64.
+02-16 07:35:59.912  2786  2786 W .wordgamemobile: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+02-16 07:35:59.916  2786  2786 E .wordgamemobile: Not starting debugger since process cannot load the jdwp agent.
+02-16 07:35:59.920   870   894 D CoreBackPreview: Window{66f81c2 u0 Splash Screen com.wordgamemobile}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@bb7f80e, mPriority=0, mIsAnimationCallback=false}
+02-16 07:35:59.919   613   613 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+02-16 07:35:59.920  2786  2786 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+02-16 07:35:59.925   588   588 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 17973248
+02-16 07:35:59.940   870   902 W ProcessStats: Tracking association SourceState{e2731b system/1000 ImpBg #529} whose proc state 6 is better than process ProcessState{13af203 com.android.inputmethod.latin/10061 pkg=com.android.inputmethod.latin} proc state 14 (0 skipped)
+02-16 07:35:59.955   588   588 E android.hardware.graphics.allocator@2.0-service: open_verbose_path:56: Could not open '/dev/goldfish_pipe_dprctd': No such file or directory
+02-16 07:35:59.955   588   588 E android.hardware.graphics.allocator@2.0-service: open_verbose:128: both vsock and goldfish_pipe paths failed
+02-16 07:35:59.959   588   588 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 17973248
+02-16 07:35:59.965  2786  2786 D nativeloader: Configuring clns-7 for other apk /data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/lib/x86_64:/data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.wordgamemobile
+02-16 07:35:59.991  2786  2786 V GraphicsEnvironment: Currently set values for:
+02-16 07:35:59.991  2786  2786 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+02-16 07:35:59.991  2786  2786 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+02-16 07:35:59.991  2786  2786 V GraphicsEnvironment: Global.Settings values are invalid: number of packages: 0, number of values: 0
+02-16 07:35:59.991  2786  2786 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+02-16 07:36:00.002  2786  2786 W SoLoader: Initializing SoLoader: 0
+02-16 07:36:00.003  2786  2786 W SoLoader: Recording new base apk path: /data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk
+02-16 07:36:00.003  2786  2786 W SoLoader: Previously recorded 0 base apk paths.
+02-16 07:36:00.003  2786  2786 I SoLoader: Preparing SO source: DirectorySoSource[root = /system/vendor/lib64 flags = 2]
+02-16 07:36:00.004  2786  2786 I SoLoader: Preparing SO source: DirectorySoSource[root = /system/lib64 flags = 2]
+02-16 07:36:00.004  2786  2786 I SoLoader: Preparing SO source: DirectApkSoSource[root = [/data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk!/lib/x86_64]]
+02-16 07:36:00.007  2786  2786 I SoLoader: Preparing SO source: ApplicationSoSource[DirectorySoSource[root = /data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/lib/x86_64 flags = 0]]
+02-16 07:36:00.007  2786  2786 I SoLoader: init finish: 4 SO sources prepared
+02-16 07:36:00.007  2786  2786 W SoLoader: SoLoader initialized: 8
+02-16 07:36:00.008   601   740 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+02-16 07:36:00.021  2786  2786 D nativeloader: Load /data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk!/lib/x86_64/libc++_shared.so using ns clns-7 from class loader (caller=/data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk): ok
+02-16 07:36:00.034  2786  2786 D nativeloader: Load /data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk!/lib/x86_64/libjsi.so using ns clns-7 from class loader (caller=/data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk): ok
+02-16 07:36:00.036   588   588 E android.hardware.graphics.allocator@2.0-service: open_verbose_path:56: Could not open '/dev/goldfish_pipe_dprctd': No such file or directory
+02-16 07:36:00.036   588   588 E android.hardware.graphics.allocator@2.0-service: open_verbose:128: both vsock and goldfish_pipe paths failed
+02-16 07:36:00.037   588   588 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 17973248
+02-16 07:36:00.051  2786  2786 D nativeloader: Load /data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk!/lib/x86_64/libfbjni.so using ns clns-7 from class loader (caller=/data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk): ok
+02-16 07:36:00.064   870   899 V WindowManager: Sent Transition (#18) createdAt=02-16 07:35:59.874 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=12 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.wordgamemobile/.MainActivity } baseActivity=ComponentInfo{com.wordgamemobile/com.wordgamemobile.MainActivity} topActivity=ComponentInfo{com.wordgamemobile/com.wordgamemobile.MainActivity} origActivity=null realActivity=ComponentInfo{com.wordgamemobile/com.wordgamemobile.MainActivity} numActivities=1 lastActiveTime=663002 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{6fefae6 Task{6a21836 #12 type=standard A=10098:com.wordgamemobile}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{ee71827 com.wordgamemobile.MainActivity} launchCookies=[android.os.BinderProxy@6eb5ad4] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1440 topActivityLetterboxHeight=3120 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@ba30fc3, appThread = android.app.IApplicationThread$Stub$Proxy@70d5040, debugName = QuickstepLaunch }, displayChange = null, flags = 0, debugId = 18 }
+02-16 07:36:00.064   870   899 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+02-16 07:36:00.065   870   899 V WindowManager:     info={id=18 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+02-16 07:36:00.065   870   899 V WindowManager:         {WCT{RemoteToken{6fefae6 Task{6a21836 #12 type=standard A=10098:com.wordgamemobile}}} m=OPEN f=NONE leash=Surface(name=Task=12)/@0x3642428 sb=Rect(0, 0 - 1440, 3120) eb=Rect(0, 0 - 1440, 3120) d=0 taskParent=-1},
+02-16 07:36:00.065   870   899 V WindowManager:         {WCT{RemoteToken{cacde10 Task{271a92e #1 type=home}}} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x45e620 sb=Rect(0, 0 - 1440, 3120) eb=Rect(0, 0 - 1440, 3120) d=0 taskParent=-1}
+02-16 07:36:00.065   870   899 V WindowManager:     ]}
+02-16 07:36:00.066  1129  1397 V WindowManagerShell: onTransitionReady(transaction=3736621548333)
+02-16 07:36:00.067  1129  1203 V WindowManagerShell: onTransitionReady (#18) android.os.BinderProxy@f166c3f: {id=18 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@dfa4472} m=OPEN f=NONE leash=Surface(name=Task=12)/@0xefc0927 sb=Rect(0, 0 - 1440, 3120) eb=Rect(0, 0 - 1440, 3120) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@69610c3} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x743f7d4 sb=Rect(0, 0 - 1440, 3120) eb=Rect(0, 0 - 1440, 3120) d=0 taskParent=-1}]}
+02-16 07:36:00.067  1129  1203 V WindowManagerShell: Playing animation for (#18) android.os.BinderProxy@f166c3f@0
+02-16 07:36:00.067  1129  1203 V WindowManagerShell:  try firstHandler com.android.wm.shell.transition.DefaultMixedHandler@737008c
+02-16 07:36:00.067  1129  1203 V WindowManagerShell: Mixed transition for opening an intent with a remote transition and PIP #18
+02-16 07:36:00.068  1129  1203 V WindowManagerShell:  Delegate animation for (#18) to RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@20f8d5b, appThread = android.app.IApplicationThread$Stub$Proxy@d1319f8, debugName = QuickstepLaunch }
+02-16 07:36:00.068  2786  2786 D nativeloader: Load /data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk!/lib/x86_64/libreactnative.so using ns clns-7 from class loader (caller=/data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk): ok
+02-16 07:36:00.068  2786  2786 D jni_lib_merge: Entering merged library JNI_OnLoad.
+02-16 07:36:00.068  2786  2786 D jni_lib_merge: Preparing 12 pre-merged libs (including stub)
+02-16 07:36:00.068  2786  2786 D jni_lib_merge: Preparing to register libfabricjni_so.  onload_func: 0x7802266b2ba0
+02-16 07:36:00.068  2786  2786 D jni_lib_merge: Preparing to register libreact_devsupportjni_so.  onload_func: 0x78022678e530
+02-16 07:36:00.068  2786  2786 D jni_lib_merge: Preparing to register libreact_featureflagsjni_so.  onload_func: 0x7802267a10a0
+02-16 07:36:00.068  2786  2786 D jni_lib_merge: Preparing to register libreact_newarchdefaults_so.  onload_func: 0x7802267c7fa0
+02-16 07:36:00.068  2786  2786 D jni_lib_merge: Preparing to register libreactnativeblob_so.  onload_func: 0x78022686fa50
+02-16 07:36:00.068  2786  2786 D jni_lib_merge: Preparing to register libreactnativejni_so.  onload_func: 0x78022688a8c0
+02-16 07:36:00.068  2786  2786 D jni_lib_merge: Preparing to register libreactnativejni_common_so.  onload_func: 0x780226891150
+02-16 07:36:00.068  1129  1203 V WindowManagerShell:  animated by firstHandler
+02-16 07:36:00.068  2786  2786 D jni_lib_merge: Preparing to register librninstance_so.  onload_func: 0x7802268af450
+02-16 07:36:00.068  2786  2786 D jni_lib_merge: Preparing to register libturbomodulejsijni_so.  onload_func: 0x78022695ab80
+02-16 07:36:00.068  2786  2786 D jni_lib_merge: Preparing to register libuimanagerjni_so.  onload_func: 0x780226962ab0
+02-16 07:36:00.068  2786  2786 D jni_lib_merge: Preparing to register libyoga_so.  onload_func: 0x78022696a130
+02-16 07:36:00.069  2786  2786 D jni_lib_merge: About to register 11 actual methods.
+02-16 07:36:00.092   588   588 E android.hardware.graphics.allocator@2.0-service: open_verbose_path:56: Could not open '/dev/goldfish_pipe_dprctd': No such file or directory
+02-16 07:36:00.092   588   588 E android.hardware.graphics.allocator@2.0-service: open_verbose:128: both vsock and goldfish_pipe paths failed
+02-16 07:36:00.093  1129  1250 D EGL_emulation: app_time_stats: avg=856.79ms min=16.82ms max=5862.93ms count=7
+02-16 07:36:00.094  2786  2786 D nativeloader: Load /data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk!/lib/x86_64/libreact_codegen_rnscreens.so using ns clns-7 from class loader (caller=/data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk): ok
+02-16 07:36:00.094  2786  2786 D jni_lib_merge: Entering merged library JNI_OnLoad.
+02-16 07:36:00.094  2786  2786 D jni_lib_merge: Preparing 12 pre-merged libs (including stub)
+02-16 07:36:00.094  2786  2786 D jni_lib_merge: Preparing to register libfabricjni_so.  onload_func: 0x7802266b2ba0
+02-16 07:36:00.094  2786  2786 D jni_lib_merge: Preparing to register libreact_devsupportjni_so.  onload_func: 0x78022678e530
+02-16 07:36:00.094  2786  2786 D jni_lib_merge: Preparing to register libreact_featureflagsjni_so.  onload_func: 0x7802267a10a0
+02-16 07:36:00.094  2786  2786 D jni_lib_merge: Preparing to register libreact_newarchdefaults_so.  onload_func: 0x7802267c7fa0
+02-16 07:36:00.094  2786  2786 D jni_lib_merge: Preparing to register libreactnativeblob_so.  onload_func: 0x78022686fa50
+02-16 07:36:00.094  2786  2786 D jni_lib_merge: Preparing to register libreactnativejni_so.  onload_func: 0x78022688a8c0
+02-16 07:36:00.094  2786  2786 D jni_lib_merge: Preparing to register libreactnativejni_common_so.  onload_func: 0x780226891150
+02-16 07:36:00.094  2786  2786 D jni_lib_merge: Preparing to register librninstance_so.  onload_func: 0x7802268af450
+02-16 07:36:00.094  2786  2786 D jni_lib_merge: Preparing to register libturbomodulejsijni_so.  onload_func: 0x78022695ab80
+02-16 07:36:00.094  2786  2786 D jni_lib_merge: Preparing to register libuimanagerjni_so.  onload_func: 0x780226962ab0
+02-16 07:36:00.094  2786  2786 D jni_lib_merge: Preparing to register libyoga_so.  onload_func: 0x78022696a130
+02-16 07:36:00.094  2786  2786 D jni_lib_merge: About to register 11 actual methods.
+02-16 07:36:00.109  2786  2786 D nativeloader: Load /data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk!/lib/x86_64/libreact_codegen_safeareacontext.so using ns clns-7 from class loader (caller=/data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk): ok
+02-16 07:36:00.111   870   944 W UserManagerService: Requested status bar icon for non-badged user 0
+02-16 07:36:00.111  2786  2786 D nativeloader: Load /data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk!/lib/x86_64/libappmodules.so using ns clns-7 from class loader (caller=/data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk): ok
+02-16 07:36:00.147  2786  2786 I RenderThread: type=1400 audit(0.0:317): avc:  denied  { read } for  name="libandroidemu.so" dev="vda4" ino=4451 scontext=u:r:untrusted_app:s0:c98,c256,c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1 app=com.wordgamemobile
+02-16 07:36:00.147  2786  2786 I RenderThread: type=1400 audit(0.0:318): avc:  denied  { open } for  path="/system/vendor/lib64/libandroidemu.so" dev="vda4" ino=4451 scontext=u:r:untrusted_app:s0:c98,c256,c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1 app=com.wordgamemobile
+02-16 07:36:00.148  2786  2786 I RenderThread: type=1400 audit(0.0:319): avc:  denied  { getattr } for  path="/system/vendor/lib64/libandroidemu.so" dev="vda4" ino=4451 scontext=u:r:untrusted_app:s0:c98,c256,c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1 app=com.wordgamemobile
+02-16 07:36:00.148  2786  2786 I RenderThread: type=1400 audit(0.0:320): avc:  denied  { map } for  path="/system/vendor/lib64/libandroidemu.so" dev="vda4" ino=4451 scontext=u:r:untrusted_app:s0:c98,c256,c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1 app=com.wordgamemobile
+02-16 07:36:00.150  2786  2786 I RenderThread: type=1400 audit(0.0:321): avc:  denied  { execute } for  path="/system/vendor/lib64/libandroidemu.so" dev="vda4" ino=4451 scontext=u:r:untrusted_app:s0:c98,c256,c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1 app=com.wordgamemobile
+02-16 07:36:00.152  2786  2786 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+02-16 07:36:00.176  2786  2786 D nativeloader: Load /data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk!/lib/x86_64/libhermes.so using ns clns-7 from class loader (caller=/data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk): ok
+02-16 07:36:00.177  2786  2786 D nativeloader: Load /data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk!/lib/x86_64/libhermestooling.so using ns clns-7 from class loader (caller=/data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk): ok
+02-16 07:36:00.177  2786  2786 D jni_lib_merge: Entering merged library JNI_OnLoad.
+02-16 07:36:00.178  2786  2786 D jni_lib_merge: Preparing 4 pre-merged libs (including stub)
+02-16 07:36:00.178  2786  2786 D jni_lib_merge: Preparing to register libhermes_executor_so.  onload_func: 0x78022469b730
+02-16 07:36:00.178  2786  2786 D jni_lib_merge: Preparing to register libhermesinstancejni_so.  onload_func: 0x7802246a2db0
+02-16 07:36:00.178  2786  2786 D jni_lib_merge: Preparing to register libjsijniprofiler_so.  onload_func: 0x7802246a3540
+02-16 07:36:00.178  2786  2786 D jni_lib_merge: About to register 3 actual methods.
+02-16 07:36:00.185  2786  2786 W unknown:BridgelessReact: ReactHost{0}.startSurface(surfaceId = 0): Schedule
+02-16 07:36:00.185  2786  2786 W unknown:BridgelessReact: ReactHost{0}.attachSurface(surfaceId = 0)
+02-16 07:36:00.185  2786  2806 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask()
+02-16 07:36:00.185  2786  2806 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Start
+02-16 07:36:00.185  2786  2806 W unknown:BridgelessReact: ReactHost{0}.getJSBundleLoader()
+02-16 07:36:00.186  2786  2806 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactContext(): Creating BridgelessReactContext
+02-16 07:36:00.186  2786  2806 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Creating ReactInstance
+02-16 07:36:00.199  2786  2786 W unknown:BridgelessReact: ReactHost{0}.onHostResume(activity)
+02-16 07:36:00.200  2786  2786 W unknown:BridgelessReact: ReactContext.onHostResume()
+02-16 07:36:00.205  2786  2786 W HWUI    : Unknown dataspace 0
+02-16 07:36:00.229  2786  2806 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Loading JS Bundle
+02-16 07:36:00.229  2786  2806 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Calling DevSupportManagerBase.onNewReactContextCreated(reactContext)
+02-16 07:36:00.230  2786  2806 W unknown:BridgelessReact: ReactHost{0}.startSurface(surfaceId = 0): Execute
+02-16 07:36:00.230   870  2776 D CoreBackPreview: Window{f052104 u0 com.wordgamemobile/com.wordgamemobile.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@f5b0922, mPriority=0, mIsAnimationCallback=false}
+02-16 07:36:00.249  2786  2801 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+02-16 07:36:00.249  2786  2801 I EGL_emulation: Opening libGLESv2_emulation.so
+02-16 07:36:00.252  2786  2801 E .wordgamemobile: open_verbose_path:56: Could not open '/dev/goldfish_pipe_dprctd': No such file or directory
+02-16 07:36:00.252  2786  2801 E .wordgamemobile: open_verbose:128: both vsock and goldfish_pipe paths failed
+02-16 07:36:00.252  2786  2801 W .wordgamemobile: Process pipe failed
+02-16 07:36:00.252  2786  2801 D HostConnection: New host connection established 0x78038af01990, pid 2786, tid 2801
+02-16 07:36:00.264   397  2811 D local_opengl: Sending id 32 to host
+02-16 07:36:00.268   591   630 I RanchuHwc: logCompositionFallbackIfChanged: layer 11 CompositionType fallback from 2 to 1
+02-16 07:36:00.268   591   630 I RanchuHwc: logCompositionFallbackIfChanged: layer 8 CompositionType fallback from 2 to 1
+02-16 07:36:00.268   591   630 I RanchuHwc: logCompositionFallbackIfChanged: layer 28 CompositionType fallback from 2 to 1
+02-16 07:36:00.268   591   630 I RanchuHwc: logCompositionFallbackIfChanged: layer 29 CompositionType fallback from 2 to 1
+02-16 07:36:00.268   596   596 I android.hardware.power-service.example: Power isModeSupported: 6
+02-16 07:36:00.278   206   206 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device VINTF manifest.
+02-16 07:36:00.279  2786  2801 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+02-16 07:36:00.281  2786  2801 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+02-16 07:36:00.294  2786  2801 E .wordgamemobile: open_verbose_path:56: Could not open '/dev/goldfish_pipe_dprctd': No such file or directory
+02-16 07:36:00.294  2786  2801 E .wordgamemobile: open_verbose:128: both vsock and goldfish_pipe paths failed
+02-16 07:36:00.310  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaProviderManager
+02-16 07:36:00.315  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.uimanager.LayoutShadowNode
+02-16 07:36:00.320  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.SearchBarManager
+02-16 07:36:00.322  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenFooterManager
+02-16 07:36:00.323  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.gamma.tabs.TabScreenViewManager
+02-16 07:36:00.325  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenContainerViewManager
+02-16 07:36:00.326  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.gamma.tabs.TabsHostViewManager
+02-16 07:36:00.328  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ModalScreenViewManager
+02-16 07:36:00.331  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackHeaderConfigViewManager
+02-16 07:36:00.334  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenContentWrapperManager
+02-16 07:36:00.334  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaViewManager
+02-16 07:36:00.339  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaViewShadowNode
+02-16 07:36:00.344  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenViewManager
+02-16 07:36:00.345  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackHeaderSubviewManager
+02-16 07:36:00.347  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackViewManager
+02-16 07:36:00.360   206   206 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+02-16 07:36:00.360  2786  2801 I Gralloc4: mapper 4.x is not supported
+02-16 07:36:00.360   206   206 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@3.0::IMapper/default in either framework or device VINTF manifest.
+02-16 07:36:00.360  2786  2801 W Gralloc3: mapper 3.x is not supported
+02-16 07:36:00.360  2786  2786 I RenderThread: type=1400 audit(0.0:322): avc:  denied  { getattr } for  path="/system/vendor/lib64/hw/gralloc.ranchu.so" dev="vda4" ino=4435 scontext=u:r:untrusted_app:s0:c98,c256,c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1 app=com.wordgamemobile
+02-16 07:36:00.360  2786  2786 I RenderThread: type=1400 audit(0.0:323): avc:  denied  { read } for  name="gralloc.ranchu.so" dev="vda4" ino=4435 scontext=u:r:untrusted_app:s0:c98,c256,c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1 app=com.wordgamemobile
+02-16 07:36:00.360  2786  2786 I RenderThread: type=1400 audit(0.0:324): avc:  denied  { open } for  path="/system/vendor/lib64/hw/gralloc.ranchu.so" dev="vda4" ino=4435 scontext=u:r:untrusted_app:s0:c98,c256,c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=1 app=com.wordgamemobile
+02-16 07:36:00.367   588   588 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 17973248
+02-16 07:36:00.380   588   588 E android.hardware.graphics.allocator@2.0-service: open_verbose_path:56: Could not open '/dev/goldfish_pipe_dprctd': No such file or directory
+02-16 07:36:00.380   588   588 E android.hardware.graphics.allocator@2.0-service: open_verbose:128: both vsock and goldfish_pipe paths failed
+02-16 07:36:00.380  2786  2801 D HostConnection: New host connection established 0x78038af03e50, pid 2786, tid 2801
+02-16 07:36:00.402  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.gesturehandler.react.RNGestureHandlerButtonViewManager
+02-16 07:36:00.404   397  2812 D local_opengl: Sending id 33 to host
+02-16 07:36:00.404  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.safeareaview.ReactSafeAreaViewManager
+02-16 07:36:00.405  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.safeareaview.ReactSafeAreaViewShadowNode
+02-16 07:36:00.409  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ReactModalHostManager
+02-16 07:36:00.411  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageViewManager
+02-16 07:36:00.412  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageShadowNode
+02-16 07:36:00.415  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ReactProgressBarViewManager
+02-16 07:36:00.416  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ProgressBarShadowNode
+02-16 07:36:00.417  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollViewManager
+02-16 07:36:00.419   588   588 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 17973248
+02-16 07:36:00.421  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.image.ReactImageManager
+02-16 07:36:00.426  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextViewManager
+02-16 07:36:00.428  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextShadowNode
+02-16 07:36:00.432  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollContainerViewManager
+02-16 07:36:00.435  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.unimplementedview.ReactUnimplementedViewManager
+02-16 07:36:00.438  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactScrollViewManager
+02-16 07:36:00.441  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.view.ReactViewManager
+02-16 07:36:00.444  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.drawer.ReactDrawerLayoutManager
+02-16 07:36:00.447  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager
+02-16 07:36:00.448  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchShadowNode
+02-16 07:36:00.450  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextViewManager
+02-16 07:36:00.450  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextShadowNode
+02-16 07:36:00.452  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager
+02-16 07:36:00.454  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextManager
+02-16 07:36:00.454  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextShadowNode
+02-16 07:36:00.455  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputManager
+02-16 07:36:00.457  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputShadowNode
+02-16 07:36:00.460  2786  2807 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.gesturehandler.react.RNGestureHandlerRootViewManager
+02-16 07:36:00.466  2786  2807 I ReactNativeJS: Running "WordGameMobile"
+02-16 07:36:00.483  2786  2807 D nativeloader: Load /data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk!/lib/x86_64/librnscreens.so using ns clns-7 from class loader (caller=/data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk!classes2.dex): ok
+02-16 07:36:00.487   588   588 E android.hardware.graphics.allocator@2.0-service: open_verbose_path:56: Could not open '/dev/goldfish_pipe_dprctd': No such file or directory
+02-16 07:36:00.487   588   588 E android.hardware.graphics.allocator@2.0-service: open_verbose:128: both vsock and goldfish_pipe paths failed
+02-16 07:36:00.487   588   588 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 17973248
+02-16 07:36:00.531   588   588 E android.hardware.graphics.allocator@2.0-service: open_verbose_path:56: Could not open '/dev/goldfish_pipe_dprctd': No such file or directory
+02-16 07:36:00.531   588   588 E android.hardware.graphics.allocator@2.0-service: open_verbose:128: both vsock and goldfish_pipe paths failed
+02-16 07:36:00.559  2786  2807 D nativeloader: Load /data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk!/lib/x86_64/libgesturehandler.so using ns clns-7 from class loader (caller=/data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk): ok
+02-16 07:36:00.559  2786  2807 D jni_lib_merge: Entering merged library JNI_OnLoad.
+02-16 07:36:00.559  2786  2807 D jni_lib_merge: Preparing 12 pre-merged libs (including stub)
+02-16 07:36:00.559  2786  2807 D jni_lib_merge: Preparing to register libfabricjni_so.  onload_func: 0x7802266b2ba0
+02-16 07:36:00.559  2786  2807 D jni_lib_merge: Preparing to register libreact_devsupportjni_so.  onload_func: 0x78022678e530
+02-16 07:36:00.559  2786  2807 D jni_lib_merge: Preparing to register libreact_featureflagsjni_so.  onload_func: 0x7802267a10a0
+02-16 07:36:00.559  2786  2807 D jni_lib_merge: Preparing to register libreact_newarchdefaults_so.  onload_func: 0x7802267c7fa0
+02-16 07:36:00.559  2786  2807 D jni_lib_merge: Preparing to register libreactnativeblob_so.  onload_func: 0x78022686fa50
+02-16 07:36:00.560  2786  2807 D jni_lib_merge: Preparing to register libreactnativejni_so.  onload_func: 0x78022688a8c0
+02-16 07:36:00.560  2786  2807 D jni_lib_merge: Preparing to register libreactnativejni_common_so.  onload_func: 0x780226891150
+02-16 07:36:00.560  2786  2807 D jni_lib_merge: Preparing to register librninstance_so.  onload_func: 0x7802268af450
+02-16 07:36:00.560  2786  2807 D jni_lib_merge: Preparing to register libturbomodulejsijni_so.  onload_func: 0x78022695ab80
+02-16 07:36:00.560  2786  2807 D jni_lib_merge: Preparing to register libuimanagerjni_so.  onload_func: 0x780226962ab0
+02-16 07:36:00.560  2786  2807 D jni_lib_merge: Preparing to register libyoga_so.  onload_func: 0x78022696a130
+02-16 07:36:00.560  2786  2807 D jni_lib_merge: About to register 11 actual methods.
+02-16 07:36:00.602  2786  2786 W unknown:BridgelessReact: ReactContext.onHostResume()
+02-16 07:36:00.602  2786  2786 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Executing ReactInstanceEventListeners
+02-16 07:36:00.602  2786  2786 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.uimanager.RootViewManager
+02-16 07:36:00.613   870   899 I ActivityTaskManager: Displayed com.wordgamemobile/.MainActivity for user 0: +735ms
+02-16 07:36:00.628  1129  1203 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#18) android.os.BinderProxy@f166c3f@0
+02-16 07:36:00.629   870   899 V WindowManager: Finish Transition (#18): created at 02-16 07:35:59.874 collect-started=0.08ms request-sent=6.928ms started=13.471ms ready=187.879ms sent=189.452ms finished=754.319ms
+02-16 07:36:00.635  1129  1203 V WindowManagerShell: Track 0 became idle
+02-16 07:36:00.636  1129  1203 V WindowManagerShell: All active transition animations finished
+02-16 07:36:00.636   870  2776 W UserManagerService: Requested status bar icon for non-badged user 0
+02-16 07:36:00.637   870  2776 W UserManagerService: Requested status bar icon for non-badged user 0
+02-16 07:36:00.646  1365  1365 D VRI[QuickstepLauncher]: visibilityChanged oldVisibility=true newVisibility=false
+02-16 07:36:00.665  2786  2786 W [RNScreens]: backTitleFontFamily prop is not available on Android
+02-16 07:36:00.665  2786  2786 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+02-16 07:36:00.665  2786  2786 W [RNScreens]: backTitleVisible prop is not available on Android
+02-16 07:36:00.666  2786  2786 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+02-16 07:36:00.666  2786  2786 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+02-16 07:36:00.666  2786  2786 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+02-16 07:36:00.670  2786  2786 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.runtime.ReactSurfaceView{1c9fb93 V.E...... ......ID 0,0-1440,3120 #1}
+02-16 07:36:00.844  1129  1250 D EGL_emulation: app_time_stats: avg=1121.73ms min=13.50ms max=6628.10ms count=6
+02-16 07:36:01.045  1129  1215 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@1564c1a
+02-16 07:36:01.046   870   894 D CoreBackPreview: Window{66f81c2 u0 Splash Screen com.wordgamemobile EXITING}: Setting back callback null
+02-16 07:36:01.047   870   944 W InputManager-JNI: Input channel object '66f81c2 Splash Screen com.wordgamemobile (client)' was disposed without first being removed with the input manager!
+02-16 07:36:01.053  1365  1365 D BaseDepthController: setSurface:
+02-16 07:36:01.053  1365  1365 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+02-16 07:36:01.053  1365  1365 D BaseDepthController: 	mSurface: null
+02-16 07:36:01.054  1365  1365 D StatsLog: LAUNCHER_ONSTOP
+02-16 07:36:01.123   870   981 I ImeTracker: com.wordgamemobile:6ebc77e6: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+02-16 07:36:01.123   870   981 I ImeTracker: com.wordgamemobile:6ebc77e6: onCancelled at PHASE_SERVER_SHOULD_HIDE
+02-16 07:36:01.845  1129  1250 D EGL_emulation: app_time_stats: avg=9.76ms min=1.63ms max=41.52ms count=53
+02-16 07:36:02.324  2786  2801 D EGL_emulation: app_time_stats: avg=344.37ms min=20.13ms max=1160.33ms count=5
+02-16 07:36:02.770   601   601 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+02-16 07:36:02.770   870  1958 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 16
+02-16 07:36:02.786  2786  2786 W [RNScreens]: backTitle prop is not available on Android
+02-16 07:36:02.786  2786  2786 W [RNScreens]: backTitleFontFamily prop is not available on Android
+02-16 07:36:02.786  2786  2786 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+02-16 07:36:02.786  2786  2786 W [RNScreens]: backTitleVisible prop is not available on Android
+02-16 07:36:02.786  2786  2786 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+02-16 07:36:02.786  2786  2786 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+02-16 07:36:02.786  2786  2786 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+02-16 07:36:02.909   601   740 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+02-16 07:36:03.342  2786  2801 D EGL_emulation: app_time_stats: avg=31.75ms min=12.07ms max=107.87ms count=29
+02-16 07:36:03.890   870  1795 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+02-16 07:36:04.283   870   944 D WifiNl80211Manager: Scan result ready event
+02-16 07:36:04.283   870   944 D WifiNative: Scan result ready event
+02-16 07:36:04.633  2786  2801 D EGL_emulation: app_time_stats: avg=142.12ms min=12.62ms max=1069.09ms count=9
+02-16 07:36:04.772   601   601 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+02-16 07:36:04.772   870   894 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 16
+02-16 07:36:04.911   601   740 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+02-16 07:36:05.469   601   601 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+02-16 07:36:05.470   870   894 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 16
+02-16 07:36:05.519  2786  2821 D ProfileInstaller: Skipping profile installation for com.wordgamemobile
+02-16 07:36:05.597   601   740 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+02-16 07:36:05.654  2786  2801 D EGL_emulation: app_time_stats: avg=29.04ms min=11.67ms max=278.62ms count=31
+02-16 07:36:06.185   601   601 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+02-16 07:36:06.185   870   894 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 16
+02-16 07:36:06.320   601   740 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+02-16 07:36:06.666  2786  2801 D EGL_emulation: app_time_stats: avg=44.57ms min=11.95ms max=302.65ms count=21
+02-16 07:36:06.735   601   601 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+02-16 07:36:06.736   870  2776 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 16
+02-16 07:36:06.869   601   740 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+02-16 07:36:07.668  2786  2801 D EGL_emulation: app_time_stats: avg=64.74ms min=11.70ms max=621.17ms count=15
+02-16 07:36:07.769   601   601 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+02-16 07:36:07.769   870  1958 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 16
+02-16 07:36:07.904   601   740 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+02-16 07:36:10.699  2786  2801 D EGL_emulation: app_time_stats: avg=186.74ms min=11.77ms max=2616.92ms count=16
+02-16 07:36:10.768   601   601 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+02-16 07:36:10.769   870  1958 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 16
+02-16 07:36:10.895   601   740 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+02-16 07:36:15.368  2786  2801 D EGL_emulation: app_time_stats: avg=330.28ms min=11.13ms max=4286.37ms count=14
+02-16 07:36:15.452   601   601 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+02-16 07:36:15.452   870   894 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 16
+02-16 07:36:15.585   601   740 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+02-16 07:36:16.306   601   601 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+02-16 07:36:16.306   870   894 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 16
+02-16 07:36:16.396  2786  2801 D EGL_emulation: app_time_stats: avg=54.95ms min=11.46ms max=455.14ms count=18
+02-16 07:36:16.447   601   740 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+02-16 07:36:17.336   601   601 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+02-16 07:36:17.336   870  1958 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 16
+02-16 07:36:17.400  2786  2801 D EGL_emulation: app_time_stats: avg=70.15ms min=13.24ms max=649.75ms count=14
+02-16 07:36:17.479   601   740 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+02-16 07:36:18.221  2786  2808 W unknown:BridgelessReact: ReactHost{0}.handleHostException(message = "vibrate: Neither user 10098 nor current process has android.permission.VIBRATE.")
+02-16 07:36:18.221  2786  2808 E AndroidRuntime: FATAL EXCEPTION: mqt_v_native
+02-16 07:36:18.221  2786  2808 E AndroidRuntime: Process: com.wordgamemobile, PID: 2786
+02-16 07:36:18.221  2786  2808 E AndroidRuntime: java.lang.SecurityException: vibrate: Neither user 10098 nor current process has android.permission.VIBRATE.
+02-16 07:36:18.221  2786  2808 E AndroidRuntime: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3242)
+02-16 07:36:18.221  2786  2808 E AndroidRuntime: 	at android.os.Parcel.createException(Parcel.java:3226)
+02-16 07:36:18.221  2786  2808 E AndroidRuntime: 	at android.os.Parcel.readException(Parcel.java:3209)
+02-16 07:36:18.221  2786  2808 E AndroidRuntime: 	at android.os.Parcel.readException(Parcel.java:3151)
+02-16 07:36:18.221  2786  2808 E AndroidRuntime: 	at android.os.IVibratorManagerService$Stub$Proxy.vibrate(IVibratorManagerService.java:425)
+02-16 07:36:18.221  2786  2808 E AndroidRuntime: 	at android.os.SystemVibratorManager.vibrate(SystemVibratorManager.java:142)
+02-16 07:36:18.221  2786  2808 E AndroidRuntime: 	at android.os.SystemVibrator.vibrate(SystemVibrator.java:205)
+02-16 07:36:18.221  2786  2808 E AndroidRuntime: 	at android.os.Vibrator.vibrate(Vibrator.java:509)
+02-16 07:36:18.221  2786  2808 E AndroidRuntime: 	at android.os.Vibrator.vibrate(Vibrator.java:471)
+02-16 07:36:18.221  2786  2808 E AndroidRuntime: 	at com.facebook.react.modules.vibration.VibrationModule.vibrateByPattern(VibrationModule.kt:44)
+02-16 07:36:18.221  2786  2808 E AndroidRuntime: 	at com.facebook.jni.NativeRunnable.run(Native Method)
+02-16 07:36:18.221  2786  2808 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:959)
+02-16 07:36:18.221  2786  2808 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+02-16 07:36:18.221  2786  2808 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage(MessageQueueThreadHandler.kt:21)
+02-16 07:36:18.221  2786  2808 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:232)
+02-16 07:36:18.221  2786  2808 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:317)
+02-16 07:36:18.221  2786  2808 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.startNewBackgroundThread$lambda$1(MessageQueueThreadImpl.kt:175)
+02-16 07:36:18.221  2786  2808 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.$r8$lambda$ldnZnqelhYFctGaUKkOKYj5rxo4(Unknown Source:0)
+02-16 07:36:18.221  2786  2808 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+02-16 07:36:18.221  2786  2808 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:1012)
+02-16 07:36:18.221  2786  2808 E AndroidRuntime: Caused by: android.os.RemoteException: Remote stack trace:
+02-16 07:36:18.221  2786  2808 E AndroidRuntime: 	at android.app.ContextImpl.enforce(ContextImpl.java:2389)
+02-16 07:36:18.221  2786  2808 E AndroidRuntime: 	at android.app.ContextImpl.enforceCallingOrSelfPermission(ContextImpl.java:2417)
+02-16 07:36:18.221  2786  2808 E AndroidRuntime: 	at com.android.server.vibrator.VibratorManagerService.vibrateWithPermissionCheck(VibratorManagerService.java:474)
+02-16 07:36:18.221  2786  2808 E AndroidRuntime: 	at com.android.server.vibrator.VibratorManagerService.vibrate(VibratorManagerService.java:413)
+02-16 07:36:18.221  2786  2808 E AndroidRuntime: 	at android.os.IVibratorManagerService$Stub.onTransact(IVibratorManagerService.java:241)
+02-16 07:36:18.221  2786  2808 E AndroidRuntime: 
+02-16 07:36:18.223   870  2824 I DropBoxManagerService: add tag=data_app_crash isTagEnabled=true flags=0x2
+02-16 07:36:18.223   870   894 W ActivityTaskManager:   Force finishing activity com.wordgamemobile/.MainActivity
+02-16 07:36:18.224   601   601 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+02-16 07:36:18.224   870   944 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 16
+02-16 07:36:18.225  1129  1203 V WindowManagerShell: Transition requested (#19): android.os.BinderProxy@b1788cd TransitionRequestInfo { type = CLOSE, triggerTask = null, pipTask = null, remoteTransition = null, displayChange = null, flags = 16, debugId = 19 }
+02-16 07:36:18.228  2786  2786 W unknown:BridgelessReact: ReactHost{0}.onHostPause(activity)
+02-16 07:36:18.228  2786  2786 W unknown:BridgelessReact: ReactContext.onHostPause()
+02-16 07:36:18.228  1365  1365 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=6, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.android.launcher3/.uioverrides.QuickstepLauncher }
+02-16 07:36:18.228   870   900 I ActivityManager: Showing crash dialog for package com.wordgamemobile u0
+02-16 07:36:18.233   613   613 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+02-16 07:36:18.237  1365  1365 D StatsLog: LAUNCHER_ONRESUME
+02-16 07:36:18.238   870   902 W ProcessStats: Tracking association SourceState{e2731b system/1000 ImpBg #541} whose proc state 6 is better than process ProcessState{13af203 com.android.inputmethod.latin/10061 pkg=com.android.inputmethod.latin} proc state 14 (2 skipped)
+02-16 07:36:18.252   870   900 D CoreBackPreview: Window{df355c u0 Application Error: com.wordgamemobile}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.WindowOnBackInvokedDispatcher$OnBackInvokedCallbackWrapper@9373363, mPriority=0, mIsAnimationCallback=false}
+02-16 07:36:18.259  1365  1365 D BaseDepthController: setSurface:
+02-16 07:36:18.259  1365  1365 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+02-16 07:36:18.259  1365  1365 D BaseDepthController: 	mSurface: Surface(name=com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher)/@0x1e517c5
+02-16 07:36:18.259   588   588 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 17973248
+02-16 07:36:18.266   588   625 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 5201920
+02-16 07:36:18.280   588   588 E android.hardware.graphics.allocator@2.0-service: open_verbose_path:56: Could not open '/dev/goldfish_pipe_dprctd': No such file or directory
+02-16 07:36:18.280   588   588 E android.hardware.graphics.allocator@2.0-service: open_verbose:128: both vsock and goldfish_pipe paths failed
+02-16 07:36:18.295   588   588 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 17973248
+02-16 07:36:18.298   588   625 E android.hardware.graphics.allocator@2.0-service: open_verbose_path:56: Could not open '/dev/goldfish_pipe_dprctd': No such file or directory
+02-16 07:36:18.298   588   625 E android.hardware.graphics.allocator@2.0-service: open_verbose:128: both vsock and goldfish_pipe paths failed
+02-16 07:36:18.330   588   588 E android.hardware.graphics.allocator@2.0-service: open_verbose_path:56: Could not open '/dev/goldfish_pipe_dprctd': No such file or directory
+02-16 07:36:18.330   588   588 E android.hardware.graphics.allocator@2.0-service: open_verbose:128: both vsock and goldfish_pipe paths failed
+02-16 07:36:18.330   588   625 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 17973248
+02-16 07:36:18.357   601   740 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+02-16 07:36:18.391   588   588 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 5201920
+02-16 07:36:18.394   588   625 E android.hardware.graphics.allocator@2.0-service: open_verbose_path:56: Could not open '/dev/goldfish_pipe_dprctd': No such file or directory
+02-16 07:36:18.394   588   625 E android.hardware.graphics.allocator@2.0-service: open_verbose:128: both vsock and goldfish_pipe paths failed
+02-16 07:36:18.406  2786  2801 D EGL_emulation: app_time_stats: avg=68.60ms min=12.41ms max=470.06ms count=14
+02-16 07:36:18.413  1129  1154 V WindowManagerShell: onTransitionReady(transaction=3736621548398)
+02-16 07:36:18.414  1129  1203 V WindowManagerShell: onTransitionReady (#19) android.os.BinderProxy@b1788cd: {id=19 t=CLOSE f=0x10 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@2acd6ef} m=TO_FRONT f=SHOW_WALLPAPER|MOVE_TO_TOP leash=Surface(name=Task=1)/@0x4888493 sb=Rect(0, 0 - 1440, 3120) eb=Rect(0, 0 - 1440, 3120) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@8ee85fc} m=CLOSE f=NONE leash=Surface(name=Task=12)/@0x3376cd0 sb=Rect(0, 0 - 1440, 3120) eb=Rect(0, 0 - 1440, 3120) d=0 taskParent=-1},{null m=TO_FRONT f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{84485ce token=android.os.Binder@c328ac9})/@0xaa0e4c9 sb=Rect(0, 0 - 1440, 3120) eb=Rect(0, 0 - 1440, 3120) d=0}]}
+02-16 07:36:18.414  1129  1203 V WindowManagerShell: Playing animation for (#19) android.os.BinderProxy@b1788cd@0
+02-16 07:36:18.414  1129  1203 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@737008c
+02-16 07:36:18.414  1129  1203 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@cde13d5
+02-16 07:36:18.414  1129  1203 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@5787ea
+02-16 07:36:18.414  1129  1203 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@9aa5adb
+02-16 07:36:18.414  1129  1203 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@5999978
+02-16 07:36:18.414  1129  1203 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+02-16 07:36:18.414  1129  1203 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@9f91851
+02-16 07:36:18.414  1129  1203 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@41e38b6
+02-16 07:36:18.414  1129  1203 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=19 t=CLOSE f=0x10 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@2acd6ef} m=TO_FRONT f=SHOW_WALLPAPER|MOVE_TO_TOP leash=Surface(name=Task=1)/@0x4888493 sb=Rect(0, 0 - 1440, 3120) eb=Rect(0, 0 - 1440, 3120) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@8ee85fc} m=CLOSE f=NONE leash=Surface(name=Task=12)/@0x3376cd0 sb=Rect(0, 0 - 1440, 3120) eb=Rect(0, 0 - 1440, 3120) d=0 taskParent=-1},{null m=TO_FRONT f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{84485ce token=android.os.Binder@c328ac9})/@0xaa0e4c9 sb=Rect(0, 0 - 1440, 3120) eb=Rect(0, 0 - 1440, 3120) d=0}]}
+02-16 07:36:18.414  1129  1203 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher} launchCookie=null},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@34a2a80, appThread = android.app.IApplicationThread$Stub$Proxy@e8748b9, debugName = QuickstepLaunchHome }}
+02-16 07:36:18.414  1129  1203 D RemoteTransitionHandler: Found filterPair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher} launchCookie=null},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@34a2a80, appThread = android.app.IApplicationThread$Stub$Proxy@e8748b9, debugName = QuickstepLaunchHome }}
+02-16 07:36:18.414  1129  1203 V WindowManagerShell:  Delegate animation for (#19) to RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@34a2a80, appThread = android.app.IApplicationThread$Stub$Proxy@e8748b9, debugName = QuickstepLaunchHome }
+02-16 07:36:18.422   588   588 E android.hardware.graphics.allocator@2.0-service: open_verbose_path:56: Could not open '/dev/goldfish_pipe_dprctd': No such file or directory
+02-16 07:36:18.422   588   588 E android.hardware.graphics.allocator@2.0-service: open_verbose:128: both vsock and goldfish_pipe paths failed
+02-16 07:36:18.423   588   625 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 5201920
+02-16 07:36:18.425   588   588 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 17973248
+02-16 07:36:18.430  1365  1372 W droid.launcher3: Missing inline cache for void com.android.quickstep.util.RectFSpringAnim.start(android.content.Context, com.android.launcher3.DeviceProfile, android.graphics.PointF)
+02-16 07:36:18.430  1365  1372 W droid.launcher3: Missing inline cache for void com.android.quickstep.util.RectFSpringAnim.start(android.content.Context, com.android.launcher3.DeviceProfile, android.graphics.PointF)
+02-16 07:36:18.431   588   625 E android.hardware.graphics.allocator@2.0-service: open_verbose_path:56: Could not open '/dev/goldfish_pipe_dprctd': No such file or directory
+02-16 07:36:18.431   588   625 E android.hardware.graphics.allocator@2.0-service: open_verbose:128: both vsock and goldfish_pipe paths failed
+02-16 07:36:18.449   588   588 E android.hardware.graphics.allocator@2.0-service: open_verbose_path:56: Could not open '/dev/goldfish_pipe_dprctd': No such file or directory
+02-16 07:36:18.449   588   588 E android.hardware.graphics.allocator@2.0-service: open_verbose:128: both vsock and goldfish_pipe paths failed
+02-16 07:36:18.454  1129  1250 D EGL_emulation: app_time_stats: avg=625.57ms min=2.16ms max=16151.94ms count=26
+02-16 07:36:18.476   870   899 V WindowManager: Sent Transition (#19) createdAt=02-16 07:36:18.223 via request=TransitionRequestInfo { type = CLOSE, triggerTask = null, pipTask = null, remoteTransition = null, displayChange = null, flags = 16, debugId = 19 }
+02-16 07:36:18.476   870   899 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+02-16 07:36:18.477   870   899 V WindowManager:     info={id=19 t=CLOSE f=0x10 trk=0 r=[0@Point(0, 0)] c=[
+02-16 07:36:18.477   870   899 V WindowManager:         {WCT{RemoteToken{cacde10 Task{271a92e #1 type=home}}} m=TO_FRONT f=SHOW_WALLPAPER|MOVE_TO_TOP leash=Surface(name=Task=1)/@0x45e620 sb=Rect(0, 0 - 1440, 3120) eb=Rect(0, 0 - 1440, 3120) d=0 taskParent=-1},
+02-16 07:36:18.477   870   899 V WindowManager:         {WCT{RemoteToken{6fefae6 Task{6a21836 #12 type=standard A=10098:com.wordgamemobile}}} m=CLOSE f=NONE leash=Surface(name=Task=12)/@0x3642428 sb=Rect(0, 0 - 1440, 3120) eb=Rect(0, 0 - 1440, 3120) d=0 taskParent=-1},
+02-16 07:36:18.477   870   899 V WindowManager:         {null m=TO_FRONT f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{84485ce token=android.os.Binder@c328ac9})/@0x20da9a1 sb=Rect(0, 0 - 1440, 3120) eb=Rect(0, 0 - 1440, 3120) d=0}
+02-16 07:36:18.477   870   899 V WindowManager:     ]}
+02-16 07:36:18.483  1129  1203 V WindowManagerShell:  animated by com.android.wm.shell.transition.RemoteTransitionHandler@41e38b6
+02-16 07:36:18.638   591   630 I RanchuHwc: logCompositionFallbackIfChanged: layer 33 CompositionType fallback from 2 to 1
+02-16 07:36:18.638   591   630 I RanchuHwc: logCompositionFallbackIfChanged: layer 34 CompositionType fallback from 2 to 1
+02-16 07:36:18.665   870   900 W Looper  : Slow dispatch took 414ms android.ui h=android.view.Choreographer$FrameHandler c=android.view.Choreographer$FrameDisplayEventReceiver@ec6b0d3 m=0
+02-16 07:36:18.665   870   900 W Looper  : Slow delivery took 419ms android.ui h=com.android.server.wm.DisplayPolicy$PolicyHandler c=com.android.server.wm.DisplayPolicy$$ExternalSyntheticLambda12@888ad8c m=0
+02-16 07:36:18.692   870   900 W Looper  : Drained
+02-16 07:36:18.716  1365  1378 W System  : A resource failed to call release. 
+02-16 07:36:18.716  1365  1378 W System  : A resource failed to call release. 
+02-16 07:36:18.716  1365  1378 W System  : A resource failed to call release. 
+02-16 07:36:18.719   870  1958 W UserManagerService: Requested status bar icon for non-badged user 0
+02-16 07:36:18.722  1365  1378 W droid.launcher3: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk' with 1 weak references
+02-16 07:36:18.759  1129  1145 I ndroid.systemui: NativeAlloc concurrent mark compact GC freed 2767KB AllocSpace bytes, 2(2056KB) LOS objects, 49% free, 13MB/26MB, paused 5.854ms,16.165ms total 267.868ms
+02-16 07:36:18.769  1129  1203 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#19) android.os.BinderProxy@b1788cd@0
+02-16 07:36:18.770   870   899 V WindowManager: Finish Transition (#19): created at 02-16 07:36:18.223 collect-started=0.054ms request-sent=0.121ms started=3.921ms ready=10.865ms sent=188.842ms finished=546.943ms
+02-16 07:36:18.771  2786  2786 D VRI[MainActivity]: visibilityChanged oldVisibility=true newVisibility=false
+02-16 07:36:18.772  1129  1203 V WindowManagerShell: Track 0 became idle
+02-16 07:36:18.772  1129  1203 V WindowManagerShell: All active transition animations finished
+02-16 07:36:18.830  1129  1250 D EGL_emulation: app_time_stats: avg=18737.39ms min=18737.39ms max=18737.39ms count=1
+02-16 07:36:18.846  2786  2786 W unknown:BridgelessReact: ReactHost{0}.stopSurface(surfaceId = 1): Schedule
+02-16 07:36:18.846  2786  2786 W unknown:BridgelessReact: ReactHost{0}.detachSurface(surfaceId = 1)
+02-16 07:36:18.846  2786  2806 W unknown:BridgelessReact: ReactHost{0}.stopSurface(surfaceId = 1): Execute
+02-16 07:36:18.846  2786  2786 W unknown:BridgelessReact: ReactHost{0}.onHostDestroy(activity)
+02-16 07:36:18.847  2786  2806 E unknown:SurfaceMountingManager: Stopping surface [1]
+02-16 07:36:18.847  2786  2786 W unknown:BridgelessReact: ReactContext.onHostDestroy()
+02-16 07:36:18.847  2786  2786 E unknown:ReactNative: Tried to remove non-existent frame callback
+02-16 07:36:18.848  2786  2786 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@f7c1e2c
+02-16 07:36:18.849   870  1958 D CoreBackPreview: Window{f052104 u0 com.wordgamemobile/com.wordgamemobile.MainActivity}: Setting back callback null
+02-16 07:36:18.849   870  2776 W InputManager-JNI: Input channel object 'f052104 com.wordgamemobile/com.wordgamemobile.MainActivity (client)' was disposed without first being removed with the input manager!
+02-16 07:36:18.872  2786  2786 I ReactNative: [GESTURE HANDLER] Tearing down gesture handler registered for root view com.facebook.react.runtime.ReactSurfaceView{1c9fb93 V.E...... .......D 0,0-1440,3120 #1}
+02-16 07:36:18.881  1129  1149 W ndroid.systemui: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~Hja_r9VEq_eS1skX_fQc9w==/com.wordgamemobile-Lgjoqi2-bPEnrmhrhQMzlw==/base.apk' with 1 weak references
+02-16 07:36:18.882  1129  1149 W System  : A resource failed to call release. 
+02-16 07:36:18.882  1129  1149 W System  : A resource failed to call release. 
+02-16 07:36:18.882  1129  1149 W System  : A resource failed to call release. 
+02-16 07:36:18.882  1129  1149 W System  : A resource failed to call release. 
+02-16 07:36:18.882  1129  1149 W System  : A resource failed to call release. 
+02-16 07:36:18.882  1129  1149 W System  : A resource failed to call release. 
+02-16 07:36:18.882  1129  1149 W System  : A resource failed to call release. 
+02-16 07:36:18.882  1129  1149 W System  : A resource failed to call release. 
+02-16 07:36:18.886  2786  2786 E unknown:SurfaceMountingManager: Surface [1] was stopped on SurfaceMountingManager.
+02-16 07:36:18.923  1365  1365 I TopTaskTracker: onTaskRemoved: taskId=12
+02-16 07:36:18.924  1365  1365 I TopTaskTracker: onTaskRemoved: taskId=12
+02-16 07:36:19.174   870   900 W Looper  : Slow dispatch took 368ms android.ui h=android.view.Choreographer$FrameHandler c=android.view.Choreographer$FrameDisplayEventReceiver@ec6b0d3 m=0
+02-16 07:36:19.174   870   900 W Looper  : Slow delivery took 402ms android.ui h=com.android.server.wm.DisplayPolicy$PolicyHandler c=com.android.server.wm.DisplayPolicy$2$$ExternalSyntheticLambda3@1c75c54 m=0
+02-16 07:36:19.175   870  2575 W UserManagerService: Requested status bar icon for non-badged user 0
+02-16 07:36:19.175   870  2575 W UserManagerService: Requested status bar icon for non-badged user 0
+02-16 07:36:19.180   870   900 W Looper  : Drained
+02-16 07:36:19.346   870   890 I system_server: NativeAlloc concurrent mark compact GC freed 2854KB AllocSpace bytes, 2(40KB) LOS objects, 49% free, 17MB/34MB, paused 1.993ms,2.618ms total 128.445ms
+02-16 07:36:19.346   870   892 W System  : A resource failed to call HardwareBuffer.close. 
+02-16 07:36:19.346   870   892 W System  : A resource failed to call release. 
+02-16 07:36:21.881   870  1795 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+02-16 07:36:23.250   870  1033 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+02-16 07:36:23.250   870  1033 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+02-16 07:36:23.251   870  1033 D InetDiagMessage: Destroyed live tcp sockets for uids={10098} in 2ms
+02-16 07:36:23.252   870  1033 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+02-16 07:36:23.252   870  1033 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+02-16 07:36:23.252   870  1033 D InetDiagMessage: Destroyed live tcp sockets for uids={20098} in 2ms
+02-16 07:36:28.775   870   964 D ActivityManager: freezing 2786 com.wordgamemobile
+02-16 07:36:28.775   870   964 D ActivityManager: Reschedule freeze for process 2786 com.wordgamemobile (outstanding txns), timeout=2143
+02-16 07:36:30.919   870   964 D ActivityManager: freezing 2786 com.wordgamemobile
+02-16 07:36:30.919   870   964 D ActivityManager: Reschedule freeze for process 2786 com.wordgamemobile (outstanding txns), timeout=1000
+02-16 07:36:31.918   870   964 D ActivityManager: freezing 2786 com.wordgamemobile
+02-16 07:36:31.918   870   964 D ActivityManager: Kill app due to repeated failure to freeze binder: 2786 com.wordgamemobile
+02-16 07:36:31.919   870   910 I ActivityManager: Killing 2786:com.wordgamemobile/u0a98 (adj 900): excessive binder traffic during cached
+02-16 07:36:31.935   870   944 I ImeTracker: com.wordgamemobile:1e21d315: onRequestHide at ORIGIN_SERVER reason HIDE_REMOVE_CLIENT fromUser false
+02-16 07:36:31.935   870   944 I ImeTracker: com.wordgamemobile:1e21d315: onCancelled at PHASE_SERVER_SHOULD_HIDE
+02-16 07:36:31.935   569   569 I Zygote  : Process 2786 exited due to signal 9 (Killed)
+02-16 07:36:31.935   870   912 I libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_10098/pid_2786
+02-16 07:36:31.935   870   900 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@7f5cd92
+02-16 07:36:31.936   870   900 D CoreBackPreview: Window{df355c u0 Application Error: com.wordgamemobile}: Setting back callback null
+02-16 07:36:31.936   870   894 W ActivityManager: Ignoring remove of inactive process: ProcessRecord{c6b0310 0:com.wordgamemobile/u0a98}
+02-16 07:36:31.936   870   902 W ActivityManager: setHasOverlayUi called on unknown pid: 2786
+02-16 07:36:31.953   870   900 W InputManager-JNI: Input channel object 'df355c Application Error: com.wordgamemobile (client)' was disposed without first being removed with the input manager!
+02-16 07:36:31.956   870   900 D DisplayManagerService: Drop pending events for gone uid 10098
+02-16 07:36:31.987   870   902 V WindowManager: Unknown focus tokens, dropping reportFocusChanged
+02-16 07:36:32.003  1129  1250 D EGL_emulation: app_time_stats: avg=836.74ms min=2.45ms max=13040.10ms count=16
+02-16 07:36:32.007   870   981 I ImeTracker: com.android.launcher3:2580721b: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+02-16 07:36:32.008   870   981 I ImeTracker: com.android.launcher3:2580721b: onCancelled at PHASE_SERVER_SHOULD_HIDE
+02-16 07:36:32.067  1129  1250 D EGL_emulation: app_time_stats: avg=3308.53ms min=34.78ms max=13084.02ms count=4
+02-16 07:37:00.044  1129  1250 D EGL_emulation: app_time_stats: avg=6985.30ms min=22.15ms max=27767.28ms count=4
+02-16 07:37:11.204   870   924 V DisplayPowerController2[0]: Brightness [0.05] reason changing to: 'manual [ dim ]', previous reason: 'manual'.
+02-16 07:37:11.204   870   924 I DisplayPowerController2[0]: BrightnessEvent: disp=0, physDisp=local:4619827259835644672, displayState=ON, displayPolicy=DIM, brt=0.05, initBrt=0.39763778, rcmdBrt=NaN, preBrt=NaN, lux=0.0, preLux=0.0, hbmMax=1.0, hbmMode=off, rbcStrength=0, thrmMax=1.0, powerFactor=1.0, wasShortTermModelActive=false, flags=, reason=manual [ dim ], autoBrightness=false, strategy=InvalidBrightnessStrategy, autoBrightnessMode=default
+02-16 07:37:11.217   593   593 I lights_service_exampl..: main::lights: Lights setting state for id=1 to color ff616161
+02-16 07:37:11.234   593   593 I lights_service_exampl..: main::lights: Lights setting state for id=1 to color ff5b5b5b
+02-16 07:37:11.250   593   593 I lights_service_exampl..: main::lights: Lights setting state for id=1 to color ff565656
+02-16 07:37:11.267   593   593 I lights_service_exampl..: main::lights: Lights setting state for id=1 to color ff515151
+02-16 07:37:11.284   593   593 I lights_service_exampl..: main::lights: Lights setting state for id=1 to color ff4c4c4c
+02-16 07:37:11.300   593   593 I lights_service_exampl..: main::lights: Lights setting state for id=1 to color ff484848
+02-16 07:37:11.317   593   593 I lights_service_exampl..: main::lights: Lights setting state for id=1 to color ff444444
+02-16 07:37:11.334   593   593 I lights_service_exampl..: main::lights: Lights setting state for id=1 to color ff404040
+02-16 07:37:11.350   593   593 I lights_service_exampl..: main::lights: Lights setting state for id=1 to color ff3c3c3c
+02-16 07:37:11.367   593   593 I lights_service_exampl..: main::lights: Lights setting state for id=1 to color ff393939
+02-16 07:37:11.384   593   593 I lights_service_exampl..: main::lights: Lights setting state for id=1 to color ff363636
+02-16 07:37:11.400   593   593 I lights_service_exampl..: main::lights: Lights setting state for id=1 to color ff333333
+02-16 07:37:11.417   593   593 I lights_service_exampl..: main::lights: Lights setting state for id=1 to color ff303030
+02-16 07:37:11.434   593   593 I lights_service_exampl..: main::lights: Lights setting state for id=1 to color ff2d2d2d
+02-16 07:37:11.450   593   593 I lights_service_exampl..: main::lights: Lights setting state for id=1 to color ff2b2b2b
+02-16 07:37:11.467   593   593 I lights_service_exampl..: main::lights: Lights setting state for id=1 to color ff292929
+02-16 07:37:11.484   593   593 I lights_service_exampl..: main::lights: Lights setting state for id=1 to color ff262626
+02-16 07:37:11.500   593   593 I lights_service_exampl..: main::lights: Lights setting state for id=1 to color ff242424
+02-16 07:37:11.517   593   593 I lights_service_exampl..: main::lights: Lights setting state for id=1 to color ff232323
+02-16 07:37:11.534   593   593 I lights_service_exampl..: main::lights: Lights setting state for id=1 to color ff212121
+02-16 07:37:11.550   593   593 I lights_service_exampl..: main::lights: Lights setting state for id=1 to color ff1f1f1f
+02-16 07:37:11.567   593   593 I lights_service_exampl..: main::lights: Lights setting state for id=1 to color ff1e1e1e
+02-16 07:37:11.584   593   593 I lights_service_exampl..: main::lights: Lights setting state for id=1 to color ff1c1c1c
+02-16 07:37:11.606   593   593 I lights_service_exampl..: main::lights: Lights setting state for id=1 to color ff1b1b1b
+02-16 07:37:11.617   593   593 I lights_service_exampl..: main::lights: Lights setting state for id=1 to color ff1a1a1a
+02-16 07:37:11.633   593   593 I lights_service_exampl..: main::lights: Lights setting state for id=1 to color ff181818
+02-16 07:37:11.650   593   593 I lights_service_exampl..: main::lights: Lights setting state for id=1 to color ff171717
+02-16 07:37:11.667   593   593 I lights_service_exampl..: main::lights: Lights setting state for id=1 to color ff161616
+02-16 07:37:11.684   593   593 I lights_service_exampl..: main::lights: Lights setting state for id=1 to color ff151515
+02-16 07:37:11.700   593   593 I lights_service_exampl..: main::lights: Lights setting state for id=1 to color ff141414
+02-16 07:37:11.717   593   593 I lights_service_exampl..: main::lights: Lights setting state for id=1 to color ff131313
+02-16 07:37:11.733   593   593 I lights_service_exampl..: main::lights: Lights setting state for id=1 to color ff121212
+02-16 07:37:11.767   593   593 I lights_service_exampl..: main::lights: Lights setting state for id=1 to color ff111111
+02-16 07:37:11.784   593   593 I lights_service_exampl..: main::lights: Lights setting state for id=1 to color ff101010
+02-16 07:37:11.800   593   593 I lights_service_exampl..: main::lights: Lights setting state for id=1 to color ff0f0f0f
+02-16 07:37:11.817   593   593 I lights_service_exampl..: main::lights: Lights setting state for id=1 to color ff0e0e0e

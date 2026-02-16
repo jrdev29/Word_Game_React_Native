@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from 'react';
-import { View, StyleSheet, StatusBar } from 'react-native';
-import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-
+import { DarkTheme, DefaultTheme, NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import React, { useEffect, useState } from 'react';
+import { StatusBar, StyleSheet } from 'react-native';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
 // Screens
-import HomeScreen from './src/screens/HomeScreen';
 import GameScreen from './src/screens/GameScreen';
+import HomeScreen from './src/screens/HomeScreen';
 import VocabularyScreen from './src/screens/VocabularyScreen';
 
 const Stack = createNativeStackNavigator();
@@ -39,9 +39,10 @@ export default function App() {
     }
   };
 
-  const theme = {
-    dark: isDarkMode,
+  const MyTheme = {
+    ...(isDarkMode ? DarkTheme : DefaultTheme),
     colors: {
+      ...(isDarkMode ? DarkTheme.colors : DefaultTheme.colors),
       primary: isDarkMode ? '#3b82f6' : '#2563eb',
       background: isDarkMode ? '#1a1a1a' : '#f3f4f6',
       card: isDarkMode ? '#27272a' : '#ffffff',
@@ -52,49 +53,51 @@ export default function App() {
   };
 
   return (
-    <NavigationContainer theme={theme}>
-      <StatusBar 
-        barStyle={isDarkMode ? 'light-content' : 'dark-content'} 
-        backgroundColor={theme.colors.background}
-      />
-      <Stack.Navigator
-        screenOptions={{
-          headerStyle: {
-            backgroundColor: theme.colors.card,
-          },
-          headerTintColor: theme.colors.text,
-          headerShadowVisible: false,
-          headerTitleStyle: {
-            fontWeight: 'bold',
-          },
-        }}
-      >
-        <Stack.Screen 
-          name="Home" 
-          component={HomeScreen}
-          options={{
-            title: 'Word Learning Games',
-            headerShown: true,
+    <GestureHandlerRootView style={{ flex: 1 }}>
+      <NavigationContainer theme={MyTheme}>
+        <StatusBar
+          barStyle={isDarkMode ? 'light-content' : 'dark-content'}
+          backgroundColor={MyTheme.colors.background}
+        />
+        <Stack.Navigator
+          screenOptions={{
+            headerStyle: {
+              backgroundColor: MyTheme.colors.card,
+            },
+            headerTintColor: MyTheme.colors.text,
+            headerShadowVisible: false,
+            headerTitleStyle: {
+              fontWeight: 'bold',
+            },
           }}
-        />
-        <Stack.Screen 
-          name="Game" 
-          component={GameScreen}
-          options={({ route }) => ({
-            title: route.params?.gameName || 'Game',
-            headerBackTitle: 'Back',
-          })}
-        />
-        <Stack.Screen 
-          name="Vocabulary" 
-          component={VocabularyScreen}
-          options={{
-            title: 'My Vocabulary',
-            headerBackTitle: 'Back',
-          }}
-        />
-      </Stack.Navigator>
-    </NavigationContainer>
+        >
+          <Stack.Screen
+            name="Home"
+            component={HomeScreen}
+            options={{
+              title: 'Word Learning Games',
+              headerShown: true,
+            }}
+          />
+          <Stack.Screen
+            name="Game"
+            component={GameScreen}
+            options={({ route }) => ({
+              title: route.params?.gameName || 'Game',
+              headerBackTitle: 'Back',
+            })}
+          />
+          <Stack.Screen
+            name="Vocabulary"
+            component={VocabularyScreen}
+            options={{
+              title: 'My Vocabulary',
+              headerBackTitle: 'Back',
+            }}
+          />
+        </Stack.Navigator>
+      </NavigationContainer>
+    </GestureHandlerRootView>
   );
 }
 
